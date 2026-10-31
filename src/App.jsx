@@ -6,6 +6,7 @@ import AuthModal from './components/AuthModal';
 import LoginPage from './components/LoginPage';
 import StudentDetailModal from './components/StudentDetailModal';
 import ExecutiveDirectorPrintReport from './components/ExecutiveDirectorPrintReport';
+import GoogleSheetSyncModal from './components/GoogleSheetSyncModal';
 
 // Pages
 import ExecutiveOverviewPage from './pages/ExecutiveOverviewPage';
@@ -17,6 +18,7 @@ import ReportsPage from './pages/ReportsPage';
 import TemplateManagerPage from './pages/TemplateManagerPage';
 
 import { exportToCSV, triggerPrintReport } from './utils/exportUtils';
+import { fetchLiveGoogleSheet } from './utils/googleSheetsSync';
 
 export default function App() {
   const [dataset, setDataset] = useState(initialData);
@@ -25,6 +27,31 @@ export default function App() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
+
+  // Google Sheets Live Sync State
+  const [activeSheetUrl, setActiveSheetUrl] = useState(() => {
+    try {
+      return localStorage.getItem('spsu_cdc_gsheet_url') || '';
+    } catch (e) {
+      return '';
+    }
+  });
+  const [isSyncModalOpen, setIsSyncModalOpen] = useState(false);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [lastSyncedTime, setLastSyncedTime] = useState(() => {
+    try {
+      return localStorage.getItem('spsu_cdc_last_synced') || null;
+    } catch (e) {
+      return null;
+    }
+  });
+  const [autoSyncInterval, setAutoSyncInterval] = useState(() => {
+    try {
+      return parseInt(localStorage.getItem('spsu_cdc_sync_interval') || '0', 10);
+    } catch (e) {
+      return 0;
+    }
+  });
 
   // Authentication State: check saved session or default to null to require login
   const [currentUser, setCurrentUser] = useState(() => {
@@ -143,9 +170,108 @@ export default function App() {
   };
 
   const handleResetToDefault = () => {
+    handleDisconnectGoogleSheet();
     setDataset(initialData);
     setFilters(initialFilters);
   };
+
+  // Google Sheets Live Sync Handlers
+  const handleApplyGoogleSheetSync = async (url, interval, preloadedData) => {
+    setIsSyncing(true);
+    try {
+      let finalDataset = preloadedData;
+      if (!finalDataset) {
+        const res = await fetchLiveGoogleSheet(url);
+        finalDataset = res.dataset;
+      }
+      setDataset(finalDataset);
+      setActiveSheetUrl(url);
+      const now = new Date().toISOString();
+      setLastSyncedTime(now);
+      setAutoSyncInterval(interval || 0);
+
+      try {
+        localStorage.setItem('spsu_cdc_gsheet_url', url);
+        localStorage.setItem('spsu_cdc_last_synced', now);
+        localStorage.setItem('spsu_cdc_sync_interval', String(interval || 0));
+      } catch (e) {}
+
+      setIsSyncModalOpen(false);
+    } catch (err) {
+      alert("Error syncing Google Sheet: " + (err.message || err));
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  const handleRefreshLiveSync = async () => {
+    if (!activeSheetUrl) {
+      setIsSyncModalOpen(true);
+      return;
+    }
+    setIsSyncing(true);
+    try {
+      const res = await fetchLiveGoogleSheet(activeSheetUrl);
+      setDataset(res.dataset);
+      const now = new Date().toISOString();
+      setLastSyncedTime(now);
+      try {
+        localStorage.setItem('spsu_cdc_last_synced', now);
+      } catch (e) {}
+    } catch (err) {
+      alert("Failed to refresh Google Sheet: " + (err.message || err));
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  const handleDisconnectGoogleSheet = () => {
+    setActiveSheetUrl('');
+    setLastSyncedTime(null);
+    setAutoSyncInterval(0);
+    try {
+      localStorage.removeItem('spsu_cdc_gsheet_url');
+      localStorage.removeItem('spsu_cdc_last_synced');
+      localStorage.removeItem('spsu_cdc_sync_interval');
+    } catch (e) {}
+    setDataset(initialData);
+  };
+
+  // Auto-sync recurring timer
+  useEffect(() => {
+    if (!activeSheetUrl || !autoSyncInterval || autoSyncInterval <= 0) return;
+    const intervalMs = autoSyncInterval * 60 * 1000;
+    const timer = setInterval(() => {
+      fetchLiveGoogleSheet(activeSheetUrl)
+        .then(res => {
+          setDataset(res.dataset);
+          const now = new Date().toISOString();
+          setLastSyncedTime(now);
+          try {
+            localStorage.setItem('spsu_cdc_last_synced', now);
+          } catch (e) {}
+        })
+        .catch(err => {
+          console.warn("Background auto-sync failed:", err);
+        });
+    }, intervalMs);
+    return () => clearInterval(timer);
+  }, [activeSheetUrl, autoSyncInterval]);
+
+  // Initial sync on mount if URL previously saved
+  useEffect(() => {
+    if (activeSheetUrl) {
+      fetchLiveGoogleSheet(activeSheetUrl)
+        .then(res => {
+          setDataset(res.dataset);
+          const now = new Date().toISOString();
+          setLastSyncedTime(now);
+        })
+        .catch(err => {
+          console.warn("Startup sheet sync fallback:", err);
+        });
+    }
+  }, []);
 
   const programsList = ['CSE', 'ECE', 'MN', 'CE', 'ME', 'BDES', 'BCA', 'BBA', 'MBA'];
 
@@ -180,6 +306,11 @@ export default function App() {
         onExportSummary={handleExportSummary}
         onPrintReport={triggerPrintReport}
         onLogout={handleLogout}
+        isGoogleSheetActive={!!activeSheetUrl}
+        lastSyncedTime={lastSyncedTime}
+        isSyncing={isSyncing}
+        onOpenSheetSync={() => setIsSyncModalOpen(true)}
+        onRefreshLiveSync={handleRefreshLiveSync}
       />
 
       {/* Main Work Area: Dashboard Content + Power BI Filter Slicer Pane */}
@@ -248,6 +379,11 @@ export default function App() {
               onUploadDataset={handleUploadCustomDataset}
               onResetToDefault={handleResetToDefault}
               currentMeta={dataset.meta}
+              onOpenSheetSync={() => setIsSyncModalOpen(true)}
+              activeSheetUrl={activeSheetUrl}
+              lastSyncedTime={lastSyncedTime}
+              isSyncing={isSyncing}
+              onRefreshLiveSync={handleRefreshLiveSync}
             />
           )}
         </main>
@@ -278,6 +414,24 @@ export default function App() {
         currentUser={currentUser}
         onLogin={setCurrentUser}
         onLogout={handleLogout}
+      />
+
+      {/* Google Sheets Real-Time Synchronization Modal */}
+      <GoogleSheetSyncModal
+        isOpen={isSyncModalOpen}
+        onClose={() => setIsSyncModalOpen(false)}
+        activeSheetUrl={activeSheetUrl}
+        lastSyncedTime={lastSyncedTime}
+        isSyncing={isSyncing}
+        autoSyncInterval={autoSyncInterval}
+        onApplySync={handleApplyGoogleSheetSync}
+        onDisconnect={handleDisconnectGoogleSheet}
+        onUpdateAutoSyncInterval={(val) => {
+          setAutoSyncInterval(val);
+          try {
+            localStorage.setItem('spsu_cdc_sync_interval', String(val));
+          } catch (e) {}
+        }}
       />
 
       {/* Invisible on screen, renders during window.print() */}

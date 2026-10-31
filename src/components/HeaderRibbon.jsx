@@ -18,7 +18,9 @@ import {
   Calendar,
   Building2,
   LogOut,
-  BookOpen
+  BookOpen,
+  Cloud,
+  RefreshCw
 } from 'lucide-react';
 
 export default function HeaderRibbon({
@@ -34,7 +36,12 @@ export default function HeaderRibbon({
   onExportCSV,
   onExportSummary,
   onPrintReport,
-  onLogout
+  onLogout,
+  isGoogleSheetActive,
+  lastSyncedTime,
+  isSyncing,
+  onOpenSheetSync,
+  onRefreshLiveSync
 }) {
   const [downloadMenuOpen, setDownloadMenuOpen] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -125,6 +132,45 @@ export default function HeaderRibbon({
             <span>{timeFormatted}</span>
           </div>
           <span className="text-[9px] px-1 rounded bg-zinc-800 text-zinc-400 hidden sm:inline">IST</span>
+        </div>
+
+        {/* Center-Right: GOOGLE SHEETS LIVE SYNC ENGINE PILL */}
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={onOpenSheetSync}
+            className={`px-2.5 py-1 rounded-lg border text-xs font-semibold flex items-center gap-1.5 transition shadow-sm ${
+              isGoogleSheetActive
+                ? 'bg-emerald-950/60 hover:bg-emerald-900/80 border-emerald-500/50 text-emerald-300'
+                : 'bg-zinc-800/80 hover:bg-zinc-700/80 border-zinc-700 text-zinc-300 hover:text-white'
+            }`}
+            title="Google Sheets Live Cloud Sync Status & Settings"
+          >
+            <Cloud className={`w-3.5 h-3.5 ${isGoogleSheetActive ? 'text-emerald-400' : 'text-zinc-400'}`} />
+            {isGoogleSheetActive ? (
+              <div className="flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span className="hidden sm:inline font-bold">Sheets Live</span>
+                {lastSyncedTime && (
+                  <span className="text-[10px] text-emerald-400/80 font-mono hidden lg:inline">
+                    ({new Date(lastSyncedTime).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })})
+                  </span>
+                )}
+              </div>
+            ) : (
+              <span className="hidden sm:inline">Sync Google Sheet</span>
+            )}
+          </button>
+
+          {isGoogleSheetActive && (
+            <button
+              onClick={onRefreshLiveSync}
+              disabled={isSyncing}
+              className="p-1.5 rounded-lg bg-emerald-950/60 hover:bg-emerald-900/80 border border-emerald-500/50 text-emerald-300 hover:text-emerald-100 transition"
+              title="Force Refresh Data from Google Sheet Now"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-emerald-400' : ''}`} />
+            </button>
+          )}
         </div>
 
         {/* Right: Quick Controls, Download Dropdown, Dark Mode & User Profile */}

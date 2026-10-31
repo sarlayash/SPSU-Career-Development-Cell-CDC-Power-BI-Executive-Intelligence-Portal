@@ -1,7 +1,30 @@
 import React, { useState } from 'react';
-import { Upload, Download, RefreshCw, CheckCircle2, AlertCircle, FileSpreadsheet, Sparkles, Layers } from 'lucide-react';
+import { 
+  Upload, 
+  Download, 
+  RefreshCw, 
+  CheckCircle2, 
+  AlertCircle, 
+  FileSpreadsheet, 
+  Sparkles, 
+  Layers, 
+  Cloud, 
+  ExternalLink, 
+  ShieldCheck, 
+  Sliders, 
+  ArrowRight 
+} from 'lucide-react';
 
-export default function TemplateManagerPage({ onUploadDataset, onResetToDefault, currentMeta }) {
+export default function TemplateManagerPage({ 
+  onUploadDataset, 
+  onResetToDefault, 
+  currentMeta,
+  onOpenSheetSync,
+  activeSheetUrl,
+  lastSyncedTime,
+  isSyncing,
+  onRefreshLiveSync
+}) {
   const [uploadStatus, setUploadStatus] = useState(null);
   const [dragOver, setDragOver] = useState(false);
 
@@ -177,6 +200,76 @@ export default function TemplateManagerPage({ onUploadDataset, onResetToDefault,
           <RefreshCw className="w-3.5 h-3.5" />
           Reload SPSU 2026 Official Dataset
         </button>
+      </div>
+
+      {/* Featured: GOOGLE SHEETS REAL-TIME CLOUD INGESTION */}
+      <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-900/10 via-teal-900/5 to-transparent border-2 border-emerald-500/30 dark:border-emerald-500/40 shadow-sm relative overflow-hidden">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div className="space-y-2 max-w-xl">
+            <div className="flex items-center gap-2">
+              <span className="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold">
+                <Cloud className="w-4 h-4" />
+              </span>
+              <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                Google Sheets Live Sync Engine
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30">
+                  Recommended
+                </span>
+              </h3>
+            </div>
+            <p className="text-xs text-slate-600 dark:text-zinc-300 leading-relaxed">
+              Connect the SPSU CDC portal directly to any live Google Spreadsheet. Any new offers, student registrations, or salary package updates made in the Google Sheet reflect across the executive portal immediately without touching the code.
+            </p>
+
+            {activeSheetUrl ? (
+              <div className="flex items-center gap-2 pt-1 text-xs">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span className="font-bold text-emerald-700 dark:text-emerald-400">Live Linked:</span>
+                <a 
+                  href={activeSheetUrl} 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  className="text-emerald-600 dark:text-emerald-400 underline font-mono text-[11px] truncate max-w-xs hover:text-emerald-700 flex items-center gap-1"
+                >
+                  <span>{activeSheetUrl.slice(0, 42)}...</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                {lastSyncedTime && (
+                  <span className="text-[10px] text-slate-400">
+                    • Synced: {new Date(lastSyncedTime).toLocaleTimeString('en-IN')}
+                  </span>
+                )}
+              </div>
+            ) : (
+              <div className="flex items-center gap-2 pt-1 text-xs text-slate-500 dark:text-zinc-400">
+                <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+                <span>Using built-in SPSU 2026 Directorate Master Records (Local)</span>
+              </div>
+            )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              onClick={onOpenSheetSync}
+              className="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-xl shadow-md shadow-emerald-600/20 flex items-center gap-2 transition"
+            >
+              <Cloud className="w-4 h-4" />
+              <span>{activeSheetUrl ? 'Manage Sheet Connection' : 'Connect Google Sheet'}</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+
+            {activeSheetUrl && (
+              <button
+                onClick={onRefreshLiveSync}
+                disabled={isSyncing}
+                className="px-3.5 py-2.5 bg-white dark:bg-zinc-800 hover:bg-slate-50 dark:hover:bg-zinc-700 text-slate-800 dark:text-white border border-slate-300 dark:border-zinc-700 font-semibold text-xs rounded-xl shadow-sm flex items-center gap-1.5 transition"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-emerald-500' : ''}`} />
+                <span>{isSyncing ? 'Syncing...' : 'Force Sync Now'}</span>
+              </button>
+            )}
+          </div>
+        </div>
       </div>
 
       {/* Upload & Drag Drop Zone */}
