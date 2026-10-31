@@ -205,15 +205,15 @@ export default function ExecutiveDirectorPrintReport({ dataset, filteredStudents
       <div className="pt-8 border-t-2 border-slate-900 flex justify-between items-end font-sans">
         <div className="text-left">
           <div className="w-48 border-b border-slate-400 mb-1"></div>
-          <p className="font-bold text-xs text-slate-900">Col. Sanjay Sharma (Retd.)</p>
-          <p className="text-[10px] text-slate-600">Head - Career Development Cell</p>
+          <p className="font-bold text-xs text-slate-900">Head - Career Development Cell</p>
+          <p className="text-[10px] text-slate-600">Directorate of Training & Placements</p>
           <p className="text-[10px] text-slate-500">Sir Padampat Singhania University</p>
         </div>
 
         <div className="text-right">
           <div className="w-48 border-b border-slate-400 mb-1 ml-auto"></div>
-          <p className="font-bold text-xs text-slate-900">Prof. (Dr.) Prithvi Yadav</p>
-          <p className="text-[10px] text-slate-600">Director / Vice Chancellor</p>
+          <p className="font-bold text-xs text-slate-900">Director / Vice Chancellor</p>
+          <p className="text-[10px] text-slate-600">Executive Directorate Office</p>
           <p className="text-[10px] text-slate-500">Sir Padampat Singhania University</p>
         </div>
       </div>

@@ -90,7 +90,7 @@ export default function FilterPane({
               <Search className="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-slate-400" />
               <input
                 type="text"
-                placeholder="e.g. 23CS002674 or Sharma"
+                placeholder="e.g. 23CS002674 or CSE"
                 value={filters.search}
                 onChange={(e) => onFilterChange('search', e.target.value)}
                 className="w-full pl-8 pr-2.5 py-1.5 text-xs rounded-md border border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-amber-500"

@@ -540,8 +540,8 @@ def create_admin_guide_pdf(output_path, banner_img_path):
     sig_data = [
         [
             Paragraph("<b>Prepared by:</b><br/><br/><br/><b>Directorate Systems Lead</b><br/>Career Development Cell", sig_cell_style),
-            Paragraph("<b>Reviewed by:</b><br/><br/><br/><b>Head of Placements</b><br/>Career Development Cell", sig_cell_style),
-            Paragraph("<b>Authorized by:</b><br/><br/><br/><b>Prof. (Dr.) Prithvi Yadav</b><br/>Director, CDC & Vice Chancellor Office", sig_cell_style)
+            Paragraph("<b>Reviewed by:</b><br/><br/><br/><b>Head - Career Development Cell</b><br/>Directorate of Training & Placements", sig_cell_style),
+            Paragraph("<b>Authorized by:</b><br/><br/><br/><b>Director / Vice Chancellor</b><br/>Executive Directorate Office", sig_cell_style)
         ]
     ]
     sig_table = Table(sig_data, colWidths=[169, 169, 169])

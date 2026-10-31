@@ -3,9 +3,9 @@ import { Shield, User, Lock, CheckCircle2, Building, Key, Sparkles, X } from 'lu
 
 const PRESET_ROLES = [
   {
-    role: 'Director',
-    name: 'Prof. (Dr.) Prithvi Yadav',
-    title: 'Director / Vice Chancellor',
+    role: 'Director / Vice Chancellor',
+    name: 'Director / Vice Chancellor',
+    title: 'Executive Directorate Office',
     email: 'director@spsu.ac.in',
     badge: 'Executive Admin',
     desc: 'Unrestricted access to high-level strategic intelligence, salary distributions, executive export memos & audit reports.',
@@ -13,9 +13,9 @@ const PRESET_ROLES = [
     avatar: '👨‍💼'
   },
   {
-    role: 'Head CDC',
-    name: 'Col. Sanjay Sharma (Retd.)',
-    title: 'Head - Career Development Cell',
+    role: 'Head - CDC',
+    name: 'Head - Career Development Cell',
+    title: 'Directorate of Training & Placements',
     email: 'cdc.head@spsu.ac.in',
     badge: 'TPO Admin',
     desc: 'Full operational control: verify student database, oversee company drives, manage offer letters & NOC issuance.',
@@ -23,9 +23,9 @@ const PRESET_ROLES = [
     avatar: '👔'
   },
   {
-    role: 'Faculty Coordinator',
-    name: 'Dr. Neeraj Kumar',
-    title: 'HOD / Faculty Placement In-charge',
+    role: 'Faculty Placement Coordinator',
+    name: 'Faculty Placement Coordinator',
+    title: 'HOD / Department Placement Cell',
     email: 'coordinator.engg@spsu.ac.in',
     badge: 'Department Access',
     desc: 'Department-specific drill-through, student attendance compliance, backlog tracking & career counseling analytics.',
@@ -33,9 +33,9 @@ const PRESET_ROLES = [
     avatar: '👨‍🏫'
   },
   {
-    role: 'Guest / Auditor',
-    name: 'NAAC / NBA Audit Panel',
-    title: 'Statutory Reviewer',
+    role: 'Statutory Reviewer',
+    name: 'Accreditation & Audit Panel',
+    title: 'NAAC / NBA Review Panel',
     email: 'audit@spsu.ac.in',
     badge: 'Read-Only Audit',
     desc: 'Accreditation verification, cohort conversion statistics, placement consistency records.',
@@ -150,7 +150,7 @@ export default function AuthModal({ isOpen, onClose, currentUser, onLogin, onLog
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              Quick Role Simulation (1-Click)
+              Official Administrative Roles (1-Click)
             </button>
             <button
               onClick={() => setActiveTab('custom')}
