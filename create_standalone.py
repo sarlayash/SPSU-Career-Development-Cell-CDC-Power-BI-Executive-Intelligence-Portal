@@ -1,16 +1,28 @@
 import os
+import base64
 
 dist_dir = "C:/Users/LC/.gemini/antigravity/scratch/spsu-cdc-analytics/dist"
 assets_dir = os.path.join(dist_dir, "assets")
 
 css_file = [f for f in os.listdir(assets_dir) if f.endswith(".css")][0]
 js_file = [f for f in os.listdir(assets_dir) if f.endswith(".js")][0]
+img_file = [f for f in os.listdir(assets_dir) if f.endswith(".png")][0]
 
 with open(os.path.join(assets_dir, css_file), "r", encoding="utf-8") as f:
     css_content = f.read()
 
 with open(os.path.join(assets_dir, js_file), "r", encoding="utf-8") as f:
     js_content = f.read()
+
+# Read image as base64 for standalone self-contained portability
+with open(os.path.join(assets_dir, img_file), "rb") as f:
+    b64_img = base64.b64encode(f.read()).decode("utf-8")
+    data_uri = f"data:image/png;base64,{b64_img}"
+
+# Replace the relative asset path in JS with the inline base64 URI
+js_content = js_content.replace(f"./assets/{img_file}", data_uri)
+js_content = js_content.replace(f"/assets/{img_file}", data_uri)
+js_content = js_content.replace(f"assets/{img_file}", data_uri)
 
 html = f"""<!doctype html>
 <html lang="en">

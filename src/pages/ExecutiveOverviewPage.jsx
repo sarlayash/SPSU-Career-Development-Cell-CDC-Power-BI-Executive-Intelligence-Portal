@@ -12,8 +12,11 @@ import {
   PieChart,
   BarChart,
   AlertTriangle,
-  FileCheck
+  FileCheck,
+  ShieldCheck,
+  Sparkles
 } from 'lucide-react';
+import spsuBanner from '../assets/spsu-banner.png';
 
 export default function ExecutiveOverviewPage({ dataset, filteredStudents, onSelectProgram, onSelectStudent }) {
   const { summary_placement, summary_internship, meta } = dataset;
@@ -36,7 +39,62 @@ export default function ExecutiveOverviewPage({ dataset, filteredStudents, onSel
   const ppoCount = filteredStudents.filter(s => s.placementStatus === 'Placed-PPO').length;
 
   return (
-    <div className="space-y-5 animate-in fade-in duration-300">
+    <div className="space-y-6 animate-in fade-in duration-300">
+      {/* ============================================================== */}
+      {/* 🏛️ UNIVERSITY HERO SHOWCASE & ACCREDITATIONS BANNER IMAGE      */}
+      {/* ============================================================== */}
+      <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-zinc-700 bg-white dark:bg-[#1f1f23] group">
+        <div className="relative w-full overflow-hidden bg-slate-900">
+          <img 
+            src={spsuBanner} 
+            alt="Sir Padampat Singhania University (SPSU), Udaipur - Campus & Accreditations" 
+            className="w-full h-auto object-cover object-center max-h-[360px] sm:max-h-[420px] transition-transform duration-700 group-hover:scale-[1.01]"
+          />
+          {/* Subtle bottom gradient vignette */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none"></div>
+
+          {/* Floating Pill Badges on the Banner */}
+          <div className="absolute bottom-3 left-4 right-4 flex flex-wrap items-center justify-between gap-2 text-white">
+            <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20 text-xs">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span className="font-bold">Career Development Cell (CDC)</span>
+              <span className="text-zinc-300 hidden sm:inline">• Directorate Strategic Monitoring</span>
+            </div>
+
+            <div className="flex items-center gap-2 bg-amber-500/90 backdrop-blur-md px-3 py-1.5 rounded-lg text-slate-950 text-xs font-bold shadow-lg">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Ranked 3 in Rajasthan Private Universities</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Accreditation Quick Highlight Strip */}
+        <div className="px-5 py-3 bg-slate-50 dark:bg-zinc-800/80 border-t border-slate-200 dark:border-zinc-700 flex flex-wrap items-center justify-between text-xs text-slate-600 dark:text-zinc-300 gap-3">
+          <div className="flex items-center gap-4 flex-wrap">
+            <span className="font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-amber-500" />
+              Recognitions & Standards:
+            </span>
+            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
+              QS I-GAUGE Gold Rating
+            </span>
+            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
+              AIMA Member
+            </span>
+            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
+              CIPU & AIU Member
+            </span>
+            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
+              Best Green & Clean Campus 2026
+            </span>
+          </div>
+
+          <div className="text-[11px] font-bold text-amber-600 dark:text-amber-400">
+            Batch 2026 Live Audit
+          </div>
+        </div>
+      </div>
+
       {/* Top Directorate Banner */}
       <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-5 rounded-xl border border-zinc-800 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>

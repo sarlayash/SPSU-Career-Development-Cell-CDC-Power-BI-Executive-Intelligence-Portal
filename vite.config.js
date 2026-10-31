@@ -6,6 +6,9 @@ export default defineConfig({
   base: './',
   server: {
     port: 3000,
-    open: false
+    open: false,
+    watch: {
+      ignored: ['**/docs/**', '**/dist/**', '**/standalone_dashboard.html']
+    }
   }
 });

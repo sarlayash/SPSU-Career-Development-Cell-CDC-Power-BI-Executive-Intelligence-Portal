@@ -1,4 +1,5 @@
 import React from 'react';
+import spsuBanner from '../assets/spsu-banner.png';
 
 export default function ExecutiveDirectorPrintReport({ dataset, filteredStudents }) {
   const { summary_placement, summary_internship, meta } = dataset;
@@ -25,6 +26,11 @@ export default function ExecutiveDirectorPrintReport({ dataset, filteredStudents
     <div className="print-only bg-white text-black p-8 font-serif leading-relaxed max-w-5xl mx-auto">
       {/* University Crest & Header */}
       <div className="border-b-2 border-slate-900 pb-4 mb-6 text-center">
+        <img 
+          src={spsuBanner} 
+          alt="SPSU Udaipur Campus" 
+          className="w-full h-auto max-h-[140px] object-cover rounded mb-3 border border-slate-300"
+        />
         <div className="inline-block px-3 py-1 bg-amber-100 text-amber-900 border border-amber-400 font-sans text-xs font-bold uppercase tracking-widest rounded mb-2">
           Strictly Confidential • Directorate Executive Briefing
         </div>
