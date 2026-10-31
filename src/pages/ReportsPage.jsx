@@ -86,7 +86,7 @@ Generated via SPSU Power BI Analytics Console
       </div>
 
       {/* Main Download Options Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Card 1: Official PDF Print Briefing */}
         <div className="p-5 rounded-xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-[#202024] shadow-sm flex flex-col justify-between powerbi-card">
           <div>
@@ -164,6 +164,37 @@ Generated via SPSU Power BI Analytics Console
             >
               Internship (CSV)
             </button>
+          </div>
+        </div>
+
+        {/* Card 4: Official Administrator Guide (PDF) */}
+        <div className="p-5 rounded-xl border border-purple-200 dark:border-purple-900/60 bg-gradient-to-br from-purple-50/50 to-white dark:from-purple-950/20 dark:to-[#202024] shadow-sm flex flex-col justify-between powerbi-card">
+          <div>
+            <div className="w-10 h-10 rounded-lg bg-purple-500/15 text-purple-600 dark:text-purple-400 flex items-center justify-center font-bold mb-3">
+              <BookOpen className="w-5 h-5" />
+            </div>
+            <div className="inline-block px-2 py-0.5 rounded bg-purple-500/15 text-purple-700 dark:text-purple-300 text-[10px] font-bold uppercase tracking-wider mb-1">
+              Official Manual
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white">
+              Portal Admin Guide (PDF)
+            </h3>
+            <p className="text-xs text-slate-500 dark:text-zinc-400 mt-1 leading-relaxed">
+              Comprehensive operations manual covering credentials (ADMIN / SPSU123), architecture, multi-field search, slicers, template ingestion, and Directorate authorization.
+            </p>
+          </div>
+
+          <div className="mt-4 pt-4 border-t border-purple-100 dark:border-zinc-800">
+            <a
+              href="./SPSU_CDC_Portal_Administrator_Guide.pdf"
+              download="SPSU_CDC_Portal_Administrator_Guide.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full py-2 px-3 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-lg text-xs flex items-center justify-center gap-1.5 transition text-center shadow"
+            >
+              <Download className="w-4 h-4" />
+              Download Admin Guide (PDF)
+            </a>
           </div>
         </div>
       </div>

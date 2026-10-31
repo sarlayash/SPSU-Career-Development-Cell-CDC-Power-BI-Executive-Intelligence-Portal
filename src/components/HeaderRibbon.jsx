@@ -17,7 +17,8 @@ import {
   Clock, 
   Calendar,
   Building2,
-  LogOut
+  LogOut,
+  BookOpen
 } from 'lucide-react';
 
 export default function HeaderRibbon({
@@ -200,6 +201,20 @@ export default function HeaderRibbon({
                     <div className="text-[10px] text-slate-500 dark:text-zinc-400">Placements & Internships Matrix</div>
                   </div>
                 </button>
+                <a
+                  href="./SPSU_CDC_Portal_Administrator_Guide.pdf"
+                  download="SPSU_CDC_Portal_Administrator_Guide.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() => setDownloadMenuOpen(false)}
+                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2 transition border-t border-slate-100 dark:border-zinc-700/60"
+                >
+                  <BookOpen className="w-4 h-4 text-purple-500 flex-shrink-0" />
+                  <div>
+                    <div className="font-semibold text-purple-600 dark:text-purple-400">Download Admin Guide (PDF)</div>
+                    <div className="text-[10px] text-slate-500 dark:text-zinc-400">Official Portal Manual & Security Ref</div>
+                  </div>
+                </a>
               </div>
             )}
           </div>

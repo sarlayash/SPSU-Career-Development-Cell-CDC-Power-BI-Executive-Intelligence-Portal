@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Lock, User, CheckCircle2, AlertCircle, Sparkles, ArrowRight, Building2, Key, Clock, Calendar } from 'lucide-react';
+import { Shield, Lock, User, CheckCircle2, AlertCircle, Sparkles, ArrowRight, Building2, Key, Clock, Calendar, BookOpen } from 'lucide-react';
 import spsuBanner from '../assets/spsu-banner.png';
 
 export default function LoginPage({ onLoginSuccess }) {
@@ -230,6 +230,19 @@ export default function LoginPage({ onLoginSuccess }) {
               <span>Username: <strong className="text-white">ADMIN</strong></span>
               <span>Password: <strong className="text-white">SPSU123</strong></span>
             </div>
+          </div>
+
+          <div className="mt-3 text-center">
+            <a
+              href="./SPSU_CDC_Portal_Administrator_Guide.pdf"
+              download="SPSU_CDC_Portal_Administrator_Guide.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[11px] text-purple-400 hover:text-purple-300 underline underline-offset-2 inline-flex items-center justify-center gap-1.5 transition"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Download Official Portal Admin Guide (PDF)</span>
+            </a>
           </div>
         </div>
       </div>
