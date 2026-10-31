@@ -1,0 +1,945 @@
+Placement,,,,,,,,,,,,,Summer Internship,,,,,,,,,,
+Program,Total Student,Total OO,DB,Opt-In Late,Opt-In,Placed,Offers Count,FTE,PPO,Rem.,NOC Done,,Program,Total Students,Male,Female,SI O1,SI O2,SI O3,Offers Count,Offered,Project,Remaining
+CSE,192,30,0,4,153,8,8,2,6,145,1,,CSE,192,152,28,119,22,4,175,146,,
+ECE,18,4,0,2,11,0,0,0,0,11,0,,ECE,18,14,2,7,4,0,15,11,,
+MN,17,0,0,1,16,1,1,0,1,15,1,,MN,17,16,1,11,0,0,11,11,,
+CE,11,1,0,0,10,5,5,2,3,5,2,,CE,11,11,0,11,0,0,11,11,,
+ME,10,3,0,2,5,1,1,1,0,4,0,,ME,10,10,0,8,1,0,10,9,,
+BDES,2,0,0,0,2,0,0,0,0,2,0,,BDES,2,1,1,0,2,0,4,2,,
+BCA,38,9,0,2,27,2,2,0,2,25,0,,BCA,38,24,12,24,4,0,32,27,,
+BBA,57,28,0,0,21,11,12,6,5,10,1,,BBA,57,20,21,24,10,0,44,35,,
+MBA,47,1,0,1,44,19,25,8,11,25,4,,MBA,47,23,17,25,14,5,72,45,,
+Total,392,76,0,12,289,47,54,19,28,242,9,,Total,392,271,82,229,57,9,374,297,,
+S.No.,Students Name,Enrollment No.,Course,Specialization,Email ID - SPSU,Email ID - Personal,Contact No.,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Diploma,Graduation (%/CGPA),Backlog Remaining,Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,Offer Letter,CTC,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Abdul Rahman,23CS002674,B.Tech.,CSE-AIML,abdul.btech2023@spsu.ac.in,rahmanabdul7403@gmail.com,8019156867,8019156867,Male,23-june-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+2,Abhay Verma,23CS002872,B.Tech.,CSE-AIML,abhay.btech2023@spsu.ac.in,abhaykumawat2434@gmail.com,8955546063,8955546063,Male,13-Nov-2001,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+3,Abhijeet Tiwari,23CS002812,B.Tech.,CSE-AIML,abhijeet.btech2023@spsu.ac.in,abhijeettiwari00100@gmail.com,6352218663,6352218663,Male,29-10-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+4,Addepalli Lakshmi Deepika,24L3CS3004,B.Tech.,CSE-AIML,lakshmideepika.btech2023@spsu.ac.in,lakshmideepikaaddepalli@gmail.com,7981159955,7981159955,Female,05-May-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.NRSC-ISRO,1.NRSC-ISRO,Pending,,,,,,
+5,Adepu Deepak Kumar,23CS002676,B.Tech.,CSE,adepu.btech2023@spsu.ac.in,deepakkumaradepu1506@gmail.com,9182407403,9182407403,Male,10-03-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Infotact Solutions,1.Infotact Solutions,Done,,,,,,
+6,Aggu Abhinay,23CS002795,B.Tech.,CSE,aggu.btech2023@spsu.ac.in,abhinay.aggu12@gmail.com,7671871135,7671871135,Male,12-12-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+7,Ailuri Manikanta Reddy,23CS002695,B.Tech.,CSE,ailuri.btech2023@spsu.ac.in,manikantareddyreddy64@gmail.com,7842258227,7842258227,Male,05-01-2005,Link,,,,,,,,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+8,Allamprabhu Gnanya Siri,23CS002697,B.Tech.,CSE,allamprabhu.btech2023@spsu.ac.in,allamprabugnanyasiri@gmail.com,8885274137,8885274137,Female,19-11-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+9,Alugubelli Jagadeeshwar Reddy,23CS002677,B.Tech.,CSE,alugubelli.btech2023@spsu.ac.in,jagadeeshwar82@gmail.com,7993704523,9652653935,Male,28-08-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - Personal Choice,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+10,Alva Saketh Reddy,23CS002858,B.Tech.,CSE-AIML,alvasaketh.btech2023@spsu.ac.in,a.saketh1206@gmail.com,7032933469,7032933469,Male,12-June-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+11,Annapureddy Koti Reddy,23CS002632,B.Tech.,CSE,annapureddy.btech2023@spsu.ac.in,kotireddyannapureddy21@gmail.com,8977426798,8977426798,Male,10-01-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+12,Anshul Giri Goswami,23CS002874,B.Tech.,CSE-AIML,anshul.btech2023@spsu.ac.in,anshulgoswami32@gmail.com,8118844386,8118844386,Male,06-Nov-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,,,,,,,,
+13,Anuj Tiwari,23CS002779,B.Tech.,CSE,anuj.btech2023@spsu.ac.in,anujtiwari93764@gmail.com,9376402981,6378452502,Male,24-OCT-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+14,Anushka Berwal,23CS002735,B.Tech.,CSE-AIML,anushka.btech2023@spsu.ac.in,anushkaberwal33@gmail.com,7073186189,7073186189,Female,31-jul-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+15,Arpit Sharma,23CS002740,B.Tech.,CSE-AIML,arpit.btech2023@spsu.ac.in,asharma08556@gmail.com,8107008254,8107008254,Male,04-jul-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.Azisly.ai","1.Xebia
+2.Azisly.ai",Pending,,,,,,
+16,Aryan Bunkar,23CS002741,B.Tech.,CSE-AIML,aryan.btech2023@spsu.ac.in,aaryanbunkar2005@gmail.com,9024096290,9024095290,Male,31-jul-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+17,Avinash Chaurasiya,23CS002794,B.Tech.,CSE,avinash.btech2023@spsu.ac.in,avinashavinash8887191895@gmail.com,8009146926,8009146926,Male,07-Apr-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+18,Ayaan Sheikh,23CS002742,B.Tech.,CSE-AIML,ayaan.btech2023@spsu.ac.in,shahidsheikh0178@gmail.com,9887030786,8955710789,Male,17-10-2007,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+19,Ayancha Lohith Sai Manikanta,23CS002635,B.Tech.,CSE,ayancha.btech2023@spsu.ac.in,lohithsaimanikanta1519@gmail.com,8187830698,8187830698,Male,15-09-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+20,Ayush Pancholi,23CS002760,B.Tech.,CSE-AIML,ayush.btech2023@spsu.ac.in,ayushpancholi16@gmail.com,8440907141,8949753037,Male,08-08-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+21,B Naveen,23CS002845,B.Tech.,CSE,naveen.btech2023@spsu.ac.in,bellarinaveen1@gmail.com,7095124554,7095124554,Male,22-Aug-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,Applied (No Response Yet)
+22,Bairagoni Alekhya,23CS002797,B.Tech.,CSE,bairagoni.btech2023@spsu.ac.in,bairagonialekhya13@gmail.com,8790390575,8790390575,Female,13-Feb-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Metaforge IT Solutions
+2.Xebia","1.Metaforge IT Solutions
+2.Xebia",Done,,,,,,
+23,Banothu Sai,23CS002813,B.Tech.,CSE-AIML,banothu.btech2023@spsu.ac.in,banothusai17s@gmail.com,9121773780,9121773780,Male,20-06-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+24,Bari Vivek,23CS002682,B.Tech.,CSE,bari.btech2023@spsu.ac.in,vivekbari785@gmail.com,7893631420,7893631420,Male,03-feb-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+25,Bassi Ram Singh,23CS002675,B.Tech.,CSE-AIML,bassi.btech2023@spsu.ac.in,ramsingh.bassi111999@gmail.com,9346374137,9346374137,Male,14-05-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+26,Bhimishetti Lohith,23CS002633,B.Tech.,CSE,bhimishetti.btech2023@spsu.ac.in,bhimishettilohith24@gmail.com,9381892473,9381892473,Male,24-Aug-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+27,Bhoomit Tulsani,23CS002801,B.Tech.,CSE-AIML,bhoomit.btech2023@spsu.ac.in,bhoomittulsani6996@gmail.com,9509629904,9509629904,Male,21/07/2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,3,"1.Xebia
+2.Azisly.ai
+3.Country Edu Pvt Ltd.","1.Xebia
+2.Azisly.ai
+3.Country Edu Pvt Ltd.",Pending,,,,,,
+28,Bhyrava Bhatla Sai Vishwanath,23CS002672,B.Tech.,CSE-AIML,bhyrava.btech2023@spsu.ac.in,vissu17u@gmail.com,7989150686,9951214611,Male,17-Dec-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.3 Skill","1.Xebia
+2.3 Skill",Pending,,,,,,
+29,Boine Nikshith,23CS002678,B.Tech.,CSE-AIML,boine.btech2023@spsu.ac.in,nikshithboine@gmail.com,9390833803,9390833803,Male,26-Apr-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+30,Bolishetty Samith Sai,23CS002685,B.Tech.,CSE,bolishetty.btech2023@spsu.ac.in,sammireddy0625@gmail.com,9391740292,9391740292,Male,06-11-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+31,Burugula Jashwanth,23CS002798,B.Tech.,CSE-AIML,burugula.btech2023@spsu.ac.in,jashwanthburgula@gmail.com,7995872175,7995872175,Male,14-12-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+32,Busa Rahul,23CS002652,B.Tech.,CSE-AIML,busa.btech2023@spsu.ac.in,busarahul40@gmail.com,9182267528,9182267528,Male,23-Jun-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV","1.Xebia
+2.DMV",Pending,,,,,,
+33,Chadarasipalli Ram Charan,23CS002751,B.Tech.,CSE-AIML,chadarasipalli.btech2023@spsu.ac.in,ch.charan2006@gmail.com,8639202608,8639202608,Male,20-Jan-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+34,Chakali Tarun,23CS002626,B.Tech.,CSE,chakali.btech2023@spsu.ac.in,chtarunmadival@gmail.com,7569895190,7569895190,Male,15-04-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.DMV CoreTech,1.DMV CoreTech,Pending,,,,,,Applied (No Response Yet)
+35,Chamarty Abhinav Siddartha,23CS002681,B.Tech.,CSE,chamarty.btech2023@spsu.ac.in,abhinavchamarty@gmail.com,9110731195,9110731195,Male,01-Mar-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.ICMR NIN
+2.Xebia","1.ICMR NIN
+2.Xebia",Pending,,,,,,
+36,Cheerla Vasu Sagar,23CS002663,B.Tech.,CSE-AIML,cheerla.btech2023@spsu.ac.in,vasusagar2006@gmail.com,9640069991,9640069991,Male,03-April--2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,Applied (No Response Yet)
+37,Chenchala Dharnendra,23CS002863,B.Tech.,CSE-AIML,chenchala.btech2023@spsu.ac.in,dharanendrach@gmail.com,7674059539,7674059539,Male,19-Sep-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Metaforge IT Solutions
+2.Xebia","1.Metaforge IT Solutions
+ 2.Xebia",Done,,,,,,
+38,Chhavi Singh,23CS002853,B.Tech.,CSE,chhavi.btech2023@spsu.ac.in,chhavisinghvi27@gmail.com,7522848311,7522848311,Female,27-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Adani Group Luckhnow Airport,1.Adani Group Luckhnow Airport,Done,,,,,,
+39,Chinthalapally Siddanth Reddy,23CS002657,B.Tech.,CSE-AIML,chinthala.btech2023@spsu.ac.in,chinthalapallysiddanth1@gmail.com,8639010910,8639010910,Male,14-11-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+40,Chinthamaneni Yeswanth,23CS002808,B.Tech.,CSE,chinthamaneni.btech2023@spsu.ac.in,chowdaryy82@gmail.com,8125867079,8125867079,Male,11-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+41,Chirraboina Sai Shiva,23CS002650,B.Tech.,CSE-AIML,chirraboina.btech2023@spsu.ac.in,saishivayadav00@gmail.com,7013934279,7569489016,Male,05/02/2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+42,Deepanshi Sharma,23CS002828,B.Tech.,CSE-AIML,deepanshi.btech2023@spsu.ac.in,deepanshisharma83@gmail.com,7742119306,7742119306,Female,08-07-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+43,Devansh Ahari,23CS002748,B.Tech.,CSE-AIML,devansh.btech2023@spsu.ac.in,aharidevansh005@gmail.com,9672498396,9672498396,Male,17-oct-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,
+44,Devantikay Sharma,23CS002857,B.Tech.,CSE-AIML,devantikay.btech2023@spsu.ac.in,kanha2006.29@gmail.com,9897168749,9897168749,Male,29-Mar-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+45,Dhruv Dwivedi,23CS002757,B.Tech.,CSE,dhruv.btech2023@spsu.ac.in,,6367186447,,,,,,,,,,,,,Present,Pending,True,NaN,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+46,Dhruv Jethi,23CS002738,B.Tech.,CSE-AIML,dhruvjethi.btech2023@spsu.ac.in,dhruvjethi10@gmail.com,7878044107,7878044107,Male,30-07-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+47,Divya Rana,23CS002822,B.Tech.,CSE-AIML,divya.btech2023@spsu.ac.in,divyarana0224@gmail.com,8219530422,8219530422,Female,02-02-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+48,Divyanshu Chhaganlal Parmar,23CS002831,B.Tech.,CSE-AIML,divyanshu.btech2023@spsu.ac.in,divyanshuparmarr@gmail.com,9950220907,9950220907,Male,21-Nov-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+49,Donga Raghuvardhan Reddy,23CS002654,B.Tech.,CSE-AIML,dongareddy.btech2023@spsu.ac.in,raghureddy0321@gmail.com,9346721199,9346721199,Male,20-01-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+50,Donga Revanth Reddy,23CS002660,B.Tech.,CSE-AIML,donga.btech2023@spsu.ac.in,revanthreddydonga4@gmail.com,8639836030,8639836030,Male,11-Dec-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+51,Doppalapudi Karthik,23CS002669,B.Tech.,CSE-AIML,doppalapudi.btech2023@spsu.ac.in,doppalapudikarthik90@gmail.com,7993551234,7993551234,Male,18-11-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+52,Endla Jitendar,23CS002661,B.Tech.,CSE-AIML,endla.btech2023@spsu.ac.in,jitendarendla@gmail.com,8019825905,8019825905,Male,25-June-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,Applied (No Response Yet)
+53,Erra Stalin Nissy,23CS002772,B.Tech.,CSE,erra.btech2023@spsu.ac.in,stalinnissy@gmail.com,8179383114,8179383114,Male,30-Dec-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+54,Ettaboina Sai Kumar,23CS002703,B.Tech.,CSE,ettaboina.btech2023@spsu.ac.in,ettaboinasaikumar822@gmail.com,6305187419,6305187419,Male,20-05-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+55,Gaddam Akash,23CS002776,B.Tech.,CSE,gaddamakash.btech2023@spsu.ac.in,akashgaddam989@gmail.com,7569023057,7569023057,Male,20-may-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+56,Gaddam Balaji,23CS002680,B.Tech.,CSE,gaddam.btech2023@spsu.ac.in,gaddambalaji305@gmail.com,9989709305,9989709305,Male,17-01-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+57,Gandham Akash,23CS002763,B.Tech.,CSE-AIML,gandham.btech2023@spsu.ac.in,,6309138496,,,,,,,,,,,,,Present,Pending,False,,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+58,Gandham Ashwin,23CS002764,B.Tech.,CSE,gandhamashwin.btech2023@spsu.ac.in,bunnypatel21215@gmail.com,7993812495,7993812495,Male,11/04/2006,Link,,,,,,,Link,Link,Present,Submitted,False,,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+59,Gangarapu Ranaveer,23CS002716,B.Tech.,CSE-AIML,gangarapu.btech2023@spsu.ac.in,gangarapuranaveer5@gmail.com,8074257268,8074257268,Male,09-Jan-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,3,"1.Xebia
+2.AICTE Edu Net
+3.VINS","1.Xebia
+2.AICTE Edu Net
+3.VINS",Pending,,,,,,
+60,Ganna Shashank Rao,23CS002665,B.Tech.,CSE,ganna.btech2023@spsu.ac.in,shashankrao981@gmail.com,8247299824,8247299824,Male,31/10/2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.VQuiver Technologies Pvt. Ltd.
+2.Xebia",1.VQuiver Technologies Pvt. Ltd. 2.Xebia,Pending,,,,,,
+61,Gantala Ashish Goud,23CS002698,B.Tech.,CSE,gantala.btech2023@spsu.ac.in,goudashish603@gmail.com,9642665723,9642665723,Male,29-01-2005,Link,,,,,,,,Link,Absent,Submitted,False,NaN,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,,0,,,,Project,,,,,Not Applied Yet
+62,Gaurav Vaishnav,23CS002852,B.Tech.,CSE,gauravvaishnav.btech2023@spsu.ac.in,,9571596059,,,,,,,,,,,,,Absent,Pending,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+63,Ghanta Devisri,23CS002646,B.Tech.,CSE,ghanta.btech2023@spsu.ac.in,gdevisru02@gmail.com,9491320554,9491320554,Female,02-03-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.IIT Nagpur,1.IIT Nagpur,Done,,,,,,
+64,Ghanta Sai Neeraj,23CS002689,B.Tech.,CSE-AIML,ghantaneeraj.btech2023@spsu.ac.in,ghantasaineeraj76@gmail.com,8179027444,8179027444,Male,22-04-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,2,"1.UOR Consultants Private Limited
+2.Xebia",1.UOR Consultants Private Limited 2.Xebia,Pending,,,,,,Not Applied Yet
+65,Ghanta Sai Nikhil,23CS002690,B.Tech.,CSE-AIML,ghantanikhil.btech2023@spsu.ac.in,ghantasainikhil7@gmail.com,8977910422,8977910422,Male,22-04-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Done,,,,,,
+66,Godugula Akhil Krishna,23CS002699,B.Tech.,CSE-AIML,godugula.btech2023@spsu.ac.in,godugulakhilkrishna6@gmail.com,7702952641,7702952641,Male,06-03-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+67,Gunnam Jahnvi,23CS002806,B.Tech.,CSE-AIML,gunnam.btech2023@spsu.ac.in,gunnam.btech2023@spsu.ac.in,8328064115,8328064115,Female,14-Sep-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,2,"1.ASTRAM Lab -  IIT Hyderabad
+2.L&T",1.ASTRAM Lab -  IIT Hyderabad 2.L&T,Done,,,,,,
+68,Gunthakandla Aravind,23CS002777,B.Tech.,CSE,gunthakandla.btech2023@spsu.ac.in,aravindarya9014@gmail.com,9014856412,9014856412,Male,10-04-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+69,Gutha Sai Ram Reddy,23CS002656,B.Tech.,CSE-AIML,gutha.btech2023@spsu.ac.in,guthasairamreddy99@gmail.com,9949408730,6302486708,Male,30-Apr-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+70,Harsh Vardhan Sanadhya,23CS002771,B.Tech.,CSE-AIML,harsh.btech2023@spsu.ac.in,sanadhyaharshvardhan@gmail.com,6350238744,6350238744,Male,15-10-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV","1.Xebia
+2.DMV",Pending,,,,,,Applied (No Response Yet)
+71,Harshal Hada,23CS002719,B.Tech.,CSE,harshal.btech2023@spsu.ac.in,,8860380917,,,,,,,,,,,,,Absent,Pending,False,NaN,False,Opt Out - Personal Choice,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,HCL Tech,,Done,,,,,,Applied (No Response Yet)
+72,Harshit Suthar,23CS002724,B.Tech.,CSE-AIML,harshit.btech2023@spsu.ac.in,harshitsuthar7878@gmail.com,7878868197,7878868197,Male,29-Sep-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Midinnings - Digital Marketing Agency,1.Midinnings - Digital Marketing Agency,Pending,,,,,,
+73,Hemraj Arya,23CS002761,B.Tech.,CSE-AIML,hemraj.btech2023@spsu.ac.in,,7877098095,,,,,,,,,,,,,Absent,Pending,False,NaN,False,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+74,J Sai Akash,23CS002642,B.Tech.,CSE,j.btech2023@spsu.ac.in,saiakashjayanthi21@gmail.com,9246877107,8977012075,Male,21-Apr-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+75,Jahnavi Dave,23CS002871,B.Tech.,CSE-AIML,jahnavi.btech2023@spsu.ac.in,jahnavikdave1834@gmail.com,6367610510,6367610510,Female,18-Mar-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+76,Jatagoni Sampath Kumar,23CS002869,B.Tech.,CSE,sampath.btech2023@spsu.ac.in,jsampathkumarsampath9@gmail.com,8309740803,8309740803,Male,21-12-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Country Edu Pvt Ltd,1.Country Edu Pvt Ltd,Pending,,,,,,Applied (No Response Yet)
+77,Jitendra Saini,23CS002720,B.Tech.,CSE,jitendra.btech2023@spsu.ac.in,jitendrasaini7230@gmail.com,7230970642,7230970642,Male,11-08-2005,Link,,,,,,,Link,Link,Present,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-FTE,On-Campus,1,Cyntexa,5,5,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Done,,,,,,
+78,Jukanti Anvesh Reddy,23CS002747,B.Tech.,CSE,jukanti.btech2023@spsu.ac.in,jukantianveshreddy@gmail.com,8247279911,8247279911,Male,18-02-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+79,Julakanti Jayanth Reddy,23CS002651,B.Tech.,CSE-AIML,julakanti.btech2023@spsu.ac.in,jayanthreddyjulakanti@gmail.com,8465802341,8465802341,Male,21-Sep-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV","1.Xebia
+2.DMV",Pending,,,,,,
+80,K Sai Prakash Reddy,23CS002701,B.Tech.,CSE,k.btech2023@spsu.ac.in,buunny4322@gmail.com,6300878567,6300878567,Male,22-08-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,Not Applied Yet
+81,Kailash Chandra Jat,23CS002833,B.Tech.,CSE,kailash.btech2023@spsu.ac.in,jatk70771@gmail.com,8000548638,8000548638,Male,07/04/2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+82,Kalthi Bharath Sagar Dora,23CS002826,B.Tech.,CSE-AIML,bharathsagar.btech2023@spsu.ac.in,kalthibharath6@gmail.com,9502870163,9502870163,Male,24-04-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+83,Kamma Janani,23CS002768,B.Tech.,CSE,kamma.btech2023@spsu.ac.in,jananikamma1406@gmail.com,6300160409,6300160409,Female,14-jun-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+84,Kanugula Siva Sankar,23CS002640,B.Tech.,CSE,kanugula.btech2023@spsu.ac.in,kanugulashivashankar75@gmail.com,7207413146,7207413146,Male,24-jun-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+85,Kashyap Ojha,23CS002718,B.Tech.,CSE,kashyap.btech2023@spsu.ac.in,kashyap.ojha24@gmail.com,8733907926,8733907926,Male,24-01-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+86,Keshavbhatt Kumari Anagha,23CS002775,B.Tech.,CSE-AIML,keshavbhatt.btech2023@spsu.ac.in,anagharaju05@gmail.com,9392797008,9392797008,Female,19-Nov-2005,Link,,,,,,,Link,Link,Present,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Kreativan Technologies,4,4,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,Not Applied Yet
+87,Khanoj Reddy Mekala,23CS002717,B.Tech.,CSE,khanoj.btech2023@spsu.ac.in,khanojreddys@gmail.com,7901392222,7901392222,Male,05-Sep-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Done,,,,,,
+88,Khushi Agarwal,23CS002827,B.Tech.,CSE,khushi.btech2023@spsu.ac.in,khushiagarwal5403@gmail.com,7742415276,7742415276,Female,04-04-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+89,Kollepara Naga Sri Lakshmi Varshith,23CS002641,B.Tech.,CSE,kollepara.btech2023@spsu.ac.in,kolleparavarshith07@gmail.com,8317643649,8317643649,Male,14-May-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+90,Lakshya Chopra,23CS002830,B.Tech.,CSE-AIML,lakshya.btech2023@spsu.ac.in,,9079131488,,,,,,,,,,,,,Absent,Pending,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+91,Lolam Abhinay,23CS002796,B.Tech.,CSE,lolam.btech2023@spsu.ac.in,labhinay004@gmail.com,8106172795,8106172795,Male,03/03/2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,1.Xebia,,,,,,,,
+92,Maan Singh,23CS002862,B.Tech.,CSE,maan.btech2023@spsu.ac.in,ms3916163@gmail.com,9024212088,9024212088,Male,25-May-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+93,Madagani Sai Rishik,23CS002638,B.Tech.,CSE,adagani.btech2023@spsu.ac.in,madhagonisairishik@gmail.com,8919601736,8919601736,Male,25/09/2006,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.TRL Krosaki Refractories,1.TRL Krosaki Refractories,Pending,,,,,,
+94,Madam Sai Kumar,23CS002659,B.Tech.,CSE,madam.btech2023@spsu.ac.in,madhamsai9962@gmail.com,9182969962,9182969962,Male,17/06/2004,Link,,,,,,,,Link,Absent,Submitted,False,,False,Opt Out - Personal Choice,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+95,Madhavan Bohra,23CS002744,B.Tech.,CSE-AIML,madhavan.btech2023@spsu.ac.in,info.madhavanb@gmail.com,6367879784,6367879784,Male,10-Nov-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+96,Maduri Pramith,23CS002686,B.Tech.,CSE-AIML,maduri.btech2023@spsu.ac.in,maduripramith@gmail.com,6301631545,6301631545,Male,26-Nov-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Xebia
+2.The Skybrisk","1.Xebia
+2.The Skybrisk",Pending,,,,,,
+97,Mahipal Singh Rao,23CS002864,B.Tech.,CSE-AIML,mahipalrao.btech2023@spsu.ac.in,mahipalsinghraomp@gmail.com,8209644099,8209644099,Male,01-Jan-2005,Link,,,,,,,Link,Link,Present,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-FTE,On-Campus,1,Cyntexa,5,5,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+98,Majoju Vivek,23CS002673,B.Tech.,CSE-AIML,majoju.btech2023@spsu.ac.in,vivekmajoju75@gmail.com,9949362823,8885432800,Male,27-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Done,,,,,,
+99,Mamidala Karthik Reddy,23CS002702,B.Tech.,CSE,mamidala.btech2023@spsu.ac.in,karthikrdybsnl@gmail.com,9391947577,9391947577,Male,02-August-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+100,Mandadi Praneeth,23CS002629,B.Tech.,CSE,mandadi.btech2023@spsu.ac.in,pranithmandhadi19@gmail.com,8247339963,8247338863,Male,07-NOV-2004,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - Personal Choice,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+101,Mandava Sai Vikranth Goud,23CS002694,B.Tech.,CSE-AIML,mandava.btech2023@spsu.ac.in,mandavasaivikranthgoud@gmail.com,9346570079,9346570079,Male,22-07-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+102,Mandu Mahendar,23CS002658,B.Tech.,CSE-AIML,mandu.btech2023@spsu.ac.in,mandumahendar933@gmail.com,7997011670,7997011670,Male,20-03-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+103,Manish Kumawat,23CS002721,B.Tech.,CSE-AIML,manish.btech2023@spsu.ac.in,kumawatmanish45018@gmail.com,9265968336,9265968336,Male,18-06-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+104,Manja Krishna,23CS002810,B.Tech.,CSE-AIML,manja.btech2023@spsu.ac.in,Krishnamanja18@gmail.com,8309061147,7729019608,Male,09-aug-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+105,Manmohan Singh,23CS002733,B.Tech.,CSE-AIML,manmohan.btech2023@spsu.ac.in,manmohantogi@gmail.com,8003143262,8003143262,Male,17-11-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,Applied (No Response Yet)
+106,Manttipelli Nithin,23CS002762,B.Tech.,CSE-AIML,manttipelli.btech2023@spsu.ac.in,nithinyadav228@gmail.com,8309079828,8309079828,Male,18-July-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+107,Mayurdhwaj Singh Rathore,23CS002729,B.Tech.,CSE,mayurdhwaj.btech2023@spsu.ac.in,mayurdhawjsing@gmail.com,9116036797,9166779604,Male,12-june-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Unified mentor,1.Unified mentor,Pending,,,,,,
+108,Mekala Arun Sai,23CS002643,B.Tech.,CSE,mekala.btech2023@spsu.ac.in,arunsai3344@gmail.com,9640222198,9505848566,Male,17-02-2005,Link,,,,,,,,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Skybrisk ,1.Skybrisk ,Pending,,,,,,
+109,Modepu Saathwik Goud,23CS002637,B.Tech.,CSE,modepu.btech2023@spsu.ac.in,modepusaathwikgoud@gmail.com,9063278338,9063278338,Male,11-Aug-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+110,Mohammad Abdul Maliq,23CS002670,B.Tech.,CSE-AIML,mohammad.btech2023@spsu.ac.in,mohammadabdulmaliq1@gmail.com,9100840235,9032025351,Male,14-sep-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+111,Mritunjai Singh,23CS002773,B.Tech.,CSE-AIML,mritunjai.btech2023@spsu.ac.in,mritunjay045k@gmail.com,9347147615,9347147615,Male,11-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+112,Ms Dewanshi Karnawat,23CS002836,B.Tech.,CSE-AIML,dewanshi.btech2023@spsu.ac.in,dewanshikarnawat@gmail.com,7357019273,7357019273,Female,06-May-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+113,Ms Ishika Mehta,23CS002865,B.Tech.,CSE-AIML,ishika.btech2023@spsu.ac.in,mehtaishika952@gmail.com,9257271501,9257271501,Female,20-01-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,Xebia,Pending,,,,,,
+114,Ms Niyati Khandelwal,23CS002829,B.Tech.,CSE-AIML,niyati.btech2023@spsu.ac.in,niyatikhandelwal7@gmail.com,8005501469,8005501469,Female,22-02-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+115,Ms.sneha Dilip Kharade,23CS002821,B.Tech.,CSE,sneha.btech2023@spsu.ac.in,rkhrade9988@gmail.com,7737328451,7737328452,Female,12-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV Core Tech,1.DMV Core Tech,Pending,,,,,,Applied (No Response Yet)
+116,Mukthala Harikrishna Goud,23CS002807,B.Tech.,CSE-AIML,mukthala.btech2023@spsu.ac.in,mukthalahari9948@gmail.com,6301910467,6301910467,Male,15/09/2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,Not Applied Yet
+117,Munukuntla Bunny Narayana Naidu,23CS002707,B.Tech.,CSE-AIML,munukuntla.btech2023@spsu.ac.in,bunnymunukuntla3045@gmail.com,8185969225,8185969225,Male,30-April-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+118,Nagaipalli Kaushik,23CS002851,B.Tech.,CSE,kaushik.btech2023@spsu.ac.in,nagaipalli.kaushik@gmail.com,9032443202,9032443202,Male,30-03-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,In Interview Process
+119,Nagareddy Rishitha,23CS002730,B.Tech.,CSE-AIML,nagareddy.btech2023@spsu.ac.in,nagareddyrishitha@gmail.com,7075007561,7075007561,Female,11-Aug-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Xebia,1.Xebia,Done,,,,,,
+120,Nalla Jayanth Reddy,23CS002691,B.Tech.,CSE-AIML,nalla.btech2023@spsu.ac.in,reddyjayanth100@gmail.com,6305607303,6305607303,Male,30-10-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+121,Narisetty Dinesh Kumar,23CS002679,B.Tech.,CSE-AIML,narisetty.btech2023@spsu.ac.in,narisettydineshkumar@gmail.com,9618253212,9618253212,Male,01-02-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+122,Nilesh Parmar,23CS002819,B.Tech.,CSE,nilesh.btech2023@spsu.ac.in,sutharpista14@gmail.com,8949487159,8949487159,Male,25-08-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,In Interview Process
+123,Nitin Verma,23CS002731,B.Tech.,CSE,nitin.btech2023@spsu.ac.in,nitinverma7601@gmail.com,9602987566,8890468443,Male,11-09-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,3,"1.Hidden Minds Solutions
+2.Xebia
+3.The boring Education","1.Hidden Minds Solutions 2.Xebia
+3.The boring Education",Pending,,,,,,
+124,Ora Akarsh,23CS002746,B.Tech.,CSE-AIML,ora.btech2023@spsu.ac.in,akarshora123@gmail.com,9014824739,9014824739,Male,19-Dec-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+125,P Lahari,23CS002818,B.Tech.,CSE-AIML,lahari.btech2023@spsu.ac.in,laharireddypa06@gmail.com,8639750201,9392166095,Female,26-01-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,1,Xebia,,Pending,,,,,,Not Applied Yet
+126,P Vishnuvardan,23CS002710,B.Tech.,CSE-AIML,p.btech2023@spsu.ac.in,vishnupadmawar343@gmail.com,8978856398,8978856398,Male,15-oct-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,1,3 Skill,,,,,,,,Applied (No Response Yet)
+127,Padala Mahesh Chandra,23CS002639,B.Tech.,CSE,padala.btech2023@spsu.ac.in,padala.maheshchandra@gmail.com,9704800393,9704800393,Male,03-05-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+128,Palepu Karthik,23CS002668,B.Tech.,CSE-AIML,palepu.btech2023@spsu.ac.in,karthikpalepu18@gmail.com,7995436027,9390074960,Male,18-Dec-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV,1.DMV,Pending,,,,,,
+129,Pallapu Santhosh,23CS002780,B.Tech.,CSE,pallapu.btech2023@spsu.ac.in,santhoshrajpallapu@gmail.com,7993279197,7993279197,Male,12/02/2004,Link,,,,,,,,Link,Absent,Submitted,False,,False,Opt Out - Personal Choice,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Xebia,1.Xebia,Pending,,,,,,
+130,Pathuri Sriram Goud,23CS002649,B.Tech.,CSE,pathuri.btech2023@spsu.ac.in,sriramgoudpathuri2@gmail.com,9491330520,7013106769,Male,10-Oct-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Country Edu Pvt Ltd.,1.Country Edu Pvt Ltd.,Pending,,,,,,Applied (No Response Yet)
+131,Patimini Mahesh,23CS002713,B.Tech.,CSE,patimini.btech2023@spsu.ac.in,mpatimini@gmail.com,7815820791,7815820791,Male,2006-03-14,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+132,Pebbeti Naresh,23CS002625,B.Tech.,CSE,pebbeti.btech2023@spsu.ac.in,nareshpebbeti2003@gmail.com,7569170780,7569170780,Male,04-05-2003,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.DMV Core Tech,DMV Core Tech,Pending,,,,,,Applied (No Response Yet)
+133,Pesaru Akhil Kumar Reddy,23CS002708,B.Tech.,CSE,pesaru.btech2023@spsu.ac.in,akhilkumarreddy2006@gmail.com,9550446310,9550446310,Male,09-05-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,3,"1.Hidden Minds Solutions
+2.Xebia
+3.L&T","1.Hidden Minds Solutions 
+2.Xebia
+3.L&T",Done,,,,,,
+134,Piyush Kumar Bhoi,23CS002789,B.Tech.,CSE,piyush.btech2023@spsu.ac.in,,8905042568,,,,,,,,,,,,,Absent,Pending,False,,False,Opt Out - Personal Choice,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+135,Pothamsetti Venkata Rama Krishna Reddy,23CS002715,B.Tech.,CSE,pothamsetti.btech2023@spsu.ac.in,pothamsettiramakrishnareddy@gmail.com,9615977888,9615977888,Male,14-AUG-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,DMV Coretech,DMV Coretech,Pending,,,,,,Applied (No Response Yet)
+136,Pranav Mathur,23CS002727,B.Tech.,CSE,pranavmathur.btech2023@spsu.ac.in,pranav12mathur@gmail.com,9301719873,9301719873,Male,12-06_2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+137,Pranav Sankhla,23CS002723,B.Tech.,CSE-AIML,pranav.btech2023@spsu.ac.in,pranavsankhla22@gmail.com,7073576344,7073576344,Male,09-11-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+138,Praveen Singh Ranawat,23CS002793,B.Tech.,CSE,praveen.btech2023@spsu.ac.in,,9982251327,,,,,,,,,,,,,Absent,Pending,False,,False,Opt Out - Personal Choice,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+139,Priyank Dhankar,24L3CS3319,B.Tech.,CSE-AIML,priyankdhankar.btech2023@spsu.ac.in,priyankd2304@gmail.com,9799326142,9799326142,Male,23-Apr-2005,Link,,,,,,,Link,Link,Present,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Kreativan Technologies,4,4,,,,,,,,,,,,,,,,0,,,,,,,,,
+140,Pulagam Sri Madhuri,23CS002714,B.Tech.,CSE-AIML,pulagam.btech2023@spsu.ac.in,srimadhuri2018@gmail.com,9491775333,9491775333,Female,02-03-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+141,Puneet Dhankar,23CS002726,B.Tech.,CSE-AIML,puneet.btech2023@spsu.ac.in,puneetd2005@gmail.com,9675443957,9636612996,Male,23-Apr-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+142,Rahul,23CS002628,B.Tech.,CSE,rahul.btech2023@spsu.ac.in,dhillrahul4091@gmail.com,7665214091,7665214091,Male,13-11-2003,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+143,Rahul Borana,23CS002802,B.Tech.,CSE-AIML,rahulborana.btech2023@spsu.ac.in,rahulborana098765@gmail.com,9887390222,9887390222,Male,09-Sept-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Yuthika Natural
+2.Xebia","1.Yuthika Natural
+2.Xebia",Done,,,,,,
+144,Rahul Soni,23CS002883,B.Tech.,CSE-AIML,rahulsoni.btech2023@spsu.ac.in,dirrahul37@gmail.com,7357141633,7357141633,Male,20-jun-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.One XL Info LLP.","1.Xebia
+2.One XL Info LLP.",Pending,,,,,,
+145,Rakshit Joshi,23CS002787,B.Tech.,CSE,rakshit.btech2023@spsu.ac.in,rakshitjoshi8991@gmail.com,9216772715,9216772715,Male,17-07-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,DMV,DMV,Pending,,,,,,In Interview Process
+146,Ramanuja Venkat Nookala,23CS002655,B.Tech.,CSE-AIML,ramanuja.btech2023@spsu.ac.in,ramanujanookala123@gmail.com,7675999428,7675999428,Male,02-AUG-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV","1.Xebia
+2.DMV",Pending,,,,,,
+147,Rathore Hukumsingh Moolsingh,23CS002832,B.Tech.,CSE-AIML,hukumsingh.btech2023@spsu.ac.in,rhukumsingh14@gmail.com,8591973951,8591973951,Male,15-11-2003,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+148,Reyansh Chandak,23CS002839,B.Tech.,CSE-AIML,reyansh.btech2023@spsu.ac.in,reyansh.btech2023@spsu.ac.in,9672394389,9672394389,Male,25-04-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Xebia
+2.Pay Secure","1.Xebia
+2.Pay Secure",Pending,,,,,,
+149,Riya .,23CS002792,B.Tech.,CSE,riya.btech2023@spsu.ac.in,,7015290911,,,,,,,,,,,,,Absent,Pending,False,NaN,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+150,Rohit Vaishnav,23CS002734,B.Tech.,CSE-AIML,rohitvaishnav.btech2023@spsu.ac.in,rohitvaishnav6705@gmail.com,6350285908,6350285908,Male,08-03-2009,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV ","1.Xebia
+2.DMV ",Pending,,,,,,
+151,Rohit Vijayvargiya,23CS002770,B.Tech.,CSE-AIML,rohit.btech2023@spsu.ac.in,rohitvijay1505@gmail.com,8302033987,8302033987,Male,15-May-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+152,Ruthala Nikhilesh Sriram,23CS002696,B.Tech.,CSE-AIML,ruthala.btech2023@spsu.ac.in,nikhilesh28005@gmail.com,9391518657,9391518657,Male,28-DEC-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+153,S Balaji,23CS002705,B.Tech.,CSE-AIML,s.btech2023@spsu.ac.in,sayabalaji1@gmail.com,9100414919,9100414919,Male,20-jan-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+154,Sachin,23CS002753,B.Tech.,CSE-AIML,sachin.btech2023@spsu.ac.in,dblsatish893@gmail.com,9591263880,9591263880,Male,02/04/2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Metaforge IT Solution
+2.Xebia",1.Metaforge IT Solution 2.Xebia,Done,,,,,,
+155,Samala Srikar,23CS002671,B.Tech.,CSE-AIML,samala.btech2023@spsu.ac.in,srikarsamala1@gmail.com,8008076124,8008076124,Male,15-NOV-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.DMV Core Tech","1.Xebia
+2.DMV Core Tech",Pending,,,,,,
+156,Sanjay Kumar Padwal,23CS002666,B.Tech.,CSE-AIML,sanjay.btech2023@spsu.ac.in,padwalsanjaykumar756@gmail.com,7569295708,7569295708,Male,08-oct-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+157,Sapavath Jeevana,23CS002645,B.Tech.,CSE,sapavath.btech2023@spsu.ac.in,jeevanasapavath@gmail.com,8074362695,8074362695,Female,02-04-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Kreativan Technologies,4,4,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+158,Shagamreddy Vignesh Reddy,23CS002704,B.Tech.,CSE-AIML,shagamreddy.btech2023@spsu.ac.in,shagamreddy16@gmail.com,7815802148,7815802148,Male,16-04-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.The Ramco Cements Ltd. IT Department
+2.Xebia","1.The Ramco Cements Ltd. IT Department
+2.Xebia",Done,,,,,,
+159,Shaik Aiyaz,23CS002693,B.Tech.,CSE,shaikaiyaz.btech2023@spsu.ac.in,shaikaiyaz730@gmail.com,8341035646,8341035646,Male,10-feb-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+160,Shaik Sajil,23CS002860,B.Tech.,CSE-AIML,sajil.btech2023@spsu.ac.in,shaiksajil68@gmail.com,9347483862,9347483862,Male,27-05-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+161,Shaik Sameer,23CS002709,B.Tech.,CSE,shaiksameer.btech2023@spsu.ac.in,Shaiksameer.btech2023@spsu.ac.in,9182185443,9182185443,Male,03-08-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Done,,,,,,
+162,Shaik Usmangani,23CS002630,B.Tech.,CSE,shaik.btech2023@spsu.ac.in,shaikusmangani85@gmail.com,9959997605,9959997605,Male,15-May-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+163,Sharmila Sreevennela Chamarthy,23CS002647,B.Tech.,CSE,chamarthy.btech2023@spsu.ac.in,vennelach@gmail.com,6300585317,6300585317,Female,20-January-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,NIT Raipur,NIT Raipur,Done,,,,,,
+164,Shivam Sharma,23CS002684,B.Tech.,CSE,shivam.btech2023@spsu.ac.in,shivammn3241@gmail.com,8273311918,8273311918,Male,24-10-2005,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Yuvayatra ,Yuvayatra ,Pending,Project,,,,,
+165,Shivarathri Sireesh Kumar,23CS002688,B.Tech.,CSE-AIML,shivarathri.btech2023@spsu.ac.in,shivarathrisireeshkumar@gmail.com,9390949568,9390949568,Male,06/07/2006,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt - In,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+166,Siluveru Akshay Kumar,23CS002662,B.Tech.,CSE-AIML,siluveru.btech2023@spsu.ac.in,akhaykumarsiluveru@gmail.com,7674840401,7674840401,Male,14-March-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,Project,,,,,
+167,Suhani Gupta,23CS002732,B.Tech.,CSE-AIML,suhani.btech2023@spsu.ac.in,suhaniigupta04@gmail.com,8000230825,8000230825,Female,19-Jan-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+168,Sujal Suthar,23CS002790,B.Tech.,CSE,sujal.btech2023@spsu.ac.in,sujalsuthar282@gmail.com,9024902312,9024902312,Male,28-02-2006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Aarsh AI,,,,,,,,,,,,,,,,,On-Campus,1,DMV,DMV,Pending,,,,,,
+169,Surabhi Shanmukha Venkata Lakshmi Srikanth,23CS002844,B.Tech.,CSE-AIML,venkata.btech2023@spsu.ac.in,srikanthsurabhi54@gmail.com,9398974127,9398974127,Male,30-12-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+170,Suraj Nath,23CS002840,B.Tech.,CSE-AIML,suraj.btech2023@spsu.ac.in,surajyogi0009@gmail.com,9509181167,9509181167,Male,18-09-2005,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Hidden Mind Solution,,,Done,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+171,Suraj Singh,23CS002854,B.Tech.,CSE,surajsingh.btech2023@spsu.ac.in,surajrj420@gmail.com,9680888368,9680888368,Male,01-09-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+172,Surender Kumar,23CS002627,B.Tech.,CSE,surender.btech2023@spsu.ac.in,sk80007110@gmail.com,9610695631,9610695631,Male,29-12-2004,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt Out - Personal Choice,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+173,Surnar Venkatesh,23CS002653,B.Tech.,CSE-AIML,surnar.btech2023@spsu.ac.in,surnarvenkatesh121@gmail.com,9398686044,9398686044,Male,10-09-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+174,Tallapalem Neeharika,24L3CS3040,B.Tech.,CSE-AIML,neeharika.btech2023@spsu.ac.in,niharikatallapalem@gmail.com,7386102118,7386102118,Female,27-07-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Done,,,,,,
+175,Talluri Deepak,23CS002842,B.Tech.,CSE-AIML,deepaktalluri.btech2023@spsu.ac.in,,8802880249,,,,,,,,,,,,,Absent,Pending,False,,False,Opt Out - Personal Choice,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Magnumwings,Magnumwings,Pending,,,,,,
+176,Tanmay Pareek,23CS002736,B.Tech.,CSE-AIML,tanmay.btech2023@spsu.ac.in,tanmaypareek111@gmail.com,7412976640,7412976640,Male,11-02-2002,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+177,Tanvi Pareek,23CS002737,B.Tech.,CSE-AIML,tanvi.btech2023@spsu.ac.in,tanvipareek111@gmail.com,9352087371,9352087371,Female,11-02-2002,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+178,Thekkel Kevin Jacob,23CS002648,B.Tech.,CSE,thekkel.btech2023@spsu.ac.in,kevintjacob25@gmail.com,9440139417,6303341355,Male,25-Mar-2006,Link,,,,,,,Link,Link,Absent,Submitted,False,,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+179,Thotakura Syam Sundar,23CS002700,B.Tech.,CSE-AIML,thotakura.btech2023@spsu.ac.in,tsyamsundar05@gmail.com,9949422855,9949422855,Male,16-01-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+180,Tirumalasetti Pardhu,23CS002631,B.Tech.,CSE,tirumalasetti.btech2023@spsu.ac.in,pardhut33@gmail.com,9390959165,8317663883,Male,22-04-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+181,Udandi Sowmya,24L3CS3450,B.Tech.,CSE-AIML,sowmyaudand.btech2023@spsu.ac.in,,9346131562,,,,,,,,,,,,,Present,Pending,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+182,Ujjwal Singh,23CS002745,B.Tech.,CSE-AIML,ujjwal.btech2023@spsu.ac.in,singhujjawal745@gmail.com,9603230061,9603230061,Male,01-Jun-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,PLACED,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Kreativan Technologies,4,4,,,,,,,,,,,,,,,On-Campus,2,"1.Xebia
+2.Azisly.ai","1.Xebia
+2.Azisly.ai",Pending,,,,,,
+183,Urvashi Rao,23CS002769,B.Tech.,CSE-AIML,urvashi.btech2023@spsu.ac.in,urvashirao2004@gmail.com,8085890789,8085890789,Female,10-July-2004,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+184,Vaddepalli Meghana,23CS002711,B.Tech.,CSE,vaddepalli.btech2023@spsu.ac.in,vaddepallymeghana381@gmail.com,9440538067,9440538067,Female,06-06-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,2,"1.Bold Analytics
+2.DMV","1.Bold Analytics
+2.DMV",Done,,,,,,Not Applied Yet
+185,Vadikari Shivaji,23CS002859,B.Tech.,CSE-AIML,shivaji.btech2023@spsu.ac.in,shivaji.btech2023@spsu.ac.in,9701410292,9392479015,Male,01022006,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+186,Vaibhavi Jain,23CS002778,B.Tech.,CSE-AIML,vaibhavi.btech2023@spsu.ac.in,vaibhavij2608@gmail.com,8000532015,8000532015,Female,26-08-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+187,Varala Naveen,24L3CS3272,B.Tech.,CSE-AIML,naveenvarala.btech2023@spsu.ac.in,mr.naidu20@gmail.com,8328468566,8328468566,Male,15-jul-2004,Link,,,,,,,Link,Link,Absent,Submitted,False,NaN,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+188,Velma Arjun Reddy,23CS002692,B.Tech.,CSE,velma.btech2023@spsu.ac.in,arjunreddyvelma99@gmail.com,6303339086,6303339086,Male,05-Jan-2006,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+189,Vempala Dhruvan,23CS002636,B.Tech.,CSE,vempala.btech2023@spsu.ac.in,,7013773186,,,,,,,,,,,,,Absent,Pending,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+190,Vijay Menaria,23CS002814,B.Tech.,CSE-AIML,vijay.btech2023@spsu.ac.in,vmmenaria2004@gmail.com,8824931546,8824931546,Male,01-Nov-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+191,Vinit Menaria,23CS002815,B.Tech.,CSE-AIML,vinit.btech2023@spsu.ac.in,vvmenaria@gmail.com,8690786642,8690786642,Male,01-Nov-2004,Link,,,,,,,Link,Link,Present,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+192,Yash Mehta,23CS002800,B.Tech.,CSE-AIML,yash.btech2023@spsu.ac.in,yashmehta0005@gmail.com,8890330131,8890330131,Male,04-Mar-2005,Link,,,,,,,Link,Link,Absent,Submitted,True,ENROLLED,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Xebia,Xebia,Pending,,,,,,
+,192,,,,,,,,152,,,,,,,,,,,,12,,,,153,171,2,8,8,,,,1,,,,,,,,,,,,,,115,119,146,,20,,,,,,
+,,,,,,,,,28,,,,,,,,,,,,180,,,,0,0,6,0,,,,,0,,,,,,,,,,,,,,17,22,,,123,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,0,,,,,,,,,,,,,,,,,,,11,4,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,16,0,0,,,,,,,,,,,,,,,,,,,,,175,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S.No.,Students Name,Enrollment No.,,Course,Specialization,Email ID - SPSU,Contact No.,Email ID - Personal,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Diploma,Graduation CGPA,Backlog Remaining,Linkedin,Resumes,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,Offer Letter,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Type,Campus,Offers Count,Companies Offered,Offer Letter,Company Joined,Profile,Stipend,Location,Date,NOC
+1,Akula Charitesh,24L3EC3214,,B.Tech.,ECE,charitesh.btech2023@spsu.ac.in,9849950468,chariteshakula278@gmail.com,9849950468,Male,12-03-2005,Link,,98,-,78,6.611,0,Link,Link,Present,,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,Certification Course,Off-Campus,1,"BST Engg. Initiation
+CourseEra Certifiaction Course",BST Engg. Initiation,CourseEra Certifiaction Course,,,,25-07-26,Done
+2,Boda Rajesh,23EC002825,,B.Tech.,ECE,rajesh.btech2023@spsu.ac.in,8333878929,boda12595@gmail.com,8333878929,Male,28-01-2005,Link,,95,94.9,-,8.164,0,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,Bommireddy Shashidhar Reddy,23EC002868,,B.Tech.,ECE,bommi.btech2023@spsu.ac.in,9391749074,bshashidharreddy62@gmail.com,9391749074,Male,2004-01-11,Link,,60,40,-,6.315,1,Link,Link,Absent,Submitted,False,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,Intern Certify,,Intern Certify,,,,,Done
+4,Desaboina Tejaswini,23EC002849,,B.Tech.,ECE,desaboina.btech2023@spsu.ac.in,9346536390,desaboinateja7731@gmail.com,9346536390,Female,2005-07-03,Link,,85.5,91.5,-,7.691,0,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,ITC,,ITC,,,,,Done
+5,Doddipatla Vinay,23EC002634,,B.Tech.,ECE,doddipatla.btech2023@spsu.ac.in,9949252993,doddipatlavinay222@gmail.com,9603828903,Male,2005-02-11,Link,,95,88,-,6.584,1,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,IStudio,IStudio,IStudio,Machine Learning Intern,TBA,WFH,13-04-26,Done
+6,Hanumanthreddy Navaneetha Reddy,23EC002644,,B.Tech.,ECE,hanumantha.btech2023@spsu.ac.in,7013984569,navaneetha1127@gmail.com,7013984569,Female,27-01-2005,Link,,91,72,-,8.593,0,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,Vital Infra Pvt Ltd.,,Vital Infra Pvt Ltd.,,,,,Done
+7,Kakarla Vineel Rohi,24L3EC3213,,B.Tech.,ECE,vineelrohi.btech2023@spsu.ac.in,7569123287,vineelrohi@gmail.com,7569123287,Male,2005-08-06,Link,,54,-,62.42,7.834,0,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Kamal Kishor Singh,23EC002782,,B.Tech.,ECE,kamal.btech2023@spsu.ac.in,9024064234,kamalkishorsing91@gmail.com,9024064234,Male,25-09-2005,Link,,83.5,59.2,-,6.448,2,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Kuldeep Meghwal,23EC002739,,B.Tech.,ECE,kuldeep.btech2023@spsu.ac.in,6367527423,kuldeepmeghwal232@gmail.com,6367527423,Male,26-09-2005,Link,,83.17,64.2,-,6.145,1,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Lingala Chandan Reddy,23EC002706,,B.Tech.,ECE,lingala.btech2023@spsu.ac.in,7995513785,lingalachandanreddy2@gmail.com,7995513785,Male,16-08-2005,Link,,100,95.5,-,7.976,0,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,BHEL,,BHEL,,,,,Done
+11,Medakayala Maniteja,24L3EC3449,,B.Tech.,ECE,manitejamedakayala.btech2023@spsu.ac.in,9705939224,maniteja2902@gmail.com,9705939224,Male,2005-04-02,Link,,98.5,-,77.32,7.905,0,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,2,"BST Engg. Initiation
+SIRI Power System Technologies",BST Engg. Initiation,"BST Engg. Initiation
+SIRI Power System Technologies",Intern,TBA,Khammam Telangana,22-04-26,Done
+12,Medisetti Naveen,24L3EC3055,,B.Tech.,ECE,naveenmedisetti.btech2023@spsu.ac.in,9063250141,mnaveennaidu1@gmail.com,9704200141,Male,25-04-2005,Link,,95,-,85,7.94,0,Link,Link,Absent,Submitted,True,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,2,"BST Engg. Initiation
+CODEC Technologies",BST Engg. Initiation,BST Engg. Initiation,Intern,TBA,Khammam Telangana,22-04-26,Done
+13,Nerella Aravind,24L3EC3358,,B.Tech.,ECE,aravindnerella.btech2023@spsu.ac.in,8341830753,nerellaaravind3@gmail.com,8341830753,Male,21-08-2004,Link,,95,-,80,8.246,0,Link,Link,Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,2,"BST Engg. Initiation
+RTL Design",BST Engg. Initiation,BST Engg. Initiation,Intern,TBA,Khammam Telangana,22-04-26,Done
+14,Papanolla Sandeep,24L3EC3056,,B.Tech.,ECE,sandeep.btech2023@spsu.ac.in,9398346672,sandeeppapanolla28@gmail.com,9398346672,Male,28-11-2006,Link,,95,-,73.95,7.717,0,Link,Link,Absent,Submitted,True,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,2,"BST Engg. Initiation
+SIRI Power System Technologies",BST Engg. Initiation,BST Engg. Initiation,Intern,TBA,Khammam Telangana,22-04-26,Done
+15,Priyansh Bhagwati Jain,23EC002866,,B.Tech.,ECE,priyansh.btech2023@spsu.ac.in,9324780587,,,,,,,,,,5.796,5,,,Absent,,False,False,Opt Out - Higher Studies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,Pulikant Sai Pradeep,23EC002820,,B.Tech.,ECE,pulikant.btech2023@spsu.ac.in,9177986387,saipradeep9177986@gmail.com,9177986387,Male,2005-05-04,Link,,99.9,37,-,6.072,3,Link,Link,Absent,Submitted,False,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,Tommandru Terry Temuujin,23EC002841,,B.Tech.,ECE,temuujin.btech2023@spsu.ac.in,9121213121,terrytemuujin@gmail.com,9121213121,Male,19-03-2005,Link,,100,60,-,6.251,2,Link,Link,Absent,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,Internship,Off-Campus,1,Vital Infra Pvt Ltd,,,,,,,Done
+18,Uday Iyer,24L3EC3468,,B.Tech.,ECE,udaylyer.btech2023@spsu.ac.in,8233813354,,,,,,,,,,5.752,0,,,Absent,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,18,,,,,,,,,14,,,,,,,,,,,,0,,,11,14,0,0,0,,,0,,,,,,,,,,,,,,,,7,11,,,,,,,
+,,,,,,,,,,2,,,,,,,,,,,,16,,,0,0,0,0,,,,0,,,,,,,,,,,,,,,,4,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,0,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,3,0,0,,,,,,,,,,,,,,,,,,,,,15,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S.No.,Students Name,Enrollment No.,Course,Specialization,Email ID - SPSU,Contact No.,Email ID - Personal,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation CGPA,Backlog Remaining,Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Declaration Status,Declaration Form ,Enrolled Superset,Verified,Placement Status,Campus,Count,Placement Companies,,Offer Letter,NOC,Company Joined,Profile,Stipend,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Aadi Jain,23MN002846,B.Tech.,MN,aadi.btech2023@spsu.ac.in,7850951927,aadi09849@gmail.com,7850951927,Male,04-May-2006,Link,,,,6.428,3,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Hindustan Zinc Limited,Hindustan Zinc Limited,Done,Hindustan Zinc Limited,Intern,NA,Rampura,2026-01-05,
+2,Abhishek Sharma,23MN002743,B.Tech.,MN,abhishek.btech2023@spsu.ac.in,8561883847,abhishek.746677@gmail.com,8561883847,Male,17 June 2006,Link,,,,7.506,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,Placed-PPO,On-Campus,1,SK Khetan,3,Attached,Done,SK Khetan,Intern - Mines Survey,15000,3,3,Udaipur,31-08-26,,SK Khetan,Intern - Mines Survey,3,Udaipur,31-08-26,Attached,On-Campus,1,SK Khetan,SK Khetan,Pending,,,,,,
+3,Aman Kumar,23MN002885,B.Tech.,MN,amankumar.btech2023@spsu.ac.in,7976885801,amankumar14am@gmail.com,7380237910,Male,14-02-2005,Link,,,,6.84,5,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Hindustan Zinc Limited,Hindustan Zinc Limited,Done,Hindustan Zinc Limited,Intern,NA,Rampura,2026-01-05,
+4,Darshan Suthar,22MN002581,B.Tech.,MN,darshan.suthar@spsu.ac.in ,7568055181,darshansuthar2909@gmail.com,7568055181,Male,29/09/2004,Link,,,,5.666,16,Link,Link,Absent,Submitted,Opt - In,Submitted,False,False,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,SK Khetan,SK Khetan,Pending,,,,,,
+5,Dhruv Jain,23MN002834,B.Tech.,MN,dhruvjain.btech2023@spsu.ac.in,7041631023,dhruvj828@gmail.com,7041631023,Male,17-AUG-2005,Link,,,,7.97,0,Link,Link,Present,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Hindustan Zinc Limited,Hindustan Zinc Limited,Done,Hindustan Zinc Limited,Intern,NA,Rampura,2026-01-05,
+6,Edwina Owusuaa Gyimah,23MN002856,B.Tech.,MN,edwina.btech2023@spsu.ac.in,"8239325463
+9256657285",Edwinaowusuaa2004@gmail.com,9256657285,Female,28-01-2004,Link,,,,8.231,0,Link,Link,Absent,Submitted,,L-Submitted,False,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,MMU,MMU,Done,MMU,Intern,NA,Hybrid,2026-01-08,Not Applied Yet
+7,Garvit Goyal,23MN002843,B.Tech.,MN,garvit.btech2023@spsu.ac.in,7023872189,goyalgarvit509@gmail.com,7023872189,Male,12-May-2004,Link,,,,7.985,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Hindustan Zinc Limited,Hindustan Zinc Limited,Done,Hindustan Zinc Limited,Intern,NA,Rampura,2026-01-05,
+8,Gaurav Saragara,23MN002765,B.Tech.,MN,gaurav.btech2023@spsu.ac.in,9509852653,gauravsaragara1@gmail.com,9509852653,Male,16-june-2006,Link,,,,5.807,6,,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Gross Macth Engineer ,Gross Macth Engineer ,Done,Gross Macth Engineer ,Trade Mining Engineer Intern,,Bhilwara,,Applied (No Response Yet)
+9,Jitendra Khatana,23MN002722,B.Tech.,MN,jitendrakhatana.btech2023@spsu.ac.in,6377925206,jitudewasi6311@gmail.com,6377925206,Male,25-12-2006,Link,,,,6.702,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Kamlesh Kumawat,23MN002759,B.Tech.,MN,kamlesh.btech2023@spsu.ac.in,9511305907,kamleshkumawat0615@gmail.com,9511305907,Male,15-06-2004,Link,,,,6.216,0,,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Applied (No Response Yet)
+11,Kanishk Vyas,23MN002870,B.Tech.,MN,kanishk.btech2023@spsu.ac.in,9511523739,kanishkvyas163@gmail.com,9511523739,Male,10/07/2005,Link,,,,6.744,2,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,NOVOCO Cement,NOVOCO Cement,Pending,,,,,,
+12,Kundan Joshi,23MN002838,B.Tech.,MN,kundan.btech2023@spsu.ac.in,6376047367,kundanjoshi6376@gmail.com,6376047367,Male,12-june-2005,Link,,,,8.173,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Applied (No Response Yet)
+13,Ragipindi Surya Narayana Reddy,24L3MN3057,B.Tech.,MN,suryanarayana.btech2023@spsu.ac.in,9392681409,snarayanareddy831@gmail.com,9392681409,Male,02-06-2005,Link,,,,7.61,0,Link,Link,Present,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,Rahul Pushkarna,23MN002881,B.Tech.,MN,rahulpushkarna.btech2023@spsu.ac.in,8000715976,rahulpushkarna58@gmail.com,7568840151,Male,08-08-2004,Link,,,,6.26,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Applied (No Response Yet)
+15,Rajat,23MN002725,B.Tech.,MN,rajat.btech2023@spsu.ac.in,9034481289,rajatgoswami1010@gmail.com,9034481288,Male,25-12-2004,Link,,,,6.782,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,OCPL Limited,OCPL Limited,Done,OCPL Limited,Intern,,Sundergarh,2026-07-04,
+16,Vikas,23MN002803,B.Tech.,MN,vikas.btech2023@spsu.ac.in,8079048511,vikaskumawat1943@gmail.com,8619711700,Male,14-July-2005,Link,,,,6.26,0,Link,Link,Absent,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,Yogender Sharma,24L3MN3471,B.Tech.,MN,yogendersharma.btech2023@spsu.ac.in,9805197007,yogendersharma0044@gmail.com,9805197007,Male,17-08-2002,Link,,,,7.911,0,Link,Link,Present,Submitted,Opt - In,Submitted,True,False,,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Hindustan Zinc Limited,Hindustan Zinc Limited,Done,Hindustan Zinc Limited,Intern,NA,Rampura,2026-01-05,
+,17,,,,,,,,16,,,,,,,,,,,0,16,16,,,0,1,1,,,,1,,,,,,,,,,,,,,,,11,11,,,,,,,,
+S.No.,Students Name,Enrollment No.,Course,Specialization,Email ID - SPSU,Email ID - Personal,Contact No.,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation CGPA,Backlog Remaining,Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,,Offer Letter,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Ajay Dewasi,23CE002816,B.Tech.,CE,ajay.btech2023@spsu.ac.in,ajaydewasivk@gmail.com,8824715807,8824715807,Male,05-08-2005,Link,,,,7.607,0,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,JK Lakshmi Cement,JK Lakshmi Cement,Pending,JK Lakshmi Cement,Intern,TBA,Udaipur,2026-08-05,
+2,Chetan Paliwal,23CE002855,B.Tech.,CE,chetan.btech2023@spsu.ac.in,chetanpaliwal166@gmail.com,9799963416,9799963416,Male,13-09-2003,Link,,,,5.899,4,Link,Link,Present,Submitted,True,True,Opt - In,Submitted,Placed-PPO,On-Campus,1,I.EVO,4.5,I.EVO,Done,,,,,,,,,,,,,,Off-Campus,1,Parshi Training and Technical Services,Parshi Training and Technical Services,Done,Parshi Training and Technical Services,Intern,TBA,Udaipur,15-05-26,
+3,Dashrath Pal Singh Chouhan,23CE002791,B.Tech.,CE,dashrath.btech2023@spsu.ac.in,singhhappy31854@gmail.com,8619711639,8619711639,Male,10-01-2026,Link,,,,6.405,5,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,SHREE VINAYAK INFRA.,SHREE VINAYAK INFRA.,Pending,SHREE VINAYAK INFRA.,Intern,TBA,Udaipur,20-05-26,
+4,Jeevraj Janu,23CE002788,B.Tech.,CE,jeevraj.btech2023@spsu.ac.in,janujeevraj@gmail.com,6377106052,8005652938,Male,12-07-2006,Link,,,,6.707,0,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,JK Cement,JK Cement,Pending,JK Cement,Intern,TBA,Udaipur,2026-10-05,
+5,Kadaru Sathwik Reddy,24L3CE3050,B.Tech.,CE,sathwik.btech2023@spsu.ac.in,kadaru2006@gmail.com,9154168566,9154168566,Male,02-Mar-2006,Link,,,,7.56,0,Link,Link,Present,Submitted,True,True,Opt - In,Submitted,Placed-PPO,On-Campus,1,ASC International,,,,,,,,,,,,,,,,,Off-Campus,1,KVPR Infra,KVPR Infra,Done,KVPR Infra,Intern,,Bengaluru,29-04-26,
+6,Mahipal Singh,23CE002823,B.Tech.,CE,mahipal.btech2023@spsu.ac.in,panwer801@gmail.com,9216745567,9216745567,Male,24/03/2007,Link,,,,6.46,4,Link,Link,,Submitted,True,True,Opt - In,Submitted,Placed-FTE,On-Campus,1,I.EVO,4.5,I.EVO,,,,,,,,,,,,,,,On-Campus,1,SHREE VINAYAK INFRA.,SHREE VINAYAK INFRA.,Pending,SHREE VINAYAK INFRA.,Intern,TBA,Udaipur,20-05-26,
+7,Natwar Kumawat,23CE002766,B.Tech.,CE,natwar.btech2023@spsu.ac.in,natwarkumawatnkkumawat@gmail.com,6367612886,6367612886,Male,14-04-2004,Link,,,,6.622,0,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,Parshi Training & Technical Services,Parshi Training & Technical Services,Done,Parshi Training & Technical Services,Intern,TBA,Udaipur,15-05-26,
+8,Neeraj Kumar Kumawat,23CE002799,B.Tech.,CE,neeraj.btech2023@spsu.ac.in,neerajkumawat2611@gmail.com,8000310974,8000310974,Male,07/08/2005,Link,,,,6.13,0,Link,Link,Present,Submitted,True,True,Opt - In,Submitted,Placed-FTE,On-Campus,1,I.EVO,4.5,I.EVO,Done,,,,,,,,,,,,,,Off-Campus,1,UOR consultant Pvt Ltd,UOR consultant Pvt Ltd,Pending,UOR consultant Pvt Ltd,Intern,TBA,WFO,2026-07-05,
+9,Shivbhagwan Janu,23CE002755,B.Tech.,CE,shivbhagwan.btech2023@spsu.ac.in,shivbhagwanjanu@gmail.com,9057565071,9057565071,Male,12/06/2008,Link,,,,6.218,1,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,JK Cement,JK Cement,Pending,JK Cement,Intern,TBA,Udaipur,2026-10-05,c
+10,Yuvraj Koted,23CE002758,B.Tech.,CE,yuvraj.btech2023@spsu.ac.in,yuvrajkoted47@gmail.com,8306143870,8306143870,Male,28/05/2007,Link,,,,5.908,3,Link,Link,,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,SHREE VINAYAK INFRA,SHREE VINAYAK INFRA,Pending,SHREE VINAYAK INFRA,Intern,TBA,Udaipur,20-05-26,
+11,Yuvraj Singh,23CE002783,B.Tech.,CE,yuvrajsingh.btech2023@spsu.ac.in,yuvrajsingh.btech2024@gmail.com,9828945229,9828945229,Male,26/09/2006,Link,,,,6.747,1,Link,Link,Present,Submitted,True,True,Opt - In,Submitted,Placed-PPO,On-Campus,1,ASC International,,,,,,,,,,,,,,,,,On-Campus,1,SHREE VINAYAK INFRA.,SHREE VINAYAK INFRA.,Pending,SHREE VINAYAK INFRA.,Intern,TBA,Udaipur,20-05-26,
+,11,,,,,,,,11,,,,,,,,,,,0,,,10,11,2,5,5,,,,2,,,,,,,,,,,,,,,11,11,,,,,,,,
+S.No.,Students Name,Enrollment No.,Course,Specialization,Email ID - SPSU,Contact No.,Email ID - Personal,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation CGPA,Backlog Remaining,Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,,Offer Letter,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Anurag Vaishnav,23ME002781,B.Tech.,ME,anurag.btech2023@spsu.ac.in,9352940030,anuragvaishnav9079@gmail.com,9352940030,Male,27-May-2006,Link,,84,70.2,5.983,8,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,"1.Yuthika Naturals
+2.JK Tyre","1.Yuthika Naturals
+2.JK Tyre",Done,,,,,,
+2,Ashuraj Singh Deora,23ME002847,B.Tech.,ME,ashuraj.btech2023@spsu.ac.in,7727046036,sashuraj158@gmail.com,7727046036,Male,29-Aug-2005,Link,,79.33,62.8,6.368,1,,Link,,Submitted,False,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Interview Process
+3,Chunchu Balaji,24L3ME3054,B.Tech.,ME,balaji.btech2023@spsu.ac.in,8328453916,chbalaji072005@gmail.com,8328453916,Male,17-08-2005,Link,,95,7.47,,,Link,Link,Present,Submitted,True,True,Opt - In,Submitted,Placed-FTE,On-Campus,1,Eleation Services,9,Eleation Services,,,,,,,,,,,,,,,Off-Campus,1,1.BST Engg. Initiation,BST Engg. Initiation,Done,BST Engg. Initiation,Intern,TBA,Hyderabad,22-04-26,
+4,Dushyant Jat,23ME002785,B.Tech.,ME,dushyant.btech2023@spsu.ac.in,6376260344,dushyantjat988@gmail.com,6376260344,Male,16-08-2006,Link,,90.83,70.4,7.464,2,Link,Link,,Submitted,True,True,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Yuthika Naturals,Yuthika Naturals,Done,Yuthika Naturals,,TBA,Sojat,2026-06-05,
+5,Goutam Lohar,23ME002750,B.Tech.,ME,goutam.btech2023@spsu.ac.in,9413046307,goutam16.12.d@gmail.com,8003546402,Male,16-12-2004,Link,,,,6.801,0,Link,Link,,Submitted,False,False,Opt Out - ENTR / FB,,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Yuthika Naturals,Yuthika Naturals,Done,Yuthika Naturals,,,,2026-06-05,
+6,Hitesh Kumar Joshi,23ME002867,B.Tech.,ME,hitesh.btech2023@spsu.ac.in,6375189322,menariya.hitesh2004@gmail.com,6375189322,Male,29/10/2004,Link,,,,,,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,"1.Patel Phoschem
+2.Birla Corporation Limited","Patel Phoschem
+2.Birla Corporation Limited",Done,Patel Phoschem,Intern,NA,Udaipur,2026-06-05,
+7,Musunuru Dinesh,24L3ME3116,B.Tech.,ME,dineshmohan.btech2024@spsu.ac.in,7842343532,mohanmusunuru18@gmail.com,7842343532,Male,26-07-2005,Link,,,,,,Link,Link,Present,Submitted,True,True,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,2.XL Tubes,XL Tubes,Done,XL Tubes,Production Intern,4500,Vijaywada,2026-05-05,
+8,Puran Dangi,23ME002767,B.Tech.,ME,puran.btech2023@spsu.ac.in,8619139063,purandangi1856@gmail.com,8619139063,Male,15-July-2005,Link,,,,7.725,1,Link,Link,,Submitted,True,True,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,Yuthika Naturals,Yuthika Naturals,Done,Yuthika Naturals,,TBA,Sojat,2026-06-05,
+9,Vaibhav Pareek,23ME002756,B.Tech.,ME,vaibhav.btech2023@spsu.ac.in,9509679531,vpareek679@gmail.com,9509679531,Male,04-jul-2006,Link,,,,7.281,2,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,"1.Yuthika Naturals
+2.JK Tyre","1.Yuthika Naturals
+2.JK Tyre",Done,,,,,,
+10,Yogesh Lohar,23ME002749,B.Tech.,ME,yogesh.btech2023@spsu.ac.in,9928060811,yogeshlohar.1312@gmail.com,9653818831,Male,03-12-2005,Link,,,,6.126,4,Link,Link,,Submitted,True,True,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On/Off Campus,2,"1.Patel Phoschem
+2.Birla Corporation Limited,","1.Patel Phoschem
+2.Birla Corporation Limited,",Pending,,,,,,
+,10,,,,,,,,10,,,,,,,,,,,0,,,5,7,1,1,1,,,,0,,,,,,,,,,,,,,,8,9,,,,,,,,
+S.No.,Student Name,Enrollment No.,Response,Course,Specialization,Email ID-SPSU,Contact No.,Email ID - Personal,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation (%/CGPA),Linkedin,Resume,Portfolio,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,Offer Letter,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Hansvahini Soni,23BDS00001,23BDS0001,B.Des,,hansvahini.btech2023@spsu.ac.in,8290868956,hansvahini2611@gmail.com,8290868956,Female,26-Aug-2003,Link,,71.8,76.5,8.06,Linkedin,Link,"Portfolio Website
+Behance ",Absent,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,On-Campus,2,1.HiddenMind Solutions,"1.HiddenMind Solutions
+2.II Creator",Done,II Creator,UI/UX Design Intern,NA,Hybrid,15-05-26,
+2,Muhammad Zaheen Khan,24L3BDS013,24L3BDS013,B.Des,,zaheenkhan.bdes2023@spsu.ac.in,7726944664,khanzaheen10@gmail.com,8233336328,Male,10-Jul-2005,Link,,75.5,89.6,90.3,Linkedin,Link,Portfolio Link Behance,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.HiddenMind Solutions
+2.Imaginative Identity Creators","1.HiddenMind Solutions
+2.Imaginative Identity Creators",Pending,Imaginative Identity Creators,UI/UX Design Intern,TBA,Hybrid,18-05-26,
+,2,,,,,,,,,1,,,,,,,,,,,0,,,2,2,0,0,0,,,0,,,,,,,,,,,,,,,0,2,,,,,,,,
+S.No.,Students Name,Enrollment No.,Course,Specialization,Email ID-SPSU,Contact No.,Email ID - Personal,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation (%/CGPA),Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Enrolled Superset,Verified,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,,Offer Letter,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Aaryan Johri,24BCA00040,BCA,,aaryan.bca2024@spsu.ac.in,7878409116,aryanjohri25@gmail.com,7878409116,Male,24-01-2007,Link,,,,,,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,,,,,,,,,,
+2,Bhawani Shankar Luhar,24BCA00073,BCA,,bhawanishankarluhar.bca2024@spsu.ac.in,9079056262,bhawanishankarmalviya6@gmail.com,8696875386,Male,05-06-2003,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.SPSU ,1.SPSU ,Done,SPSU ,IT Intern,NA,Udaipur,2026-01-06,Applied (No Response Yet)
+3,Chandrakant Prajapat,24BCA00051,BCA,,chandrakant.bca2024@spsu.ac.in,9024542717,chandrakantprajapat60@gmail.com,9024542717,Male,12-Apr-2005,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.SBWM,1.SBWM,Done,SBWM,Technical Intern,NA,WFH,2026-04-06,Applied (No Response Yet)
+4,Dinesh Singh Parmar,24BCA00037,BCA,,dinesh.bca2024@spsu.ac.in,6378910055,dineshrajputspsu@gmail.com,6378910055,Male,08/07/2003,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.SPSU,1.SPSU,Done,SPSU,IT Intern,NA,Udaipur,15-06-26,
+5,Ekta Yashwant Sharma,24BCA00059,BCA,,ektayashwant.bca2024@spsu.ac.in,9867898644,ektasharma021412@gmail.com,7357588644,Female,14-dec-2005,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+6,Faraaz Ahmed,24BCA00074,BCA,,faraazahmed.bca2024@spsu.ac.in,9829410360,ahmedzaaraf11@gmail.com,9462589817,Male,05/10/2006,Link,,,,,Link,Link,,Submitted,True,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+7,Harsh Choudhary,24BCA00061,BCA,,harshchoudhary.bca2024@spsu.ac.in,7665669591,harshchoudhary0622@gmail.com,7665669591,Male,29062006,Link,,,,,Link,Link,,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+8,Harshil Sharma,24BCA00067,BCA,,harshilsharma.bca2024@spsu.ac.in,6378498638,sharshilsharma294@gmail.com,6378498638,Male,04-AUG-2005,Link,,,,,Link,Link,,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Azisly.ai.,1.Azisly.ai.,,,,,,,
+9,Hassan Sheikh,24BCA00056,BCA,,hassan.bca2024@spsu.ac.in,7014715128,hassan.bca2024@spsu.ac.in,7014715128,Male,09-feb-2004,Link,,,,,Link,Link,Present,Submitted,True,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1. Solanki Fusion Technology,1. Solanki Fusion Technology,Done,Solanki Fusion Technology,Intern,NA,Udaipur,2026-01-06,Applied (No Response Yet)
+10,Hemant Ahir,24BCA00058,BCA,,hemant.bca2024@spsu.ac.in,9638480463,hemantahir2005@gmail.com,9638480463,Male,05-08-2005,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1. SPSU,1. SPSU,Done,SPSU,IT assistant ,TBA,Udaipur,13-05-26,
+11,Hemshree Sharma,24BCA00057,BCA,,hemshree.bca2024@spsu.ac.in,8079063990,sharmahemshree27@gmail.com,8079063990,Female,27-06-2006,Link,,,,,Link,Link,,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1. Formabytes,1. Formabytes,Pending,,,,,,
+12,Himanshu Jain,24BCA00072,BCA,,himanshujain.bca2024@spsu.ac.in,9660402889,jainhimanshu210820@gmail.com,9660402889,Male,21-Aug-2006,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1. Mind Quad Solution Pvt. Ltd,1. Mind Quad Solution Pvt. Ltd,Done,Mind Quad Solution Pvt. Ltd,Intern,TBA,Ahemdabad,25-05-26,Applied (No Response Yet)
+13,Jay Hirawat,24BCA00049,BCA,,jayhirawat.bca2024@spsu.ac.in,8290368642,jayhirawat900@gmail.com,8290368642,Male,19-01-2006,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Keen Infotech,1.Keen Infotech,Done,Keen Infotech,Intern,TBA,Udaipur,15-05-26,
+14,Jumana Hussain Thekedar,24BCA00043,BCA,,jumanahussain.bca2024@spsu.ac.in,9799100733,jumanahussain08@gmail.com,9799100733,Female,08-JAN-2006,Link,,,,,Link,Link,,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1. Dar-Al-Ameen Enterprises,1. Dar-Al-Ameen Enterprises,Done,Dar-Al-Ameen Enterprises,Data Analyst Intern,TBA,WFO,2026-09-05,
+15,Khushbu Chouhan,24BCA00065,BCA,,khushbuchouhan.bca2024@spsu.ac.in,7976635183,khushbuchouhan600@gmail.com,7976635183,Female,08/07/2004,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,"1. UltraTech Cement Limited, Aditya Cement Works ( Chittorgarh)","1. UltraTech Cement Limited, Aditya Cement Works ( Chittorgarh)",Pending,,,,,,
+16,Kinjal Raut,24BCA00066,BCA,,kinjalraut.bca2024@spsu.ac.in,6209258424,rautkinjal03@gmail.com,6209258424,Female,07-Mar-2007,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+17,Kritika Patidar,24BCA00064,BCA,,kritikapatidar.bca2024@spsu.ac.in,8003035788,kritikapatidar680@gmail.com,8003035788,Female,14/10/2007,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Azisly.ai.,1.Azisly.ai.,Pending,,,,,,
+18,Lavina Saini,24BCA00069,BCA,,lavinasaini.bca2024@spsu.ac.in,8005920161,lavinasaini68@gmail.com,8005920161,Female,01-Jul-2005,Link,,,,,Link,Link,Present,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Sangam India ,1.Sangam India ,Pending,,,,,,
+19,Manish Menaria,24BCA00070,BCA,,manishmenaria.bca2024@spsu.ac.in,6378632012,menariamanish741@gmail.com,6378632012,Male,25-November-2005,Link,,,,,,Link,,Submitted,True,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,Applied (No Response Yet)
+20,Mohammed Umair Shakeel,24BCA00044,BCA,,umairshakeel.bca2024@spsu.ac.in,8233697269,md.umair.shakeel@gmail.com,6350398502,Male,07-Feb-2006,Link,,,,,Link,Link,,Submitted,False,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Aarsh AI,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+21,Ms Riya Joshi,24BCA00062,BCA,,riyajoshi.bca2024@spsu.ac.in,9950229939,joshiriya9939@gmail.com,9950229939,Female,28/02/2005,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.MAHASHANKH DESIGN &TECHNOLOGY,1.MAHASHANKH DESIGN &TECHNOLOGY,Pending,,,,,,Not Applied Yet
+22,Naveen Meghwal,24BCA00053,BCA,,naveen.bca2024@spsu.ac.in,9468648738,naveenparmar7206@gmail.com,8529151867,Male,14january2007,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.SBWM,1.SBWM,Pending,,,,,,Applied (No Response Yet)
+23,Nipun Nagar,24BCA00055,BCA,,nipun.bca2024@spsu.ac.in,9549527495,nipunnagar925@gmail.com,9549527495,Male,05/08/2006,Link,,,,,Link,Link,,Submitted,False,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Yuthika Naturals
+2.SBWM","1.Yuthika Naturals
+2.SBWM",Pending,,,,,,
+24,Pankaj Salvi,24BCA00071,BCA,,pankajsalvi.bca2024@spsu.ac.in,6376864607,pankajsalvi6055@gmail.com,6376864607,Male,17-07-2003,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,ONE PWS,ONE PWS,Pending,ONE PWS,Intern,NA,WFO,2026-10-06,
+25,Prachi Sharma,24BCA00046,BCA,,prachi.bca2024@spsu.ac.in,7340470129,prachivmsharma@gmail.com,7340470129,Female,29.01.2005,Link,,,,,Link,Link,,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Kansoft Solutions ,1.Kansoft Solutions ,Pending,,,,,,
+26,Rahul Lohar,24BCA00047,BCA,,rahullohar.bca2024@spsu.ac.in,8949118420,Rahullohar96022@gmail.com,8949118420,Male,25-04-2006,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Recro Kardo,1.Recro Kardo,Done,,,,,,
+27,Rinkal Ranka,24BCA00050,BCA,,rinkal.bca2024@spsu.ac.in,6367493839,rinkalranka40@gmail.com,6367493839,Male,12-10-2007,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Kartik Mining,1.Kartik Mining,Done,Kartik Mining,Web Development Intern,1500,Udaipur,2026-02-05,
+28,Ritik Prajapat,24BCA00048,BCA,,ritik.bca2024@spsu.ac.in,9672552009,ritikprajapat386@gmail.com,9672552009,Male,11/08/2005,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.SBWM,1.SBWM,Done,SBWM,Technical Intern,NA,WFH,2026-04-06,Applied (No Response Yet)
+29,Rudra Pratap Singh Chouhan,24BCA00060,BCA,,rudrapratapsingh.bca2024@spsu.ac.in,7976919092,,,,,,,,,,,,Present,Pending,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+30,Shamas Shikh,24BCA00039,BCA,,shamas.bca2024@spsu.ac.in,7231025004,sheikhshamas431@gmail.com,7231025004,Male,08-12-2004,Link,,,,,Link,Link,Present,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.SBWM","1.Azisly.ai.
+2.SBWM",Pending,SBWM,Intern,NA,Remote,2026-08-06,
+31,Shivam Kemariya,24BCA00045,BCA,,shivam.bca2024@spsu.ac.in,7300483212,shivamkemariya@gmail.com,7300483212,Male,04-Jan-2006,Link,,,,,Link,Link,Present,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.SBWM,1.SBWM,Pending,,,,,,Applied (No Response Yet)
+32,Sneha Hariprasad Sahu,24BCA00042,BCA,,snehahariprasad.bca2024@spsu.ac.in,9664825590,shsahu06@gmail.com,9664825590,Female,31-Jan-2006,Link,,,,,Link,Link,,Submitted,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Alfido Tech,1.Alfido Tech,Pending,,,,,,
+33,Sneha Kunwar Rao,24BCA00068,BCA,,snehakunwar.btech2024@spsu.ac.in,8005589925,raosnehakunwar@gmail.com,8005589925,Female,04 -april-2026,Link,,,,,,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+34,Taha Mastana,24BCA00052,BCA,,taha.bca2024@spsu.ac.in,9521410853,,,,,,,,,,,,Present,Pending,False,False,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+35,Thakkar Krupa Gaurav,24BCA00041,BCA,,krupagaurav.bca2024@spsu.ac.in,9512262984,kishuthakkar1210@gmail.com,9512262984,Female,12-oct-2006,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,Placed-PPO,On-Campus,1,Kreativan Technologies,4,Kreativan Technologies,,,,,,,,,,,,,,,On/Off Campus,2,"1.Tech Extensor Pvt. Ltd
+2.Azisly.ai.","1.Tech Extensor Pvt. Ltd
+2.Azisly.ai.",Done,Tech Extensor Pvt. Ltd,Web Intern,TBA,Ahemdabad,2026-07-04,
+36,Ubaid Hasan Makkad,24BCA00075,BCA,,ubaidhasanmakka.bca2024@spsu.ac.in,9414159708,ubaidhasan7864@gmail.com,9587864769,Male,30-may-2006,Link,,,,,,,,Submitted,False,False,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+37,Vikram Kumar,24BCA00054,BCA,,vikram.bca2024@spsu.ac.in,9257117716,vkchouhan331@gmail.com,9257117716,Male,05-Oct-2005,Link,,,,,Link,Link,Present,Submitted,False,False,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.SBWM,,,,,,,,Applied (No Response Yet)
+38,Yuvraj Singh Panwar,24BCA00063,BCA,,yuvvrajsingh.bca2024@spsu.ac.in,9784039906,yuvrajpanwar454@gmail.com,9784039906,Male,02092006,Link,,,,,Link,Link,,Submitted,False,False,,L-Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Yuthika Naturals
+2.SBWM","1.Yuthika Naturals
+2.SBWM",Pending,,,,,,
+,38,,,,,,,,24,,,,,,,,,,2,,,27,36,0,2,2,,,,0,,,,,,,,,,,,,,,24,27,,,,,,,,
+S.No.,Students Name,Enrollment No.,,Course,Specialization,Email ID - SPSU,Email ID - Personal,Contact No.,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation (%/CGPA),Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,Offer Letter,,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Highest CTC Company,Profile,CTC,Location,Date,Offer Letter,Internship,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date,Remarks
+1,Abdul Mannan Khan,24BBA00387,,BBA,Finance,mannankhan.bba2024@spsu.ac.in,khanabdulmannan899@gmail.com,8962005053,8962005054,Male,24-02-2005,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Naviotech Solution,Naviotech Solution,,,,,,,,,,,,,,,,,0,,,,,,,,,Applied (No Response Yet)
+2,Aditya Thakur,24BBA00410,,BBA,Finance,adityathakur.bba2024@spsu.ac.in,,9057570902,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+3,Alfez Ali,24BBA00363,,BBA,Marketing with JK Cement,alfezali.bba2024@spsu.ac.in,alfezali755@gmail.com,7300078386,7300078386,Male,21-06-2006,Link,,,,,,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+4,Aman Qureshi,24BBA00374,,BBA,Finance,amanqureshi.bba2024@spsu.ac.in,amansani763@gmail.com,9079940784,9079940784,Male,26-02-2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Sangam India,1.Sangam India,Done,Sangam India,Finance Intern,TBA,Bhilwara,18-05-26,
+5,Anushka Agarwal,24BBA00405,,BBA,Digital Marketing,anushkaagarwal.bba2024@spsu.ac.in,Anushkaagarwal1213@gmail.com,9660557173,9660557173,Female,16-Aug-2005 ,Link,,,,,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,,,,,,,On-Campus,1,SBWM,SBWM,Pending,SBWM,Intern,NA,WFH,24-06-26,Applied (No Response Yet)
+6,Apeksha Chundawat,24BBA00402,,BBA,Finance with ACCA,apekshachundawat.bba2024@spsu.ac.in,apekshachundawat348@gmail.com,7410978860,7410978860,Female,21/09/2005,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,2,"1.IDBI BANK
+2.GR Infra","1.IDBI BANK
+2.GR Infra",Done,GR Infra,Intern,NA,Udaipur,2026-04-06,
+7,Bhavesh Paliwal,24BBA00398,,BBA,Finance with ACCA,bhavesh.bba2024@spsu.ac.in,bj53820@gmail.com,9950811911,9950811911,Male,13-mar-2007,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,Off-Campus,1,CNK Khandewala,CNK Khandewala,2.5,Done,,,,,,,,,,,,,,On/Off Campus,2,"1.Agile Capital Services
+2.CNK Khandwala & Associate","1.Agile Capital Services
+2.CNK Khandwala & Associate",Done,CNK Khandwala & Associate,Intern,,Ahemdabad,24-03-26,
+8,Bhavyata Chawla,24BBA00384,,BBA,Digital Marketing,bhavyata.bba2024@spsu.ac.in,,9587653840,,,,,,,,,,,Present,Pending,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+9,Bhuvneshwar Lohar,24BBA00391,,BBA,Digital Marketing,bhuvneshwarlohar.bba2024@spsu.ac.in,,8905216813,,,,,,,,,,,,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+10,Bolladi Vinith Reddy,24BBA00368,,BBA,Digital Marketing,vinith.bba2024@spsu.ac.in,bolladivinithreddy@gmail.com,9652541948,9652541948,Male,20/09/2006,Link,,,,,,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+11,Chetikam Teja Sree,24BBA00390,,BBA,Digital Marketing,tejasreechetikam.bba2024@spsu.ac.in,,8367555522,,,,,,,,,,,Present,Pending,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+12,Chilimela Snehith,24BBA00369,,BBA,Digital Marketing,snehith.bba2024@spsu.ac.in,snehithchelimela@gmail.com,6304247965,6304247965,Male,24/11/2005,Link,,,,,,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+13,Deepanshu Lohar,24BBA00366,,BBA,Digital Marketing,deepanshu.bba2024@spsu.ac.in,deepanshulohar811@gmail.com,7976535350,7976535350,Male,02032006,Link,,,,,,Link,Present,Submitted,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+14,Fahad Warsi,24BBA00365,,BBA,Finance with ACCA,fahad.bba2024@spsu.ac.in,fahadwarsi557@gmail.com,9588232934,9588232934,Male,12-MAY-2005,Link,,,,,,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.RK Group,1.RK Group,Pending,,,,,,
+15,Garima Rathore,24BBA00399,,BBA,Marketing with JK Cement,garima.bba2024@spsu.ac.in,garimarathore968@gmail.com,8209951996,8209718078,Female,27/11/2007,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+16,Garvita Maheshwari,24BBA00406,,BBA,Digital Marketing,garvitamaheshwari.bba2024@spsu.ac.in,garvitamaheshwari21@gmail.com,6376496545,6376496545,Female,21-July-2005,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Bakeworld Retails,1.Bakeworld Retails,Pending,,,,,,
+17,Harshit Joshi,24BBA00411,,BBA,Marketing with JK Cement,harshitjoshi.bba2024@spsu.ac.in,harshitjoshi2730@gmail.com,9424404038,9424404038,Male,27-03-2007,Link,,,,,Link,Link,,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+18,Heena Suthar,24BBA00389,,BBA,Digital Marketing,heenasuthar.bba2024@spsu.ac.in,sutharheena116@gmail.com,9351417331,9351417331,Female,11-02-2006,Link,,,,,,Link,,Submitted,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,Not Applied Yet
+19,Himanshu Prajapat,24BBA00412,,BBA,Digital Marketing,himanshuprajapat.bba2024@spsu.ac.in,,7878471463,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+20,Jamila Dhila,24BBA00379,,BBA,Finance,jamila.bba2024@spsu.ac.in,jamiladhila@gmail.com,7424805252,7424805252,Female,17-NOV-2005,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Prasuta Capitals,1.Prasuta Capitals,Done,Prasuta Capitals,Finance Consultant,5000,,WFO,
+21,Janvi Bhandari,24BBA00394,,BBA,Finance,janvibhandari.bba2024@spsu.ac.in,janvibhandari7531@gmail.com,6376557531,6376557531,Female,08-08-2006,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,,,,,,,Off-Campus,1,1.Baheti Recycling Industries,1.Baheti Recycling Industries,Pending,,,,,,
+22,Kanak Nagota,24BBA00407,,BBA,Marketing with JK Cement,kanaknagota.bba2024@spsu.ac.in,kanaknagota2310@gmail.com,9174513949,9174513949,Female,23-10-2005,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+23,Kanak Sharma,24BBA00415,,BBA,Digital Marketing,kanaksharma.bba2024@spsu.ac.in,kanakss0526@gmail.com,8669054649,8669054649,Female,05-Apr-2006,Link,,50,66.4,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,,,,,,,On-Campus,1,1.Tempsens Instruments India Limited.,1.Tempsens Instruments India Limited.,Pending,,,,,,
+24,Khushi Bherwani,24BBA00358,,BBA,Digital Marketing,khushi.bba2024@spsu.ac.in,,8824188071,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+25,Khushi Sharma,24BBA00409,,BBA,Digital Marketing,khushisharma.bba2024@spsu.ac.in,khushsharma2424@gmail.com,9950679575,9950679575,Female,24 october 2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+26,Krish Kothari,24BBA00416,,BBA,Digital Marketing,krishkothari.bba2024@spsu.ac.in,,7976408466,,,,,,,,,,,Present,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+27,Kunal Vaishanv,24BBA00381,,BBA,Digital Marketing,kunalvaishanv.bba2024@spsu.ac.in,,6376898247,,,,,,,,,,,,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+28,Kushal Soni,24BBA00392,,BBA,Digital Marketing,kushalsoni.bba2024@spsu.ac.in,,8107448384,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+29,Lakshya Chasta,24BBA00364,,BBA,Digital Marketing,lakshyachasta.bba2024@spsu.ac.in,chastalakshya@gmail.com,9351835685,9351835685,Male,15/08/2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+30,Lakshya Vyas,24BBA00356,,BBA,Finance,lakshya.bba2024@spsu.ac.in,lakshvyas86@gmail.com,8769885963,8769885963,Male,11-09-2006,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,,,,,,,Off-Campus,1,1.Bakeworld Retails,1.Bakeworld Retails,Pending,Bakeworld Retails,Accounts and Finance Trainee,NA,,Hybrid,
+31,Mahi Rawal,24BBA00372,,BBA,Finance with ACCA,mahirawal.bba2024@spsu.ac.in,mahirawal06@gmail.com,7568231589,7568231589,Female,19/09/2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.Jwalant Sansthan","1.Azisly.ai.
+2.Jwalant Sansthan",Pending,Jwalant Sansthan,Intern,TBA,WFO,15-05-26,
+32,Ms Fatema Pathan,24BBA00362,,BBA,Finance with ACCA,fatema.bba2024@spsu.ac.in,fatemapathan1415@gmail.com,7976338231,7976338231,Female,24 11 2006,Link,,,,,,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.M S Mansuri & Associates ,1.M S Mansuri & Associates ,Done,M S Mansuri & Associates ,Junior accountant ,NA,,,
+33,Ms Priyal Goyal,24BBA00367,,BBA,Finance,priyal.bba2024@spsu.ac.in,priyal07goyal@gmail.com,9829635288,9829635288,Female,18-August-2007,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Prasuta Capitals,1.Prasuta Capitals,Done,Prasuta Capitals,Finance Consultant,5000,,,
+34,Navansh Somani,24BBA00413,,BBA,Digital Marketing,navanshsomani.bba2024@spsu.ac.in,navanshsomani123@gmail.com,7976542503,7976542504,Male,28september2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Agile Capital Services
+2.Zyntiq","1.Agile Capital Services
+2.Zyntiq",Done,Agile Capital Services,Management Trainee,,,,
+35,Neha Suwalka,24BBA00377,,BBA,Digital Marketing,neha.bba2024@spsu.ac.in,nehasuwalka29@gmail.com,8209639233,8209639233,Female,22-09/2005,Link,,,,,Link,Link,,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Insplore Consultants,1.Insplore Consultants,Done,Insplore Consultants,Intern,,,,
+36,Niranjan Kumar Mali,24BBA00403,,BBA,Digital Marketing,niranjanmali.bba2024@spsu.ac.in,,8118891559,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+37,Nishita Meena,24BBA00396,,BBA,Marketing with JK Cement,nishitameena.bba2024@spsu.ac.in,nish031m@gmail.com,9351246948,9351246948,Female,10-03-2006,Link,,,,,Link,Link,,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.JK Cement
+2.Classic Trading CO.","1.JK Cement
+2.Classic Trading CO.",Pending,,,,,,
+38,Piyush Jain,24BBA00378,,BBA,Digital Marketing,piyush.bba2024@spsu.ac.in,pj3529167@gmail.com,8890225951,6359933116,Male,06-january-2006,Link,,,,,,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Applied (No Response Yet)
+39,Pradhyuman Singh Sarangdevot,24BBA00351,,BBA,Digital Marketing,pradhyuman.bba2024@spsu.ac.in,,8114457350,,,,,,,,,,,Present,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.Agile Capital Services,1.Agile Capital Services,Done,Agile Capital Services,Management Trainee,,,,
+40,Prince Panashe Mavengehama,24BBA00417,,BBA,Digital Marketing,princemavengehama.bba2024@spsu.ac.in,,774669909,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+41,Prithvi Singh Sisodiya,24BBA00386,,BBA,Marketing with JK Cement,prithvisingh.bca2024@spsu.ac.in,prathvisingh404@gmail.com,9981731044,9981731044,Male,18/05/2006,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,2,"BNM Business Solution LLP
+ICICI Bank","BNM Business Solution LLP
+ICICI Bank","10
+5.5",,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+42,Rhythm Kabra,24BBA00385,,BBA,Digital Marketing,rhythmkabra.bba2024@spsu.ac.in,,8209376155,,,,,,,,,,,,Pending,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+43,Rishi Amit Sanghvi,24BBA00357,,BBA,Digital Marketing,rishiamit.bba2024@spsu.ac.in,sanghvirishi2006@gmail.com,8955403016,8955403016,Male,01-Aug-2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.Amulya Mica","1.Azisly.ai.
+2.Amulya Mica",Pending,Amulya Mica,Finance & Sales Intern,TBA,Udaipur,19-05-26,
+44,Shagun Ajmera,24BBA00359,,BBA,Digital Marketing,shagun.bba2024@spsu.ac.in,ajmerashagun1@gmail.com,9116732047,9116732047,Female,15-Oct-2005,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Historia Royal Hotel & Spa,1.Historia Royal Hotel & Spa,Done,Historia Royal Hotel & Spa,Industrial Trainee,5000,,,
+45,Shivani Sharma,24BBA00354,,BBA,Marketing with JK Cement,shivani.bba2024@spsu.ac.in,shivaniisharmaaa25@gmail.com,6376219661,6376219661,Female,25-09-2006,Link,,,,,,Link,,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.JK Cement
+2.Royal Enfield Showroom","1.JK Cement
+2.Royal Enfield Showroom",Pending,,,,,,
+46,Shrey Khandelwal,24BBA00373,,BBA,Finance,shrey.bba2024@spsu.ac.in,khandelwal.shrey@gmail.com,9407145933,9407145933,Male,08/09/2006,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.AMULYA MICA","1.Azisly.ai.
+2.AMULYA MICA",Pending,AMULYA MICA,Finance & Sales Intern,TBA,Udaipur,16-05-26,
+47,Shriya Gupta,24BBA00370,,BBA,Digital Marketing,shriya.bba2024@spsu.ac.in,shriyakgupta2404@gmail.com,8114450327,8114450327,Female,24-Apr-2006,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.Hidden Mind Solution","1.Azisly.ai. 
+2.Hidden Mind Solution",Done,Hidden Mind Solution,Social Media Marketing (SMM) Intern,4000,Udaipur,2026-11-05,
+48,Shumaila Sheikh,24BBA00401,,BBA,Finance with ACCA,shumaila.bba2024@spsu.ac.in,shumailasheikh2005@gmail.com,7568355989,7568355989,Female,13-12-2005,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,,,,,,,Off-Campus,1,1.SK Khetan,1.SK Khetan,Pending,,,,,,
+49,Sudula Jashwanth Reddy,24BBA00388,,BBA,Digital Marketing,jashwanthreddy.bba2024@spsu.ac.in,jashwanthreddy0606@gmail.com,8328468297,8328468297,Male,06/06/2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+50,Suhani Agarwal,24BBA00419,,BBA,Digital Marketing,suhaniagarwal.bba2024@spsu.ac.in,suhaniagarwa7218@gmail.com,9462526505,9462526505,Female,18022007,Link,,,,,,Link,Present,Submitted,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,SBWM,SBWM,Pending,SBWM,Intern,NA,WFH,24-06-26,
+51,Tanisha Maheshwari,24BBA00376,,BBA,Digital Marketing,tanisha.bba2024@spsu.ac.in,tanishamaheshwari6100@gmail.com,6367823036,6367823036,Female,19-Oct-2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Lakshmi Yarns,1.Lakshmi Yarns,Pending,,,,,,Applied (No Response Yet)
+52,Toshif Raza,24BBA00353,,BBA,Marketing with JK Cement,toshif.bba2024@spsu.ac.in,toshifraza026@gmail.com,9783076850,9783076850,Male,26112005,Link,,,,,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+53,Utkarsh Upadhyay,24BBA00375,,BBA,Finance with ACCA,utkarsh.bba2024@spsu.ac.in,upadhyayutkarsh.516@gmail.com,6375901731,6375901731,Male,16-Jul-2006,Link,,,,,Link,Link,Present,Submitted,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,2,"1.Azisly.ai.
+2.Vijetri Seva Sansthan ","1.Azisly.ai.
+2.Vijetri Seva Sansthan ",Pending,Vijetri Seva Sansthan ,Intern,TBA,Udaipur,14-05-26,
+54,Vikas Mehta,24BBA00418,,BBA,Finance,vikasmehta.bba2024@spsu.ac.in,,6378657338,,,,,,,,,,,,Pending,,,,,,,,,,,,,,,,,,,,,,,Off-Campus,0,1.Vinayak Enterprises,1.Vinayak Enterprises,Done,Vinayak Enterprises,Account Exective Intern,15000,Udaipur,2026-02-05,
+55,Yash Aditya Saxena,24BBA00395,,BBA,Digital Marketing,yashadityasaxena.bba2024@spsu.ac.in,,7300222820,,,,,,,,,,,,Pending,Opt Out - Higher Studies,Submitted,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+56,Yash Agarwal,24BBA00414,,BBA,Marketing with JK Cement,yashagarwal.bba2024@spsu.ac.in,,9079052258,,,,,,,,,,,,Pending,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,On-Campus,1,1.JK Cement,1.JK Cement,Pending,,,,,,
+57,Yuvraj Soni,24BBA00382,,BBA,Digital Marketing,yuvrajsoni.bba2024@spsu.ac.in,yuvrajsoni499@gmail.com,9664134742,9664134742,Male,25-10-2006,Link,,,,,Link,Link,,Submitted,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,,,,,,Off-Campus,1,1.Pyrotech Electronics Pvt. Ltd,1.Pyrotech Electronics Pvt. Ltd,Pending,,,,,,
+,57,,,,,,,,,20,,,,,,,,,,16,21,49,6,10,12,,,,1,,,,,,,,,,,,,,,24,35,,,,,,,,
+S.No.,Students Name,Enrollment No.,Specialization (Area 1),Specialization (Area 2),Course,Email ID - SPSU,Email ID - Personal,Contact No.,WhatsApp Number,Gender,DOB,Photo,Photo HD,Xth (%),XIIth (%),Graduation (%/CGPA),Current CGPA II,Backlog Remaining,Linkedin,Resume,Placement Orientation Session Attendance,Database Verification,Declaration Status,Declaration Form ,Placement Status,Campus,Count,Placement Companies,Offer Letter,CTC,NOC,Company Joined,Profile,CTC,H- CTC,Location,Date,Remarks,Type,Campus,Offers Count,Companies Offered,Offer Letter,NOC - SI,Company Joined,Profile,Stipend,Location,Date
+1,Abhishek K Joshi,25MBA00539,Marketing,HRM,MBA,abhishekkjoshi.mba2025@spsu.ac.in,,7414010171,,Male,,,,57.6,71.6,6.7,6.148,6,,,Present,Pending,,L-Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,Internship,On-Campus,1,1.Vinayakl Enterprises,1.Vinayakl Enterprises,Done,Vinayalk Enterprises,Operation & Business Development Intern,12000,Udaipur,25-04-26
+2,Abhishek Laddha,25MBA00551,Finance,Marketing,MBA,abhishekladdha.mba2025@spsu.ac.in,abhishekladdha597@gmail.com,6376106871,6376106871,Male,18-05-2004,Link,,59.33,76.6,62.38,8.288,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.Agile Capital Services
+2.IIFL Capital Service Ltd","1.Agile Capital Services
+2.IIFL Capital Service Ltd",Done,IIFL Capital Service Ltd,Management Trainee,,Udaipur,2026-11-05
+3,Astha Jain,25MBA00529,HRM,Finance,MBA,asthajain.mba2025@spsu.ac.in,asthajain.mba2025@spsu.ac.in,6376123200,6376123200,Female,11-Jun-2004,Link,,68,70.4,,7.044,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,QSS Global LLP,QSS Global LLP,3.5,,,,,,,,,Internship,On/Off Campus,3,"1.Insplore Consultants
+2.Bridge Group Solutions
+3.Technoy Motors","1.Insplore Consultants
+2.Bridge Group Solutions
+3. Technoy Motors",Done,Technoy Motors,HR Intern,,Udaipur,20-05-26
+4,Bharat Kumawat,25MBA00510,Marketing,Finance,MBA,bharatkumawat.mba2025@spsu.ac.in,kumawatbharat178@gmail.com,9131096735,9131096735,Male,13-july-2004,Link,,56.4,65.4,6.05,7.577,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,Rajasthan Shubham Solar Solution,Rajasthan Shubham Solar Solution,7,Done,,,,,,,,Internship,On-Campus,1,1.JK Cement,1.JK Cement,Done,JK Cement,Marketing,,Mandsaur,27-04-26
+5,Bhumi Pancholi,25MBA00562,HRM,Marketing,MBA,bhumipancholi.mba2025@spsu.ac.in,bhumipancholi85@gmail.com,6378185741,6378185741,Female,09-08-2003,Link,,68.8,87.8,67.23,8.377,0,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,2,"Archer & Bull
+Country Edu Pvt Ltd","Archer & Bull
+Country Edu Pvt Ltd",10,,,,,,,,,Internship,On/Off Campus,3,"1.Agile Capital Services
+2.Bridge Group Solution
+3.NAV Fund Services (India) Pvt. Ltd.","1.Agile Capital Services
+2.Bridge Group Solution
+3.NAV Fund Services (India) Pvt. Ltd.",Done,NAV Fund Services (India) Pvt. Ltd.,Intern – HR,10000,Jaipur,14-05-26
+6,Chinmay Singh Pemawat,25MBA00514,HRM,Marketing,MBA,chinmaypemawat.mba2025@spsu.ac.in,,8879911809,,,,,,,,,5.953,1,,,Present,Pending,Opt Out - ENTR / FB,Submitted,,,,,,,,,,,,,,,,Off-Campus,1,JITU G M GOLD,JITU G M GOLD,Done,JITU G M GOLD,Management Intern,,Bhvneshwar,2026-10-05
+7,Chintha Sriram,25MBA00530,Business Analytics/Data Science,Marketing,MBA,sriramchintha.mba2025@spsu.ac.in,,7036168702,,,,,,7.7,68.8,8.37,6.355,0,,,,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,,Off-Campus,1,SCSC,SCSC,Done,SCSC,Intern,,Remote,21-07-26
+8,Danisha Quraishi,25MBA00515,HRM,Marketing,MBA,danishaquraishi.mba2025@spsu.ac.in,danishaquraishi.mba2025@spsu.ac.in,9636747386,9636747386,Female,08/08/2003,Link,,58.67,82.4,8.4,6.977,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,Hidden Mind Solution,Hidden Mind Solution,4,,,,,,,,,Internship,On/Off Campus,2,"1.Bridge Group Solutions
+2.We Dot Group FZE","1.Bridge Group Solutions
+2.We Dot Group FZE",Done,We Dot Group FZE,Intern,NA,Remote,16-05-26
+9,Dhananjay Chauhan,25MBA00542,Logistics and Supply Chain Management,Marketing,MBA,dhananjaychauhan.mba2025@spsu.ac.in,,9509907048,7976081830,,,,,44,66.8,51.86,5.768,2,,,,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,Patel Poschem,1.Patel Poschem,Done,Patel Poschem,Logistic & Supply Chain Management Intern,,Udaipur,24-06-26
+10,Dhruv Suhalka,25MBA00533,HRM,Marketing,MBA,dhruvsuhalka.mba2025@spsu.ac.in,dhruvsuhalka12@gmail.com,8764163991,8764163991,Male,12-Nov-2003,Link,,46.8,57.4,60.4,6.261,1,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,Internship,Off-Campus,1,1.Apollo Tyres Ltd,1.Apollo Tyres Ltd,Done,Apollo Tyres Ltd,Intern,,Jaipur,2026-02-06
+11,Dimpy Ahir,25MBA00508,Finance,HRM,MBA,dimpyahir.mba2025@spsu.ac.in,dimpyratola24@gmail.com,9685645547,9685645547,Female,24/09/2001,Link,,61.17,62.4,58.97,6.043,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.Prasuta Capitals
+2.Bridge Group Solution","1.Prasuta Capitals
+2.Bridge Group Solution",Done,Prasuta Capitals,Finance Consultant,5000,Remote,18-05-26
+12,Dishant Dhanpal Jain,25MBA00517,Finance,Marketing,MBA,dishantdhanpaljain.mba2025@spsu.ac.in,dishantjain003@gmail.com,9890040015,989004005,Male,28sep2004,Link,,57.6,69.33,7.6,7.177,0,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,3,"1.Agile Capital Services
+2.Insplore Consultants
+3.Tempsens Instruments India","1.Agile Capital Services
+2.Insplore Consultants
+3.Tempsens Instruments India",Done,Tempsens Instrument India,Finance Intern,,Udaipur,15-06-26
+13,Divya Suthar,25MBA00522,Finance,HRM,MBA,divyasuthar.mba2025@spsu.ac.in,divyasuthar0403@gmail.com,8005606117,8005606117,Female,04/11/2003,Link,,56.8,,5.7,6.666,0,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.Agile Capital Services
+2.Patel Poschem","1.Agile Capital Services
+2.Patel Poschem",Done,Patel Poschem,HR Operation Intern,,Udaipur,24-06-26
+14,Dushyant Bhatt,25MBA00513,Finance,Finance,MBA,dushyantbhatt.mba2025@spsu.ac.in,dushyantbhatt501@gmail.com,7231817655,7232817655,Male,31-08-2004,Link,,66.5,85.8,51.33,7.199,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On/Off Campus,2,"1.Agile Capital Services
+2.Shree Cement","1.Agile Capital Services
+2.Shree Cement",Done,Shree Cement,Intern,,Beawar,30-05-26
+15,Falguni Rathod,25MBA00538,HRM,Marketing,MBA,falgunirathod.mba2025@spsu.ac.in,frathod340@gmail.com,8764614443,8764614443,Female,10-Aug-2003,Link,,70.33,69,70,8.488,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,1.Hindustan Zinc,1.Hindustan Zinc,Done,Hindustan Zinc,Intern,NA,Chhitorgarh,21-04-26
+16,Hetakshi Dave,25MBA00535,HRM,Logistics and Supply Chain Management,MBA,hetakshidave.mba2025@spsu.ac.in,hetakshidave.mba2025@spsu.ac.in,8209675437,8209676437,Female,05/02/2004,Link,,67.6,88.2,60,5.944,3,Link,Link,,Submitted,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,Janak Raj Singh Panwar,25MBA00525,HRM,Marketing,MBA,janakrajpanwar.mba2025@spsu.ac.in,panwarjanak14@gmail.com,7300366255,7300366255,Male,18/02/2004,Link,,58,61.4,62.8,5.386,5,,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,2,"1.Agile Capital Services
+2.Wonder Cement","1.Agile Capital Services
+2.Wonder Cement",Done,Wonder Cement,HR Intern ,NA,WFH,15-05-26
+18,Jitendra Singh,25MBA00506,Marketing,Business Analytics/Data Science,MBA,jitendrasingh.mba2025@spsu.ac.in,,8619899428,,,,,,86.33,82.4,,8.644,0,,,Present,Pending,Opt - In,Submitted,Placed-PPO,On-Campus,3,"1.Rajasthan Shubham Solar Solution
+2.Kreativan Technologies
+3.Naviotech Solution","1.Rajasthan Shubham Solar Solution
+2.Kreativan Technologies
+3.Naviotech Solution","7
+4
+6",Done,,,,,,,,Internship,Off-Campus,1,1.MuskOwl,1.MuskOwl,Done,MuskOwl,Digital Marketing Intern,,Udaipur,13-04-025
+19,Joginder Pratap Singh Hada,25MBA00558,Business Analytics/Data Science,Marketing,MBA,joginderhada.mba2025@spsu.ac.in,jpsinghhada508@gmail.com,7877050033,7877050033,Male,09092003,Link,,51,79.2,49.17,6.054,3,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,1.Patel Phoschem,1.Patel Phoschem,Done,Patel Phoschem,Business Analytics Intern,,Udaipur,18-05-26
+20,Kapil Khatik,25MBA00570,HRM,Marketing,MBA,kapilkhatik.mba2025@spsu.ac.in,kapilkhatik4321@gmail.com,8890139882,8890139882,Male,20-09-2003,Link,,72.83,83,55,5.948,2,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,2,"Tempsens Instrument India
+Country Edu Pvt","Tempsens Instrument India
+Country Edu Pvt","2.76
+10",Done,Tempsens Instrument India,HR Trainee,2.76,2.76,Udaipur,20-08-26,,Internship,On/Off Campus,2,"1.Solar SAAB International Services
+2.Tempsens Instruments India Limited.","1.Solar SAAB International Services
+2.Tempsens Instruments India Limited.",Done,Tempsens Instrument,HR Intern,12000,Udaipur,
+21,Keshav Maheshwari,25MBA00550,Finance,Marketing,MBA,keshavmaheshwari.mba2025@spsu.ac.in,kmaheshwari528@gmail.com,9079734233,9079734233,Male,10-07-2005,Link,,63.17,78.8,66.24,7.777,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.IIFL Capital Services Limited
+2.IDBI BANK","1.IIFL Capital Services Limited
+2.IDBI BANK",Done,IIFL Capital Services Limited,Management Trainee,,Udaipur,2026-11-05
+22,Khushboo Kunwar Ranawat,25MBA00524,HRM,Finance,MBA,khushbooranawat.mba2025@spsu.ac.in,khushburanawat844@gmail.com,7737263930,7737263930,Female,23-Mar-2004,Link,,55.6,66,7,7.11,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.Bridge Group Solutions
+2.IIFL Capital Services Limited","1.Bridge Group Solutions 
+2.IIFL Capital Services Limited",Done,IIFL Capital Services Limited,Management Trainee Intern,,Udaipur,2026-11-05
+23,Lohit Data,25MBA00569,Finance,HRM,MBA,lohitdata.mba2025@spsu.ac.in,lohit1551@gmail.com,9358331315,9358331315,Male,16-12-2002,Link,,61.83,64,58.62,6.076,2,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On/Off Campus,2,"1.Bridge Group Solutions
+2.TVS Motors","1.Bridge Group Solutions
+2.TVS Motors",Done,TVS Motors,HR Intern,TBA,Bhinder,24-05-26
+24,Lonit Chouhan,25MBA00547,Finance,HRM,MBA,lonitchouhan.mba2025@spsu.ac.in,lonit05chouhan@gmail.com,6376393994,6376393994,Male,29-05-2003,Link,,72.6,70.4,61.67,7.044,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,3,"1.Agile Capital Services
+2.Prasuta Capitals
+3.IDBI BANK","1.Agile Capital Services
+2.Prasuta Capitals
+3.IDBI BANK",Done,Prasuta Capitals,Venture Research & Growth Intern,5000,Remote,22-04-26
+25,Madugula Sai,25MBA00540,HRM,Marketing,MBA,saimadugula.mba2025@spsu.ac.in,madugulasai591@gmail.com,9381660684,9381660684,Male,18/02/2000,Link,,6.8,59.9,7,6.844,0,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,Brandix Apparel India,Brandix Apparel India,Done,Brandix Apparel India,HR Intern,,Vishakhapatnam,2026-01-07
+26,Mitanshu Modi,25MBA00519,Logistics and Supply Chain Management,Marketing,MBA,mitanshumodi.mba2025@spsu.ac.in,mitanshumodi1011@gmail.com,8005903452,8005903452,Male,10-10-2004,Link,,85.5,79.3,83,8.533,0,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,2,"BNM Business Solution LLP
+Country Edu Pvt Ltd ",BNM Business Solution LLP,10,,,,,,,,,Internship,On-Campus,2,"1.Agile Capital Services
+2.Yuthika Naturals","1.Agile Capital Services
+2.Yuthika Naturals",Done,Yuthika Naturals,Intern,,Sojat,2025-06-05
+27,Mohammed Umar Faruq Sheikh,25MBA00568,Marketing,Business Analytics/Data Science,MBA,faruqsheikh.mba2025@spsu.ac.in,,8619764971,,,,,,72.4,73,57.1,5.932,0,,,,Pending,Opt - In,Pending,,,,,,,,,,,,,,,,,,,,,,,,,
+28,Mopuri Manoj Kumar,25MBA00536,Finance,Marketing,MBA,manojkumar.mba2025@spsu.ac.in,,6305124266,,,,,,9.3,65.7,,6.666,0,,,,Pending,Opt - In,Submitted,Placed-PPO,On-Campus,2,"BNM Business Solution LLP
+India Shelter Finance Corporation","BNM Business Solution LLP
+India Shelter Finance Corporation",10,,,,,,,,,Internship,On-Campus,1,1.Bridge Group Solutions,1.Bridge Group Solutions,Done,Bridge Group Solutions,Portfolio Management Trainee,15000,Noida,2026-09-04
+29,Nazmeen Khan,25MBA00521,HRM,Logistics and Supply Chain Management,MBA,nazmeenkhan.mba2025@spsu.ac.in,khannazmeen411@gmail.com,9460608485,9460608485,Female,15-02-2004,Link,,76,86.4,60.39,8.066,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,1.Prasuta Capitals,1.Prasuta Capitals,Done,Prasuta Capitals,Intern,NA,Sojat,18-05-26
+30,Neha Chhipa,25MBA00544,Business Analytics/Data Science,Marketing,MBA,nehachhipa.mba2025@spsu.ac.in,nehachhipa510@gmail.com,9680408433,9680408433,Female,23-06-2003,Link,,56.17,62.6,68.28,8.133,0,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,Internship,On-Campus,2,"1.Azisly.ai.
+2.Patel Poschem","1.Azisly.ai.
+2.Patel Poschem",Done,Patel Poschem,Product & Brand Management Intern,,Udaipur,24-06-26
+31,Nidhi Jain,25MBA00532,Finance,Marketing,MBA,nidhijain.mba2025@spsu.ac.in,nandawatnidhi05@gmail.com,7597897898,7597897898,Female,08-01-2005,Link,,66.4,68.2,75,7.11,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,KMK Venture,KMK Venture,10.2,,,,,,,,,Internship,Off-Campus,1,1.Monomark Engineering India,1.Monomark Engineering India,Done,Monomark Engineering India,Finance Intern,,Chhitorgarh,28-05-26
+32,Om Prakash Jat,25MBA00534,Logistics and Supply Chain Management,Marketing,MBA,omprakashjat.mba2025@spsu.ac.in,ommjaat1@gmail.com,8905625275,8905625275,Male,05-05-2004,Link,,68.2,77.6,62.19,7.354,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,Rajasthan Shubham Solar Solution,Rajasthan Shubham Solar Solution,7,Done,,,,,,,,Internship,On-Campus,2,"1.Insplore Consultants
+2.Yuthika Naturals","1.Insplore Consultants
+2.Yuthika Naturals",Done,Yuthika Naturals,Intern,,Sojat,2026-06-05
+33,Payal Chhipa,25MBA00520,Finance,Marketing,MBA,payalchhipa.mba2025@spsu.ac.in,payalchhipa2402@gmail.com,9636672402,9636672402,Female,24-07-2005,Link,,64.67,82.8,63.76,8.021,0,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,Internship,On-Campus,1,1.Patel Poschem,1.Patel Poschem,Done,Patel Poschem,Business Intelligence  & Finance Intern,,Udaipur,24-06-26
+34,Payal Joshi,25MBA00512,Finance,HRM,MBA,payaljoshi.mba2025@spsu.ac.in,payaljoshi2249@gmail.com,9326391231,9326391231,Female,24-04-2002,Link,,73,88,9.17,8.466,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,1.Tempsens Instrument,1.Tempsens Instrument,Done,Tempsens Instrument,Trainee,,Udaipur,23-04-26
+35,Pranjal Dagliya,25MBA00505,HRM,Logistics and Supply Chain Management,MBA,pranjaldagliya.mba2025@spsu.ac.in,jpranjal460@gmail.com,9324143942,9324143942,Female,10/10/2003,Link,,58.2,81,60.49,5.977,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,1.Western Drugs Limited,1.Western Drugs Limited,Done,Western Drugs Limited,Intern,,Udaipur,21-05-26
+36,Prateek Samriya,25MBA00528,Finance,HRM,MBA,prateeksamriya.mba2025@spsu.ac.in,prateeksamriya26@gmail.com,9783710226,9783710226,Male,26-Feb-2005,Link,,72.67,66.4,53.14,7.377,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,2,"1.Agile Capital Services
+2.IDBI BANK","1.Agile Capital Services
+2.IDBI BANK",Done,Agile Capital Services,Management Trainee,,Remote,24-03-26
+37,Rangula Karthik,25MBA00531,Business Analytics/Data Science,Marketing,MBA,karthikrangula.mba2025@spsu.ac.in,,9030355803,,,,,,68.5,84.4,8.17,7.11,0,,,,Pending,Opt - In,Submitted,Placed-PPO,On-Campus,1,Acmegrade,,,,,,,,,,,,Off-Campus,1,QUINN Data Analytics,QUINN Data Analytics,Done,QUINN Data Analytics,Data Analytics Intern,,,
+38,Rinku Kunwar Rao,25MBA00564,HRM,Finance,MBA,rinkurao.mba2025@spsu.ac.in,rinkukunwar212@gmail.com,7340543545,7340543545,Female,06/07/2004,Link,,69,63.2,7.65,6.213,1,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,1.Bhavya Arts International,1.Bhavya Arts International,Done,Bhavya Arts International,HR intern,TBA,Udaipur,2026-07-05
+39,Samiya Banu,25MBA00511,Marketing,Logistics and Supply Chain Management,MBA,samiyabanu.mba2025@spsu.ac.in,samiyabanu1071@gmail.com,9649058701,9649058701,Female,10-11-2004,Link,,65.5,66.4,,6.643,0,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,1,1.Patel Phoschem,1.Patel Phoschem,Done,Patel Phoschem,Marketing Operation Intern,,,
+40,Shivlal Jat,25MBA00537,Finance,HRM,MBA,shivlaljat.mba2025@spsu.ac.in,shivlaljat508@gmail.com,8949108217,8949108217,Male,12-july-2003,Link,,79.5,65.4,7.08,6.666,0,Link,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,1.Dilip Joshi & Associates,1.Dilip Joshi & Associates,Done,Dilip Joshi & Associates,Finance Intern,NA,WFO,2026-11-05
+41,Sudhir Pratap Singh Solanki,25MBA00526,Logistics and Supply Chain Management,HRM,MBA,sudhirpratapsolanki.mba2025@spsu.ac.in,,9799904546,,Male,,,,55.67,64,,5.599,12,,,,Pending,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,1.Wonder Cement,1.Wonder Cement,Done,Wonder Cement,Trainee,NA,Chittorgarh,2026-01-05
+42,Sujal Soni,25MBA00548,Marketing,Business Analytics/Data Science,MBA,sujalsoni.mba2025@spsu.ac.in,sujalsoni2299@gmail.com,7742446036,8209812315,Male,11-08-2004,Link,,51.33,51.6,6.2,5.928,1,,Link,Present,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,Off-Campus,1,1.Gangour Group,1.Gangour Group,Done,Gangour Group,Tele Sales Intern,NA,,
+43,Tanisha Mehta,25MBA00541,Marketing,HRM,MBA,tanishamehta.mba2025@spsu.ac.in,,9799236368,,Female,,,,60.5,68,6.5,5.777,6,,,Present,Pending,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,Internship,On-Campus,1,1.Vinayak Enterprises,1.Vinayak Enterprises,Done,Vinayak Enterprises,Operation & Business Development Intern,NA,Udaipur,25-04-26
+44,Vaibhav Kumawat,25MBA00509,Marketing,Logistics and Supply Chain Management,MBA,vaibhavkumawat.mba2025@spsu.ac.in,vaibhavkumawat4080@gmail.com,7974031681,7974031681,Male,04-10-2004,Link,,55,70,6.5,7.244,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,Naviotech Solution,Naviotech Solution,4,,,,,,,,,Internship,Off-Campus,1,1.Jain Bandhu financial  & consultant,1.Jain Bandhu financial  & consultant,Done,Jain Bandhu financial  & consultant,Marketing Intern,NA,,
+45,Vishwas Agarwal,25MBA00507,Finance,HRM,MBA,vishwasagarwal.mba2025@spsu.ac.in,vishwasagarwal2003@gmail.com,9352411885,9352411885,Male,11/02/2003,Link,,67.4,80,60.6,7.488,0,Link,Link,,Submitted,Opt - In,Submitted,,,,,,,,,,,,,,,Internship,On-Campus,3,"1.Prasuta Capitals
+2.Insplore Consultants
+3.Bridge Group Solution","1.Prasuta Capitals
+2.Insplore Consultants
+3.Bridge Group Solution",Done,Prasuta Capitals,Finance Consultant,5000,WFH,22-04-26
+46,Vishwendra Singh Rao,25MBA00527,HRM,Marketing,MBA,vishwendrasinghrao.mba2025@spsu.ac.in,vishwendrasinghrao.mba2025@spsu.ac.in,7427803731,7427803731,Male,18-Dec-2003,Link,,80.6,85.2,56,8.421,0,Link,Link,Present,Submitted,Opt - In,Submitted,Placed-PPO,On-Campus,1,BNM Business Solution LLP,BNM Business Solution LLP,10,,,,,,,,,Internship,On/Off Campus,4,"1.Agile Capital Services
+2.Insplore Consultants
+3.Wonder Cement
+4.JK Lakshmi Cement","1.Agile Capital Services
+2.Insplore Consultants 
+3.Wonder Cement
+4.JK Lakshmi Cement",Done,JK Lakshmi Cement,Trainee,NA,Udaipur,2026-01-05
+47,Yuvraj Singh Bhati,25MBA00552,Marketing,Logistics and Supply Chain Management,MBA,yuvrajbhati.mba2025@spsu.ac.in,singhyuvraj1018@gmail.com,9406812823,9406812823,Male,18/10/2004,Link,,86,81.8,6.92,7.132,0,Link,Link,,Submitted,Opt - In,Submitted,Placed-FTE,On-Campus,1,Country Edu Pvt Ltd,Country Edu Pvt Ltd,10,,,,,,,,,Internship,On-Campus,1,1.Yuthika Naturals,1.Yuthika Naturals,Done,Yuthika Naturals,Intern,TBA,Sojat,2025-06-05
+,47,,,,,,,,,23,,,,,,,,,,,,10,44,44,8,19,25,,,,4,,,,,,,,,,25,45,,,,,,,
+S.No.,Students Name,Enrollment No.,Course,
+1,Aaryan Johri,24BCA00040,BCA,P
+2,Bhawani Shankar Luhar,24BCA00073,BCA,P
+3,Chandrakant Prajapat,24BCA00051,BCA,
+4,Dinesh Singh Parmar,24BCA00037,BCA,
+5,Ekta Yashwant Sharma,24BCA00059,BCA,P
+6,Faraaz Ahmed,24BCA00074,BCA,
+7,Harsh Choudhary,24BCA00061,BCA,P
+8,Harshil Sharma,24BCA00067,BCA,
+9,Hassan Sheikh,24BCA00056,BCA,
+10,Hemant Ahir,24BCA00058,BCA,P
+11,Hemshree Sharma,24BCA00057,BCA,
+12,Himanshu Jain,24BCA00072,BCA,
+13,Jay Hirawat,24BCA00049,BCA,
+14,Jumana Hussain Thekedar,24BCA00043,BCA,
+15,Khushbu Chouhan,24BCA00065,BCA,
+16,Kinjal Raut,24BCA00066,BCA,
+17,Kritika Patidar,24BCA00064,BCA,
+18,Lavina Saini,24BCA00069,BCA,P
+19,Manish Menaria,24BCA00070,BCA,
+20,Mohammed Umair Shakeel,24BCA00044,BCA,
+21,Ms Riya Joshi,24BCA00062,BCA,
+22,Naveen Meghwal,24BCA00053,BCA,P
+23,Nipun Nagar,24BCA00055,BCA,
+24,Pankaj Salvi,24BCA00071,BCA,
+25,Prachi Sharma,24BCA00046,BCA,P
+26,Rahul Lohar,24BCA00047,BCA,P
+27,Rinkal Ranka,24BCA00050,BCA,
+28,Ritik Prajapat,24BCA00048,BCA,P
+29,Rudra Pratap Singh Chouhan,24BCA00060,BCA,P
+30,Shamas Shikh,24BCA00039,BCA,
+31,Shivam Kemariya,24BCA00045,BCA,
+32,Sneha Hariprasad Sahu,24BCA00042,BCA,
+33,Sneha Kunwar Rao,24BCA00068,BCA,
+34,Taha Mastana,24BCA00052,BCA,
+35,Thakkar Krupa Gaurav,24BCA00041,BCA,
+36,Ubaid Hasan Makkad,24BCA00075,BCA,
+37,Vikram Kumar,24BCA00054,BCA,P
+38,Yuvraj Singh Panwar,24BCA00063,BCA,
+S.No.,Students Name,Enrollment No.,MBA,
+1,Abhishek K Joshi,25MBA00539,MBA,P
+2,Abhishek Laddha,25MBA00551,MBA,
+3,Astha Jain,25MBA00529,MBA,
+4,Bharat Kumawat,25MBA00510,MBA,
+5,Bhumi Pancholi,25MBA00562,MBA,P
+6,Chinmay Singh Pemawat,25MBA00514,MBA,
+7,Chintha Sriram,25MBA00530,MBA,
+8,Danisha Quraishi,25MBA00515,MBA,P
+9,Dhananjay Chauhan,25MBA00542,MBA,
+10,Dhruv Suhalka,25MBA00533,MBA,P
+11,Dimpy Ahir,25MBA00508,MBA,
+12,Dishant Dhanpal Jain,25MBA00517,MBA,P
+13,Divya Suthar,25MBA00522,MBA,
+14,Dushyant Bhatt,25MBA00513,MBA,
+15,Falguni Rathod,25MBA00538,MBA,P
+16,Hetakshi Dave,25MBA00535,MBA,
+17,Janak Raj Singh Panwar,25MBA00525,MBA,
+18,Jitendra Singh,25MBA00506,MBA,
+19,Joginder Pratap Singh Hada,25MBA00558,MBA,P
+20,Kapil Khatik,25MBA00570,MBA,P
+21,Keshav Maheshwari,25MBA00550,MBA,
+22,Khushboo Kunwar Ranawat,25MBA00524,MBA,
+23,Lohit Data,25MBA00569,MBA,
+24,Lonit Chouhan,25MBA00547,MBA,
+25,Madugula Sai,25MBA00540,MBA,P
+26,Mitanshu Modi,25MBA00519,MBA,P
+27,Mohammed Umar Faruq Sheikh,25MBA00568,MBA,
+28,Mopuri Manoj Kumar,25MBA00536,MBA,P
+29,Nazmeen Khan,25MBA00521,MBA,
+30,Neha Chhipa,25MBA00544,MBA,P
+31,Nidhi Jain,25MBA00532,MBA,
+32,Om Prakash Jat,25MBA00534,MBA,
+33,Payal Chhipa,25MBA00520,MBA,P
+34,Payal Joshi,25MBA00512,MBA,
+35,Pranjal Dagliya,25MBA00505,MBA,
+36,Prateek Samriya,25MBA00528,MBA,
+37,Rangula Karthik,25MBA00531,MBA,P
+38,Rinku Kunwar Rao,25MBA00564,MBA,
+39,Samiya Banu,25MBA00511,MBA,
+40,Shivlal Jat,25MBA00537,MBA,
+41,Sudhir Pratap Singh Solanki,25MBA00526,MBA,
+42,Sujal Soni,25MBA00548,MBA,
+43,Tanisha Mehta,25MBA00541,MBA,
+44,Vaibhav Kumawat,25MBA00509,MBA,
+45,Vishwas Agarwal,25MBA00507,MBA,
+46,Vishwendra Singh Rao,25MBA00527,MBA,
+47,Yuvraj Singh Bhati,25MBA00552,MBA,P
+S.No.,Students Name,Enrollment No.,BBA,
+1,Abdul Mannan Khan,24BBA00387,BBA,
+2,Aditya Thakur,24BBA00410,BBA,
+3,Alfez Ali,24BBA00363,BBA,
+4,Aman Qureshi,24BBA00374,BBA,
+5,Anushka Agarwal,24BBA00405,BBA,P
+6,Apeksha Chundawat,24BBA00402,BBA,
+7,Bhavesh Paliwal,24BBA00398,BBA,
+8,Bhavyata Chawla,24BBA00384,BBA,
+9,Bhuvneshwar Lohar,24BBA00391,BBA,
+10,Bolladi Vinith Reddy,24BBA00368,BBA,
+11,Chetikam Teja Sree,24BBA00390,BBA,
+12,Chilimela Snehith,24BBA00369,BBA,
+13,Deepanshu Lohar,24BBA00366,BBA,
+14,Fahad Warsi,24BBA00365,BBA,
+15,Garima Rathore,24BBA00399,BBA,P
+16,Garvita Maheshwari,24BBA00406,BBA,
+17,Harshit Joshi,24BBA00411,BBA,
+18,Heena Suthar,24BBA00389,BBA,
+19,Himanshu Prajapat,24BBA00412,BBA,
+20,Jamila Dhila,24BBA00379,BBA,
+21,Janvi Bhandari,24BBA00394,BBA,
+22,Kanak Nagota,24BBA00407,BBA,
+23,Kanak Sharma,24BBA00415,BBA,
+24,Khushi Bherwani,24BBA00358,BBA,
+25,Khushi Sharma,24BBA00409,BBA,
+26,Krish Kothari,24BBA00416,BBA,
+27,Kunal Vaishanv,24BBA00381,BBA,
+28,Kushal Soni,24BBA00392,BBA,
+29,Lakshya Chasta,24BBA00364,BBA,
+30,Lakshya Vyas,24BBA00356,BBA,P
+31,Mahi Rawal,24BBA00372,BBA,
+32,Ms Fatema Pathan,24BBA00362,BBA,
+33,Ms Priyal Goyal,24BBA00367,BBA,
+34,Navansh Somani,24BBA00413,BBA,
+35,Neha Suwalka,24BBA00377,BBA,
+36,Niranjan Kumar Mali,24BBA00403,BBA,
+37,Nishita Meena,24BBA00396,BBA,
+38,Piyush Jain,24BBA00378,BBA,
+39,Pradhyuman Singh Sarangdevot,24BBA00351,BBA,
+40,Prince Panashe Mavengehama,24BBA00417,BBA,
+41,Prithvi Singh Sisodiya,24BBA00386,BBA,
+42,Rhythm Kabra,24BBA00385,BBA,
+43,Rishi Amit Sanghvi,24BBA00357,BBA,
+44,Shagun Ajmera,24BBA00359,BBA,
+45,Shivani Sharma,24BBA00354,BBA,
+46,Shrey Khandelwal,24BBA00373,BBA,
+47,Shriya Gupta,24BBA00370,BBA,
+48,Shumaila Sheikh,24BBA00401,BBA,
+49,Sudula Jashwanth Reddy,24BBA00388,BBA,
+50,Suhani Agarwal,24BBA00419,BBA,
+51,Tanisha Maheshwari,24BBA00376,BBA,
+52,Toshif Raza,24BBA00353,BBA,
+53,Utkarsh Upadhyay,24BBA00375,BBA,
+54,Vikas Mehta,24BBA00418,BBA,
+55,Yash Aditya Saxena,24BBA00395,BBA,
+56,Yash Agarwal,24BBA00414,BBA,
+57,Yuvraj Soni,24BBA00382,BBA,
+S.No.,Students Name,Enrollment No.,B.Tech,
+1,Abdul Rahman,23CS002674,B.Tech,
+2,Abhay Verma,23CS002872,B.Tech,
+3,Abhijeet Tiwari,23CS002812,B.Tech,
+4,Addepalli Lakshmi Deepika,24L3CS3004,B.Tech,
+5,Adepu Deepak Kumar,23CS002676,B.Tech,
+6,Aggu Abhinay,23CS002795,B.Tech,
+7,Ailuri Manikanta Reddy,23CS002695,B.Tech,
+8,Allamprabhu Gnanya Siri,23CS002697,B.Tech,
+9,Alugubelli Jagadeeshwar Reddy,23CS002677,B.Tech,
+10,Alva Saketh Reddy,23CS002858,B.Tech,
+11,Annapureddy Koti Reddy,23CS002632,B.Tech,P
+12,Anshul Giri Goswami,23CS002874,B.Tech,
+13,Anuj Tiwari,23CS002779,B.Tech,
+14,Anushka Berwal,23CS002735,B.Tech,
+15,Arpit Sharma,23CS002740,B.Tech,
+16,Aryan Bunkar,23CS002741,B.Tech,
+17,Avinash Chaurasiya,23CS002794,B.Tech,
+18,Ayaan Sheikh,23CS002742,B.Tech,
+19,Ayancha Lohith Sai Manikanta,23CS002635,B.Tech,
+20,Ayush Pancholi,23CS002760,B.Tech,
+21,B Naveen,23CS002845,B.Tech,
+22,Bairagoni Alekhya,23CS002797,B.Tech,
+23,Banothu Sai,23CS002813,B.Tech,
+24,Bari Vivek,23CS002682,B.Tech,
+25,Bassi Ram Singh,23CS002675,B.Tech,
+26,Bhimishetti Lohith,23CS002633,B.Tech,
+27,Bhoomit Tulsani,23CS002801,B.Tech,
+28,Bhyrava Bhatla Sai Vishwanath,23CS002672,B.Tech,P
+29,Boine Nikshith,23CS002678,B.Tech,
+30,Bolishetty Samith Sai,23CS002685,B.Tech,
+31,Burugula Jashwanth,23CS002798,B.Tech,
+32,Busa Rahul,23CS002652,B.Tech,
+33,Chadarasipalli Ram Charan,23CS002751,B.Tech,P
+34,Chakali Tarun,23CS002626,B.Tech,
+35,Chamarty Abhinav Siddartha,23CS002681,B.Tech,
+36,Cheerla Vasu Sagar,23CS002663,B.Tech,
+37,Chenchala Dharnendra,23CS002863,B.Tech,
+38,Chhavi Singh,23CS002853,B.Tech,
+39,Chinthalapally Siddanth Reddy,23CS002657,B.Tech,
+40,Chinthamaneni Yeswanth,23CS002808,B.Tech,
+41,Chirraboina Sai Shiva,23CS002650,B.Tech,
+42,Deepanshi Sharma,23CS002828,B.Tech,
+43,Devansh Ahari,23CS002748,B.Tech,
+44,Devantikay Sharma,23CS002857,B.Tech,
+45,Dhruv Dwivedi,23CS002757,B.Tech,
+46,Dhruv Jethi,23CS002738,B.Tech,
+47,Divya Rana,23CS002822,B.Tech,
+48,Divyanshu Chhaganlal Parmar,23CS002831,B.Tech,
+49,Donga Raghuvardhan Reddy,23CS002654,B.Tech,
+50,Donga Revanth Reddy,23CS002660,B.Tech,
+51,Doppalapudi Karthik,23CS002669,B.Tech,
+52,Endla Jitendar,23CS002661,B.Tech,
+53,Erra Stalin Nissy,23CS002772,B.Tech,
+54,Ettaboina Sai Kumar,23CS002703,B.Tech,
+55,Gaddam Akash,23CS002776,B.Tech,
+56,Gaddam Balaji,23CS002680,B.Tech,
+57,Gandham Akash,23CS002763,B.Tech,
+58,Gandham Ashwin,23CS002764,B.Tech,
+59,Gangarapu Ranaveer,23CS002716,B.Tech,
+60,Ganna Shashank Rao,23CS002665,B.Tech,
+61,Gantala Ashish Goud,23CS002698,B.Tech,
+62,Gaurav Vaishnav,23CS002852,B.Tech,
+63,Ghanta Devisri,23CS002646,B.Tech,
+64,Ghanta Sai Neeraj,23CS002689,B.Tech,
+65,Ghanta Sai Nikhil,23CS002690,B.Tech,
+66,Godugula Akhil Krishna,23CS002699,B.Tech,
+67,Gunnam Jahnvi,23CS002806,B.Tech,
+68,Gunthakandla Aravind,23CS002777,B.Tech,
+69,Gutha Sai Ram Reddy,23CS002656,B.Tech,
+70,Harsh Vardhan Sanadhya,23CS002771,B.Tech,P
+71,Harshal Hada,23CS002719,B.Tech,
+72,Harshit Suthar,23CS002724,B.Tech,
+73,Hemraj Arya,23CS002761,B.Tech,
+74,J Sai Akash,23CS002642,B.Tech,
+75,Jahnavi Dave,23CS002871,B.Tech,
+76,Jatagoni Sampath Kumar,23CS002869,B.Tech,
+77,Jitendra Saini,23CS002720,B.Tech,P
+78,Jukanti Anvesh Reddy,23CS002747,B.Tech,
+79,Julakanti Jayanth Reddy,23CS002651,B.Tech,
+80,K Sai Prakash Reddy,23CS002701,B.Tech,
+81,Kailash Chandra Jat,23CS002833,B.Tech,
+82,Kalthi Bharath Sagar Dora,23CS002826,B.Tech,
+83,Kamma Janani,23CS002768,B.Tech,
+84,Kanugula Siva Sankar,23CS002640,B.Tech,
+85,Kashyap Ojha,23CS002718,B.Tech,
+86,Keshavbhatt Kumari Anagha,23CS002775,B.Tech,
+87,Khanoj Reddy Mekala,23CS002717,B.Tech,
+88,Khushi Agarwal,23CS002827,B.Tech,P
+89,Kollepara Naga Sri Lakshmi Varshith,23CS002641,B.Tech,
+90,Lakshya Chopra,23CS002830,B.Tech,
+91,Lolam Abhinay,23CS002796,B.Tech,
+92,Maan Singh,23CS002862,B.Tech,
+93,Madagani Sai Rishik,23CS002638,B.Tech,
+94,Madam Sai Kumar,23CS002659,B.Tech,
+95,Madhavan Bohra,23CS002744,B.Tech,
+96,Maduri Pramith,23CS002686,B.Tech,
+97,Mahipal Singh Rao,23CS002864,B.Tech,P
+98,Majoju Vivek,23CS002673,B.Tech,
+99,Mamidala Karthik Reddy,23CS002702,B.Tech,
+100,Mandadi Praneeth,23CS002629,B.Tech,
+101,Mandava Sai Vikranth Goud,23CS002694,B.Tech,
+102,Mandu Mahendar,23CS002658,B.Tech,
+103,Manish Kumawat,23CS002721,B.Tech,P
+104,Manja Krishna,23CS002810,B.Tech,
+105,Manmohan Singh,23CS002733,B.Tech,
+106,Manttipelli Nithin,23CS002762,B.Tech,
+107,Mayurdhwaj Singh Rathore,23CS002729,B.Tech,
+108,Mekala Arun Sai,23CS002643,B.Tech,
+109,Modepu Saathwik Goud,23CS002637,B.Tech,
+110,Mohammad Abdul Maliq,23CS002670,B.Tech,
+111,Mritunjai Singh,23CS002773,B.Tech,P
+112,Ms Dewanshi Karnawat,23CS002836,B.Tech,P
+113,Ms Ishika Mehta,23CS002865,B.Tech,
+114,Ms Niyati Khandelwal,23CS002829,B.Tech,
+115,Ms.sneha Dilip Kharade,23CS002821,B.Tech,
+116,Mukthala Harikrishna Goud,23CS002807,B.Tech,
+117,Munukuntla Bunny Narayana Naidu,23CS002707,B.Tech,
+118,Nagaipalli Kaushik,23CS002851,B.Tech,
+119,Nagareddy Rishitha,23CS002730,B.Tech,
+120,Nalla Jayanth Reddy,23CS002691,B.Tech,
+121,Narisetty Dinesh Kumar,23CS002679,B.Tech,
+122,Nilesh Parmar,23CS002819,B.Tech,
+123,Nitin Verma,23CS002731,B.Tech,
+124,Ora Akarsh,23CS002746,B.Tech,
+125,P Lahari,23CS002818,B.Tech,
+126,P Vishnuvardan,23CS002710,B.Tech,
+127,Padala Mahesh Chandra,23CS002639,B.Tech,
+128,Palepu Karthik,23CS002668,B.Tech,
+129,Pallapu Santhosh,23CS002780,B.Tech,
+130,Pathuri Sriram Goud,23CS002649,B.Tech,
+131,Patimini Mahesh,23CS002713,B.Tech,
+132,Pebbeti Naresh,23CS002625,B.Tech,
+133,Pesaru Akhil Kumar Reddy,23CS002708,B.Tech,
+134,Piyush Kumar Bhoi,23CS002789,B.Tech,
+135,Pothamsetti Venkata Rama Krishna Reddy,23CS002715,B.Tech,
+136,Pranav Mathur,23CS002727,B.Tech,P
+137,Pranav Sankhla,23CS002723,B.Tech,
+138,Praveen Singh Ranawat,23CS002793,B.Tech,
+139,Priyank Dhankar,24L3CS3319,B.Tech,
+140,Pulagam Sri Madhuri,23CS002714,B.Tech,
+141,Puneet Dhankar,23CS002726,B.Tech,
+142,Rahul,23CS002628,B.Tech,
+143,Rahul Borana,23CS002802,B.Tech,
+144,Rahul Soni,23CS002883,B.Tech,
+145,Rakshit Joshi,23CS002787,B.Tech,
+146,Ramanuja Venkat Nookala,23CS002655,B.Tech,
+147,Rathore Hukumsingh Moolsingh,23CS002832,B.Tech,
+148,Reyansh Chandak,23CS002839,B.Tech,P
+149,Riya .,23CS002792,B.Tech,
+150,Rohit Vaishnav,23CS002734,B.Tech,
+151,Rohit Vijayvargiya,23CS002770,B.Tech,
+152,Ruthala Nikhilesh Sriram,23CS002696,B.Tech,
+153,S Balaji,23CS002705,B.Tech,P
+154,Sachin,23CS002753,B.Tech,
+155,Samala Srikar,23CS002671,B.Tech,
+156,Sanjay Kumar Padwal,23CS002666,B.Tech,
+157,Sapavath Jeevana,23CS002645,B.Tech,
+158,Shagamreddy Vignesh Reddy,23CS002704,B.Tech,
+159,Shaik Aiyaz,23CS002693,B.Tech,
+160,Shaik Sajil,23CS002860,B.Tech,
+161,Shaik Sameer,23CS002709,B.Tech,
+162,Shaik Usmangani,23CS002630,B.Tech,
+163,Sharmila Sreevennela Chamarthy,23CS002647,B.Tech,
+164,Shivam Sharma,23CS002684,B.Tech,
+165,Shivarathri Sireesh Kumar,23CS002688,B.Tech,
+166,Siluveru Akshay Kumar,23CS002662,B.Tech,
+167,Suhani Gupta,23CS002732,B.Tech,
+168,Sujal Suthar,23CS002790,B.Tech,
+169,Surabhi Shanmukha Venkata Lakshmi Srikanth,23CS002844,B.Tech,
+170,Suraj Nath,23CS002840,B.Tech,
+171,Suraj Singh,23CS002854,B.Tech,
+172,Surender Kumar,23CS002627,B.Tech,
+173,Surnar Venkatesh,23CS002653,B.Tech,
+174,Tallapalem Neeharika,24L3CS3040,B.Tech,
+175,Talluri Deepak,23CS002842,B.Tech,
+176,Tanmay Pareek,23CS002736,B.Tech,
+177,Tanvi Pareek,23CS002737,B.Tech,
+178,Thekkel Kevin Jacob,23CS002648,B.Tech,
+179,Thotakura Syam Sundar,23CS002700,B.Tech,
+180,Tirumalasetti Pardhu,23CS002631,B.Tech,P
+181,Udandi Sowmya,24L3CS3450,B.Tech,
+182,Ujjwal Singh,23CS002745,B.Tech,
+183,Urvashi Rao,23CS002769,B.Tech,
+184,Vaddepalli Meghana,23CS002711,B.Tech,
+185,Vadikari Shivaji,23CS002859,B.Tech,
+186,Vaibhavi Jain,23CS002778,B.Tech,
+187,Varala Naveen,24L3CS3272,B.Tech,
+188,Velma Arjun Reddy,23CS002692,B.Tech,
+189,Vempala Dhruvan,23CS002636,B.Tech,
+190,Vijay Menaria,23CS002814,B.Tech,P
+191,Vinit Menaria,23CS002815,B.Tech,P
+192,Yash Mehta,23CS002800,B.Tech,
