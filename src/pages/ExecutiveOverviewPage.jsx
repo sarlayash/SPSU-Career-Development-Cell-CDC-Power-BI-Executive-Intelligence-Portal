@@ -41,56 +41,35 @@ export default function ExecutiveOverviewPage({ dataset, filteredStudents, onSel
   return (
     <div className="space-y-6 animate-in fade-in duration-300">
       {/* ============================================================== */}
-      {/* 🏛️ UNIVERSITY HERO SHOWCASE & ACCREDITATIONS BANNER IMAGE      */}
+      {/* 🏛️ UNIVERSITY HERO SHOWCASE & ACCREDITATIONS (NO CROPPING)     */}
       {/* ============================================================== */}
-      <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-zinc-700 bg-white dark:bg-[#1f1f23] group">
-        <div className="relative w-full overflow-hidden bg-slate-900">
+      <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200 dark:border-zinc-800 bg-white dark:bg-[#202024]">
+        {/* Full uncropped image container */}
+        <div className="w-full bg-[#EBF0F7] dark:bg-[#121215] flex items-center justify-center p-1 sm:p-2">
           <img 
             src={spsuBanner} 
             alt="Sir Padampat Singhania University (SPSU), Udaipur - Campus & Accreditations" 
-            className="w-full h-auto object-cover object-center max-h-[360px] sm:max-h-[420px] transition-transform duration-700 group-hover:scale-[1.01]"
+            className="w-full h-auto object-contain rounded-xl shadow-sm block"
+            style={{ maxHeight: 'none', maxWidth: '100%' }}
           />
-          {/* Subtle bottom gradient vignette */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none"></div>
-
-          {/* Floating Pill Badges on the Banner */}
-          <div className="absolute bottom-3 left-4 right-4 flex flex-wrap items-center justify-between gap-2 text-white">
-            <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20 text-xs">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="font-bold">Career Development Cell (CDC)</span>
-              <span className="text-zinc-300 hidden sm:inline">• Directorate Strategic Monitoring</span>
-            </div>
-
-            <div className="flex items-center gap-2 bg-amber-500/90 backdrop-blur-md px-3 py-1.5 rounded-lg text-slate-950 text-xs font-bold shadow-lg">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Ranked 3 in Rajasthan Private Universities</span>
-            </div>
-          </div>
         </div>
 
-        {/* Accreditation Quick Highlight Strip */}
-        <div className="px-5 py-3 bg-slate-50 dark:bg-zinc-800/80 border-t border-slate-200 dark:border-zinc-700 flex flex-wrap items-center justify-between text-xs text-slate-600 dark:text-zinc-300 gap-3">
-          <div className="flex items-center gap-4 flex-wrap">
-            <span className="font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
-              <ShieldCheck className="w-4 h-4 text-amber-500" />
-              Recognitions & Standards:
+        {/* Status bar directly beneath uncropped image */}
+        <div className="px-5 py-3 bg-white dark:bg-[#202024] border-t border-slate-200 dark:border-zinc-800 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700 font-bold">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+              Career Development Cell (CDC) • Directorate Strategic Monitoring
             </span>
-            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
-              QS I-GAUGE Gold Rating
-            </span>
-            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
-              AIMA Member
-            </span>
-            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
-              CIPU & AIU Member
-            </span>
-            <span className="px-2 py-0.5 rounded bg-white dark:bg-zinc-700 border border-slate-200 dark:border-zinc-600 font-semibold text-[11px]">
-              Best Green & Clean Campus 2026
+
+            <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-700 font-bold">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+              Ranked 3 in Rajasthan Private Engineering & Technology Universities
             </span>
           </div>
 
-          <div className="text-[11px] font-bold text-amber-600 dark:text-amber-400">
-            Batch 2026 Live Audit
+          <div className="text-[11px] font-bold text-slate-500 dark:text-zinc-400">
+            Batch 2026 Directorate Placement Audit
           </div>
         </div>
       </div>

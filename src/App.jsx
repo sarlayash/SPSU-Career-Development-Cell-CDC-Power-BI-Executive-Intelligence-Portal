@@ -3,6 +3,7 @@ import initialData from './data/spsu_cdc_data.json';
 import HeaderRibbon from './components/HeaderRibbon';
 import FilterPane from './components/FilterPane';
 import AuthModal from './components/AuthModal';
+import LoginPage from './components/LoginPage';
 import StudentDetailModal from './components/StudentDetailModal';
 import ExecutiveDirectorPrintReport from './components/ExecutiveDirectorPrintReport';
 
@@ -25,14 +26,17 @@ export default function App() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
-  // Default logged in user as Director per prompt's "Director's request"
-  const [currentUser, setCurrentUser] = useState({
-    role: 'Director',
-    name: 'Prof. (Dr.) Prithvi Yadav',
-    title: 'Director / Vice Chancellor',
-    email: 'director@spsu.ac.in',
-    badge: 'Executive Admin',
-    avatar: '👨‍💼'
+  // Authentication State: check saved session or default to null to require login
+  const [currentUser, setCurrentUser] = useState(() => {
+    try {
+      const savedLocal = localStorage.getItem('spsu_cdc_auth');
+      const savedSession = sessionStorage.getItem('spsu_cdc_auth');
+      if (savedLocal) return JSON.parse(savedLocal);
+      if (savedSession) return JSON.parse(savedSession);
+    } catch (e) {
+      // ignore
+    }
+    return null;
   });
 
   // Global Slicers State
@@ -61,6 +65,14 @@ export default function App() {
 
   const handleResetFilters = () => {
     setFilters(initialFilters);
+  };
+
+  const handleLogout = () => {
+    try {
+      localStorage.removeItem('spsu_cdc_auth');
+      sessionStorage.removeItem('spsu_cdc_auth');
+    } catch (e) {}
+    setCurrentUser(null);
   };
 
   // Filter students based on slicers
@@ -145,6 +157,11 @@ export default function App() {
   const handleExportSummary = () => {
     exportToCSV(`SPSU_CDC_Placement_Summary_${new Date().toISOString().slice(0, 10)}.csv`, dataset.summary_placement);
   };
+
+  // If not logged in, render the dedicated SPSU Login Gate
+  if (!currentUser) {
+    return <LoginPage onLoginSuccess={setCurrentUser} />;
+  }
 
   return (
     <div className="flex flex-col h-screen w-screen overflow-hidden bg-[#F3F4F6] dark:bg-[#18181B] text-slate-900 dark:text-slate-100 font-powerbi">
@@ -243,13 +260,13 @@ export default function App() {
         onClose={() => setSelectedStudent(null)}
       />
 
-      {/* Authentication Gateway Modal */}
+      {/* Authentication Gateway Modal (for switching roles or signing out) */}
       <AuthModal
         isOpen={isAuthModalOpen}
         onClose={() => setIsAuthModalOpen(false)}
         currentUser={currentUser}
         onLogin={setCurrentUser}
-        onLogout={() => setCurrentUser(null)}
+        onLogout={handleLogout}
       />
 
       {/* Invisible on screen, renders during window.print() */}

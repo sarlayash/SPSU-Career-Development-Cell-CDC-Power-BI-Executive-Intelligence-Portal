@@ -54,6 +54,23 @@ export default function AuthModal({ isOpen, onClose, currentUser, onLogin, onLog
   const handleCustomSubmit = (e) => {
     e.preventDefault();
     if (!customEmail) return;
+
+    const u = customEmail.trim().toUpperCase();
+    const p = customPass.trim();
+
+    if ((u === 'ADMIN' || u === 'ADMIN@SPSU.AC.IN') && p === 'SPSU123') {
+      onLogin({
+        role: 'Director / Admin',
+        name: 'Administrator',
+        title: 'Directorate Executive Admin',
+        email: 'director@spsu.ac.in',
+        badge: 'Super Admin',
+        avatar: '👨‍💼'
+      });
+      onClose();
+      return;
+    }
+
     onLogin({
       role: 'Staff User',
       name: customEmail.split('@')[0],
