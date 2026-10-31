@@ -192,6 +192,8 @@ export default function App() {
               filteredStudents={filteredStudents}
               onSelectProgram={handleSelectProgramFromOverview}
               onSelectStudent={setSelectedStudent}
+              onNavigateTab={setActiveTab}
+              onFilterChange={handleFilterChange}
             />
           )}
 
@@ -200,6 +202,8 @@ export default function App() {
               dataset={dataset}
               filteredStudents={filteredStudents}
               onSelectStudent={setSelectedStudent}
+              onNavigateTab={setActiveTab}
+              onFilterChange={handleFilterChange}
             />
           )}
 
@@ -208,6 +212,8 @@ export default function App() {
               dataset={dataset}
               filteredStudents={filteredStudents}
               onSelectStudent={setSelectedStudent}
+              onNavigateTab={setActiveTab}
+              onFilterChange={handleFilterChange}
             />
           )}
 
@@ -215,6 +221,8 @@ export default function App() {
             <StudentsGridPage
               students={filteredStudents}
               onSelectStudent={setSelectedStudent}
+              onNavigateTab={setActiveTab}
+              onFilterChange={handleFilterChange}
             />
           )}
 
@@ -223,6 +231,8 @@ export default function App() {
               dataset={dataset}
               filteredStudents={filteredStudents}
               onSelectStudent={setSelectedStudent}
+              onNavigateTab={setActiveTab}
+              onFilterChange={handleFilterChange}
             />
           )}
 

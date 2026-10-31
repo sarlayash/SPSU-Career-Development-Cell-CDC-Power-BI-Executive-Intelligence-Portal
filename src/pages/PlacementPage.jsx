@@ -1,7 +1,28 @@
 import React from 'react';
-import { Briefcase, Award, TrendingUp, DollarSign, Building, CheckCircle, ExternalLink, ShieldCheck } from 'lucide-react';
+import { 
+  Briefcase, 
+  Award, 
+  TrendingUp, 
+  DollarSign, 
+  Building, 
+  CheckCircle, 
+  ExternalLink, 
+  ShieldCheck,
+  ChevronRight,
+  ArrowRight,
+  Sparkles,
+  BarChart,
+  PieChart,
+  Users
+} from 'lucide-react';
 
-export default function PlacementPage({ dataset, filteredStudents, onSelectStudent }) {
+export default function PlacementPage({ 
+  dataset, 
+  filteredStudents, 
+  onSelectStudent,
+  onNavigateTab,
+  onFilterChange 
+}) {
   const placedStudents = filteredStudents.filter(s => s.placementStatus.startsWith('Placed'));
   const remainingStudents = filteredStudents.filter(s => s.placementStatus === 'Remaining');
   const optOutStudents = filteredStudents.filter(s => s.placementStatus === 'Opt Out');
@@ -33,8 +54,54 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
 
   const companiesList = Object.values(companyMap).sort((a, b) => b.count - a.count || b.ctc - a.ctc);
 
+  const handleDrillThrough = (tabId, filterKey = null, filterValue = null) => {
+    if (filterKey && filterValue && onFilterChange) {
+      onFilterChange(filterKey, filterValue);
+    }
+    if (onNavigateTab) {
+      onNavigateTab(tabId);
+    }
+  };
+
   return (
     <div className="space-y-5 animate-in fade-in duration-300">
+      {/* Fast Action Breadcrumb Navigation Pills (Hyperlinks to other suites) */}
+      <div className="p-2.5 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 flex items-center justify-between gap-3 text-xs shadow-2xs">
+        <div className="flex items-center gap-1.5 overflow-x-auto">
+          <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0">
+            Quick Navigation:
+          </span>
+          <button 
+            onClick={() => handleDrillThrough('overview')}
+            className="px-2.5 py-1 rounded bg-slate-100 hover:bg-slate-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-300 font-semibold transition shrink-0"
+          >
+            ← Executive Cockpit
+          </button>
+          <button 
+            onClick={() => handleDrillThrough('internships')}
+            className="px-2.5 py-1 rounded bg-slate-100 hover:bg-blue-600 hover:text-white dark:bg-zinc-800 text-slate-700 dark:text-zinc-300 font-semibold transition shrink-0"
+          >
+            Summer Internship (297)
+          </button>
+          <button 
+            onClick={() => handleDrillThrough('students')}
+            className="px-2.5 py-1 rounded bg-slate-100 hover:bg-emerald-600 hover:text-white dark:bg-zinc-800 text-slate-700 dark:text-zinc-300 font-semibold transition shrink-0"
+          >
+            Student 360° Matrix
+          </button>
+          <button 
+            onClick={() => handleDrillThrough('recruiters')}
+            className="px-2.5 py-1 rounded bg-slate-100 hover:bg-purple-600 hover:text-white dark:bg-zinc-800 text-slate-700 dark:text-zinc-300 font-semibold transition shrink-0"
+          >
+            Recruiter Intelligence
+          </button>
+        </div>
+
+        <span className="text-[11px] font-bold text-amber-600 dark:text-amber-400 shrink-0 hidden sm:inline">
+          Peak CTC: ₹10.20 LPA
+        </span>
+      </div>
+
       {/* Title */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-200 dark:border-zinc-800">
         <div>
@@ -59,7 +126,11 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
 
       {/* KPI Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5">
-        <div className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card">
+        <div 
+          onClick={() => handleDrillThrough('students', 'placementStatus', 'Placed')}
+          className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card cursor-pointer hover:border-emerald-500 transition"
+          title="Click to view all placed students"
+        >
           <div className="flex justify-between items-center text-slate-500 dark:text-zinc-400 mb-1">
             <span className="text-[11px] font-bold uppercase">Total Placed</span>
             <CheckCircle className="w-4 h-4 text-emerald-500" />
@@ -67,7 +138,7 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
           <div className="text-2xl font-black text-emerald-600 dark:text-emerald-400">
             {placedStudents.length}
           </div>
-          <p className="text-[10px] text-slate-400 mt-1">Across filtered departments</p>
+          <p className="text-[10px] text-slate-400 mt-1">Across filtered departments (Click to view)</p>
         </div>
 
         <div className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card">
@@ -81,7 +152,11 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
           <p className="text-[10px] text-slate-400 mt-1">59.5% secured via PPO pathway</p>
         </div>
 
-        <div className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card">
+        <div 
+          onClick={() => handleDrillThrough('recruiters')}
+          className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card cursor-pointer hover:border-amber-500 transition"
+          title="Click to view Tier 1 Recruiter Partners"
+        >
           <div className="flex justify-between items-center text-slate-500 dark:text-zinc-400 mb-1">
             <span className="text-[11px] font-bold uppercase">Tier 1 (&gt;= 8 LPA)</span>
             <DollarSign className="w-4 h-4 text-amber-500" />
@@ -92,7 +167,11 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
           <p className="text-[10px] text-slate-400 mt-1">Country Edu, KMK Venture, Eleation</p>
         </div>
 
-        <div className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card">
+        <div 
+          onClick={() => handleDrillThrough('students', 'placementStatus', 'Remaining')}
+          className="p-4 bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 shadow-sm powerbi-card cursor-pointer hover:border-purple-500 transition"
+          title="Click to view candidate pipeline"
+        >
           <div className="flex justify-between items-center text-slate-500 dark:text-zinc-400 mb-1">
             <span className="text-[11px] font-bold uppercase">Eligible Remaining</span>
             <TrendingUp className="w-4 h-4 text-purple-500" />
@@ -104,7 +183,7 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
         </div>
       </div>
 
-      {/* Salary Tier Cards */}
+      {/* Salary Tier Cards with Student Previews */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Tier 1 */}
         <div className="p-4 rounded-xl border border-amber-200 dark:border-amber-900/50 bg-amber-50/40 dark:bg-amber-950/20">
@@ -191,7 +270,7 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
         </div>
       </div>
 
-      {/* Corporate Recruiters Leaderboard */}
+      {/* Corporate Recruiters Leaderboard with 1-Click Hyperlink Filters */}
       <div className="bg-white dark:bg-[#202024] rounded-xl border border-slate-200 dark:border-zinc-800 p-4 shadow-sm">
         <h3 className="text-sm font-bold text-slate-900 dark:text-white mb-3 flex items-center justify-between">
           <span className="flex items-center gap-2">
@@ -212,6 +291,7 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
                 <th className="py-2 px-3 text-right">Package (CTC)</th>
                 <th className="py-2 px-3 text-center">Mode</th>
                 <th className="py-2 px-3 text-left">Recruited Students</th>
+                <th className="py-2 px-2 text-center">Drill-Down</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 dark:divide-zinc-800">
@@ -243,6 +323,16 @@ export default function PlacementPage({ dataset, filteredStudents, onSelectStude
                         </button>
                       ))}
                     </div>
+                  </td>
+                  <td className="py-2.5 px-2 text-center">
+                    <button
+                      onClick={() => handleDrillThrough('students', 'search', comp.name)}
+                      className="px-2 py-0.5 rounded bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-[10px] inline-flex items-center gap-0.5"
+                      title={`Filter student matrix by ${comp.name}`}
+                    >
+                      <span>Filter</span>
+                      <ArrowRight className="w-2.5 h-2.5" />
+                    </button>
                   </td>
                 </tr>
               ))}
