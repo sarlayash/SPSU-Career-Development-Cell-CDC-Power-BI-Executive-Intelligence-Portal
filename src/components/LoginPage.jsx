@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Shield, Lock, User, CheckCircle2, AlertCircle, Sparkles, ArrowRight, Building2, Key } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Shield, Lock, User, CheckCircle2, AlertCircle, Sparkles, ArrowRight, Building2, Key, Clock, Calendar } from 'lucide-react';
 import spsuBanner from '../assets/spsu-banner.png';
 
 export default function LoginPage({ onLoginSuccess }) {
@@ -7,6 +7,12 @@ export default function LoginPage({ onLoginSuccess }) {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [rememberMe, setRememberMe] = useState(true);
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setCurrentTime(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -59,9 +65,23 @@ export default function LoginPage({ onLoginSuccess }) {
           </div>
         </div>
 
-        <span className="text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
-          Director's Request Portal
-        </span>
+        <div className="flex items-center gap-2.5">
+          <div className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/40 border border-white/15 text-[11px] text-zinc-300 font-mono shadow-inner">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span className="text-zinc-200">
+              {currentTime.toLocaleDateString('en-IN', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' })}
+            </span>
+            <span className="text-zinc-600">•</span>
+            <span className="text-amber-400 font-bold">
+              {currentTime.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })}
+            </span>
+            <span className="text-[9px] px-1 rounded bg-zinc-800 text-zinc-400">IST</span>
+          </div>
+
+          <span className="text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+            Director's Request Portal
+          </span>
+        </div>
       </div>
 
       {/* Center Container: Card with Campus Image and Login Form */}

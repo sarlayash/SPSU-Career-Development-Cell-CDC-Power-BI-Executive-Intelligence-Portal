@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Search, 
   Download, 
@@ -24,16 +24,26 @@ export default function StudentsGridPage({ students, onSelectStudent }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(25);
 
+  // Automatically reset to page 1 whenever filters or search criteria change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, selectedDept, selectedStatus, students]);
+
   const departments = ['ALL', 'CSE', 'ECE', 'MN', 'CE', 'ME', 'BDES', 'BCA', 'BBA', 'MBA'];
 
   const filtered = useMemo(() => {
     return students.filter((s) => {
+      const q = search.toLowerCase().trim();
       const matchSearch = 
-        !search ||
-        s.name.toLowerCase().includes(search.toLowerCase()) ||
-        s.enrollmentNo.toLowerCase().includes(search.toLowerCase()) ||
-        (s.placementCompanies && s.placementCompanies.toLowerCase().includes(search.toLowerCase())) ||
-        (s.internshipCompaniesOffered && s.internshipCompaniesOffered.toLowerCase().includes(search.toLowerCase()));
+        !q ||
+        (s.name && s.name.toLowerCase().includes(q)) ||
+        (s.enrollmentNo && s.enrollmentNo.toLowerCase().includes(q)) ||
+        (s.department && s.department.toLowerCase().includes(q)) ||
+        (s.specialization && s.specialization.toLowerCase().includes(q)) ||
+        (s.emailSpsu && s.emailSpsu.toLowerCase().includes(q)) ||
+        (s.placementCompanies && s.placementCompanies.toLowerCase().includes(q)) ||
+        (s.internshipCompaniesOffered && s.internshipCompaniesOffered.toLowerCase().includes(q)) ||
+        (s.placementStatus && s.placementStatus.toLowerCase().includes(q));
 
       const matchDept = selectedDept === 'ALL' || s.department === selectedDept;
       const matchStatus = 
@@ -50,6 +60,17 @@ export default function StudentsGridPage({ students, onSelectStudent }) {
     return [...filtered].sort((a, b) => {
       let aVal = a[sortField];
       let bVal = b[sortField];
+
+      const isNumericField = ['sNo', 'placementCTC', 'cgpa', 'backlogs'].includes(sortField);
+      if (isNumericField) {
+        const valA = (aVal === null || aVal === undefined || aVal === '') 
+          ? (sortOrder === 'asc' ? 999999 : -999999) 
+          : Number(aVal);
+        const valB = (bVal === null || bVal === undefined || bVal === '') 
+          ? (sortOrder === 'asc' ? 999999 : -999999) 
+          : Number(bVal);
+        return sortOrder === 'asc' ? valA - valB : valB - valA;
+      }
 
       if (aVal === null || aVal === undefined) aVal = '';
       if (bVal === null || bVal === undefined) bVal = '';

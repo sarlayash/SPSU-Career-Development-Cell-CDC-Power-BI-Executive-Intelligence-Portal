@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Users, 
   Award, 
@@ -14,12 +14,21 @@ import {
   AlertTriangle,
   FileCheck,
   ShieldCheck,
-  Sparkles
+  Sparkles,
+  Clock,
+  Calendar
 } from 'lucide-react';
 import spsuBanner from '../assets/spsu-banner.png';
 
 export default function ExecutiveOverviewPage({ dataset, filteredStudents, onSelectProgram, onSelectStudent }) {
   const { summary_placement, summary_internship, meta } = dataset;
+
+  const [liveClock, setLiveClock] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setLiveClock(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   // Filtered statistics
   const currentTotal = filteredStudents.length;
@@ -68,8 +77,20 @@ export default function ExecutiveOverviewPage({ dataset, filteredStudents, onSel
             </span>
           </div>
 
-          <div className="text-[11px] font-bold text-slate-500 dark:text-zinc-400">
-            Batch 2026 Directorate Placement Audit
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-100 dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 text-[11px] font-mono text-slate-700 dark:text-zinc-200 shadow-sm">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+              <Calendar className="w-3.5 h-3.5 text-amber-500" />
+              <span>{liveClock.toLocaleDateString('en-IN', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' })}</span>
+              <span className="text-slate-400 dark:text-zinc-500">•</span>
+              <Clock className="w-3.5 h-3.5 text-blue-500 dark:text-blue-400" />
+              <span className="font-bold">{liveClock.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })}</span>
+              <span className="text-[9px] px-1 rounded bg-slate-200 dark:bg-zinc-700 text-slate-600 dark:text-zinc-400">IST</span>
+            </div>
+
+            <span className="text-[11px] font-bold text-slate-500 dark:text-zinc-400 hidden sm:inline">
+              Batch 2026 Directorate Placement Audit
+            </span>
           </div>
         </div>
       </div>

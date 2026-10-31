@@ -29,7 +29,7 @@ export default function ExecutiveDirectorPrintReport({ dataset, filteredStudents
         <img 
           src={spsuBanner} 
           alt="SPSU Udaipur Campus" 
-          className="w-full h-auto max-h-[140px] object-cover rounded mb-3 border border-slate-300"
+          className="w-full h-auto object-contain rounded mb-3 border border-slate-300"
         />
         <div className="inline-block px-3 py-1 bg-amber-100 text-amber-900 border border-amber-400 font-sans text-xs font-bold uppercase tracking-widest rounded mb-2">
           Strictly Confidential • Directorate Executive Briefing
@@ -41,7 +41,7 @@ export default function ExecutiveDirectorPrintReport({ dataset, filteredStudents
           Career Development Cell (CDC) — Directorate Placement Intelligence Memo
         </h2>
         <p className="text-xs text-slate-500 font-sans mt-0.5">
-          Report Generated on: {today} • Graduating Cohort: Class of 2026 • Reference: SPSU/CDC/DIR/2026/01
+          Report Generated on: {today} at {new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })} IST • Graduating Cohort: Class of 2026 • Reference: SPSU/CDC/DIR/2026/01
         </p>
       </div>
 

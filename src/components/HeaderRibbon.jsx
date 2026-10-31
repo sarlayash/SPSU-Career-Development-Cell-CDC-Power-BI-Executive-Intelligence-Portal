@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { 
   BarChart3, 
   RotateCcw, 
@@ -10,13 +10,14 @@ import {
   Printer, 
   FileSpreadsheet, 
   FileText, 
-  ChevronDown,
-  Sparkles,
-  Layers,
-  Share2,
-  HelpCircle,
-  ShieldCheck,
-  Building2
+  ChevronDown, 
+  Sparkles, 
+  Layers, 
+  Share2, 
+  Clock, 
+  Calendar,
+  Building2,
+  LogOut
 } from 'lucide-react';
 
 export default function HeaderRibbon({
@@ -31,9 +32,46 @@ export default function HeaderRibbon({
   isFilterOpen,
   onExportCSV,
   onExportSummary,
-  onPrintReport
+  onPrintReport,
+  onLogout
 }) {
   const [downloadMenuOpen, setDownloadMenuOpen] = useState(false);
+  const [currentTime, setCurrentTime] = useState(new Date());
+  const dropdownRef = useRef(null);
+
+  // Live ticking date and time clock (updates every 1000ms)
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  // Click outside to close dropdown
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDownloadMenuOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Format real date and time
+  const dateFormatted = currentTime.toLocaleDateString('en-IN', {
+    weekday: 'short',
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric'
+  });
+
+  const timeFormatted = currentTime.toLocaleTimeString('en-IN', {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true
+  });
 
   const tabs = [
     { id: 'overview', label: 'Executive Cockpit', icon: BarChart3 },
@@ -48,7 +86,7 @@ export default function HeaderRibbon({
   return (
     <header className="no-print bg-[#201F1E] dark:bg-[#121214] text-white flex-shrink-0 border-b border-zinc-800 shadow-sm select-none">
       {/* Top micro bar: SPSU Logo, App Title, Directorate Tag & User Controls */}
-      <div className="h-10 px-4 flex items-center justify-between border-b border-zinc-800/80 text-xs">
+      <div className="h-10 px-4 flex items-center justify-between border-b border-zinc-800/80 text-xs gap-3">
         {/* Left: University & Portal Identity */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
@@ -59,14 +97,33 @@ export default function HeaderRibbon({
               <span className="font-bold tracking-tight text-white text-sm">
                 SPSU Career Development Cell
               </span>
-              <span className="text-[10px] text-zinc-400 hidden sm:inline">
+              <span className="text-[10px] text-zinc-400 hidden lg:inline">
                 • Directorate Executive Portal (Power BI Edition)
               </span>
             </div>
           </div>
-          <span className="hidden md:inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30">
+          <span className="hidden xl:inline-block px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30">
             Director's Request #2026-CDC
           </span>
+        </div>
+
+        {/* Center: REAL DATE & TIME CLOCK (Live Ticking) */}
+        <div className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 rounded-lg bg-black/40 border border-zinc-800 text-[10px] sm:text-[11px] font-medium text-zinc-300 shadow-inner">
+          <div className="flex items-center gap-1 text-emerald-400 font-bold">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="hidden sm:inline">LIVE</span>
+          </div>
+          <span className="hidden sm:inline text-zinc-600 dark:text-zinc-600">•</span>
+          <div className="hidden md:flex items-center gap-1 text-zinc-200">
+            <Calendar className="w-3.5 h-3.5 text-amber-400" />
+            <span>{dateFormatted}</span>
+          </div>
+          <span className="hidden md:inline text-zinc-600 dark:text-zinc-600">•</span>
+          <div className="flex items-center gap-1 text-white font-mono font-bold">
+            <Clock className="w-3.5 h-3.5 text-blue-400" />
+            <span>{timeFormatted}</span>
+          </div>
+          <span className="text-[9px] px-1 rounded bg-zinc-800 text-zinc-400 hidden sm:inline">IST</span>
         </div>
 
         {/* Right: Quick Controls, Download Dropdown, Dark Mode & User Profile */}
@@ -79,7 +136,7 @@ export default function HeaderRibbon({
                 ? 'bg-amber-500 text-slate-950 font-bold' 
                 : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-300'
             }`}
-            title="Toggle Filter Pane"
+            title="Toggle Filter Slicers Pane"
           >
             <Filter className="w-3.5 h-3.5" />
             <span className="hidden sm:inline">Slicers</span>
@@ -89,13 +146,13 @@ export default function HeaderRibbon({
           <button
             onClick={onResetFilters}
             className="p-1.5 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white rounded transition"
-            title="Reset All Slicers"
+            title="Reset All Slicers to Default"
           >
             <RotateCcw className="w-3.5 h-3.5" />
           </button>
 
           {/* Download Dropdown */}
-          <div className="relative">
+          <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setDownloadMenuOpen(!downloadMenuOpen)}
               className="px-2.5 py-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded text-xs flex items-center gap-1.5 shadow transition"
@@ -107,17 +164,17 @@ export default function HeaderRibbon({
 
             {downloadMenuOpen && (
               <div 
-                className="absolute right-0 mt-1 w-60 bg-white dark:bg-zinc-800 rounded-lg shadow-xl border border-slate-200 dark:border-zinc-700 py-1.5 z-50 text-slate-800 dark:text-zinc-200 text-xs animate-in fade-in"
-                onMouseLeave={() => setDownloadMenuOpen(false)}
+                className="absolute right-0 mt-1 w-64 bg-white dark:bg-zinc-800 rounded-lg shadow-xl border border-slate-200 dark:border-zinc-700 py-1.5 z-50 text-slate-800 dark:text-zinc-200 text-xs animate-in fade-in"
               >
-                <div className="px-3 py-1 text-[10px] uppercase font-bold text-slate-400 dark:text-zinc-400 tracking-wider">
-                  Download Options
+                <div className="px-3 py-1 text-[10px] uppercase font-bold text-slate-400 dark:text-zinc-400 tracking-wider flex justify-between">
+                  <span>Download Options</span>
+                  <span className="text-emerald-500 font-mono">Ready</span>
                 </div>
                 <button
                   onClick={() => { onPrintReport(); setDownloadMenuOpen(false); }}
-                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2"
+                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2 transition"
                 >
-                  <Printer className="w-4 h-4 text-amber-500" />
+                  <Printer className="w-4 h-4 text-amber-500 flex-shrink-0" />
                   <div>
                     <div className="font-semibold">Print / Save PDF Report</div>
                     <div className="text-[10px] text-slate-500 dark:text-zinc-400">Director's 1-Pager Executive Memo</div>
@@ -125,19 +182,19 @@ export default function HeaderRibbon({
                 </button>
                 <button
                   onClick={() => { onExportCSV(); setDownloadMenuOpen(false); }}
-                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2"
+                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2 transition"
                 >
-                  <FileSpreadsheet className="w-4 h-4 text-emerald-500" />
+                  <FileSpreadsheet className="w-4 h-4 text-emerald-500 flex-shrink-0" />
                   <div>
                     <div className="font-semibold">Download Students (CSV)</div>
-                    <div className="text-[10px] text-slate-500 dark:text-zinc-400">Filtered 392 Students Data</div>
+                    <div className="text-[10px] text-slate-500 dark:text-zinc-400">Current Filtered Student Data</div>
                   </div>
                 </button>
                 <button
                   onClick={() => { onExportSummary(); setDownloadMenuOpen(false); }}
-                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2"
+                  className="w-full px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-zinc-700 flex items-center gap-2 transition"
                 >
-                  <FileText className="w-4 h-4 text-blue-500" />
+                  <FileText className="w-4 h-4 text-blue-500 flex-shrink-0" />
                   <div>
                     <div className="font-semibold">Download Program Summary</div>
                     <div className="text-[10px] text-slate-500 dark:text-zinc-400">Placements & Internships Matrix</div>
@@ -160,43 +217,61 @@ export default function HeaderRibbon({
           <button
             onClick={onOpenAuth}
             className="flex items-center gap-2 pl-2 pr-3 py-1 bg-zinc-800 hover:bg-zinc-700 rounded transition border border-zinc-700"
-            title="Switch User Role / Sign In"
+            title="Switch User Role / View Profile"
           >
             <span className="text-base leading-none">
-              {currentUser?.avatar || '👤'}
+              {currentUser?.avatar || '👨‍💼'}
             </span>
             <div className="text-left hidden md:block">
               <div className="font-bold text-[11px] text-white leading-tight">
-                {currentUser?.name || 'Sign In'}
+                {currentUser?.name || 'Administrator'}
               </div>
               <div className="text-[9px] text-amber-400 leading-tight">
-                {currentUser?.role || 'Guest'}
+                {currentUser?.role || 'Director / Admin'}
               </div>
             </div>
           </button>
+
+          {/* Direct Logout Button */}
+          {onLogout && (
+            <button
+              onClick={onLogout}
+              className="p-1.5 bg-red-950/40 hover:bg-red-900/60 text-red-400 hover:text-red-200 border border-red-800/50 rounded transition"
+              title="Sign Out to Login Page"
+            >
+              <LogOut className="w-3.5 h-3.5" />
+            </button>
+          )}
         </div>
       </div>
 
       {/* Main Power BI Navigation Ribbon Tabs */}
-      <div className="h-10 px-4 flex items-center gap-1 overflow-x-auto bg-[#2b2b2b] dark:bg-[#18181b]">
-        {tabs.map((t) => {
-          const isActive = activeTab === t.id;
-          const Icon = t.icon;
-          return (
-            <button
-              key={t.id}
-              onClick={() => onTabChange(t.id)}
-              className={`h-full px-3.5 text-xs font-semibold flex items-center gap-2 border-b-2 transition whitespace-nowrap ${
-                isActive
-                  ? 'border-[#F2C811] text-[#F2C811] bg-black/20 font-bold'
-                  : 'border-transparent text-zinc-300 hover:text-white hover:bg-white/5'
-              }`}
-            >
-              <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-[#F2C811]' : 'text-zinc-400'}`} />
-              <span>{t.label}</span>
-            </button>
-          );
-        })}
+      <div className="h-10 px-4 flex items-center justify-between overflow-x-auto bg-[#2b2b2b] dark:bg-[#18181b]">
+        <div className="flex items-center gap-1">
+          {tabs.map((t) => {
+            const isActive = activeTab === t.id;
+            const Icon = t.icon;
+            return (
+              <button
+                key={t.id}
+                onClick={() => onTabChange(t.id)}
+                className={`h-full px-3.5 text-xs font-semibold flex items-center gap-2 border-b-2 transition whitespace-nowrap ${
+                  isActive
+                    ? 'border-[#F2C811] text-[#F2C811] bg-black/20 font-bold'
+                    : 'border-transparent text-zinc-300 hover:text-white hover:bg-white/5'
+                }`}
+              >
+                <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-[#F2C811]' : 'text-zinc-400'}`} />
+                <span>{t.label}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Mobile Clock view */}
+        <div className="md:hidden text-[10px] text-zinc-400 font-mono whitespace-nowrap pl-2">
+          {timeFormatted}
+        </div>
       </div>
     </header>
   );

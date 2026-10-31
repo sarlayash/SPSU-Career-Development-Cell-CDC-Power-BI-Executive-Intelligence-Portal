@@ -179,6 +179,7 @@ export default function App() {
         onExportCSV={handleExportCSV}
         onExportSummary={handleExportSummary}
         onPrintReport={triggerPrintReport}
+        onLogout={handleLogout}
       />
 
       {/* Main Work Area: Dashboard Content + Power BI Filter Slicer Pane */}
