@@ -17,8 +17,8 @@ import {
 } from 'lucide-react';
 import { extractGoogleSheetInfo, fetchLiveGoogleSheet } from '../utils/googleSheetsSync';
 
-// Official sample demo sheet URL for 1-click test
-const DEMO_SHEET_URL = "https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing";
+// Official SPSU Directorate Master Sheet
+const DEMO_SHEET_URL = "https://docs.google.com/spreadsheets/d/1aNssQl3J-2jUG7jhFQ3zKRL011GegGLqUYx0K2NmdG0/edit?gid=0#gid=0";
 
 export default function GoogleSheetSyncModal({
   isOpen,
@@ -33,6 +33,8 @@ export default function GoogleSheetSyncModal({
 }) {
   const [urlInput, setUrlInput] = useState(activeSheetUrl || '');
   const [previewData, setPreviewData] = useState(null);
+  const [availableTabs, setAvailableTabs] = useState(null);
+  const [selectedGid, setSelectedGid] = useState('ALL');
   const [testing, setTesting] = useState(false);
   const [testError, setTestError] = useState(null);
   const [testSuccess, setTestSuccess] = useState(false);
@@ -44,7 +46,7 @@ export default function GoogleSheetSyncModal({
 
   if (!isOpen) return null;
 
-  const handleTestConnection = async (urlToTest) => {
+  const handleTestConnection = async (urlToTest, gidToUse = selectedGid) => {
     const targetUrl = urlToTest || urlInput;
     if (!targetUrl.trim()) {
       setTestError("Please enter a Google Sheet URL or ID.");
@@ -57,8 +59,9 @@ export default function GoogleSheetSyncModal({
     setPreviewData(null);
 
     try {
-      const result = await fetchLiveGoogleSheet(targetUrl.trim());
+      const result = await fetchLiveGoogleSheet(targetUrl.trim(), gidToUse);
       setPreviewData(result.dataset);
+      setAvailableTabs(result.availableTabs || null);
       setTestSuccess(true);
     } catch (err) {
       setTestError(err.message || "Failed to connect to Google Sheet.");
@@ -78,7 +81,7 @@ export default function GoogleSheetSyncModal({
 
   const handleUseDemo = () => {
     setUrlInput(DEMO_SHEET_URL);
-    handleTestConnection(DEMO_SHEET_URL);
+    handleTestConnection(DEMO_SHEET_URL, 'ALL');
   };
 
   const sheetInfo = extractGoogleSheetInfo(urlInput);
@@ -200,6 +203,40 @@ export default function GoogleSheetSyncModal({
                   CORS Direct OK
                 </span>
               </div>
+
+              {/* Multi-Tab Selector if workbook has departmental sheets */}
+              {availableTabs && availableTabs.length > 1 && (
+                <div className="space-y-1.5 p-3 rounded-lg bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/50">
+                  <div className="flex items-center justify-between">
+                    <span className="font-bold text-[11px] text-emerald-900 dark:text-emerald-200 flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+                      Departmental Cohort Selection:
+                    </span>
+                    <span className="text-[10px] text-emerald-700 dark:text-emerald-300 font-medium">
+                      Select entire cohort or individual department
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {availableTabs.map((t) => (
+                      <button
+                        key={t.gid}
+                        type="button"
+                        onClick={() => {
+                          setSelectedGid(t.gid);
+                          handleTestConnection(urlInput, t.gid);
+                        }}
+                        className={`px-2.5 py-1 rounded-md text-[10px] font-semibold transition ${
+                          selectedGid === t.gid
+                            ? 'bg-emerald-600 text-white shadow-xs font-bold'
+                            : 'bg-white dark:bg-zinc-800 text-slate-700 dark:text-zinc-300 border border-slate-200 dark:border-zinc-700 hover:bg-emerald-100/50 dark:hover:bg-zinc-700'
+                        }`}
+                      >
+                        {t.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Sample Metric Highlights */}
               <div className="grid grid-cols-4 gap-2 text-center">

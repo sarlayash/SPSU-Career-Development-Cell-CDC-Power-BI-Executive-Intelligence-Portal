@@ -180,8 +180,8 @@ export default function App() {
     setIsSyncing(true);
     try {
       let finalDataset = preloadedData;
-      if (!finalDataset) {
-        const res = await fetchLiveGoogleSheet(url);
+      if (!finalDataset || (finalDataset.students && finalDataset.students.length < 50)) {
+        const res = await fetchLiveGoogleSheet(url, 'ALL');
         finalDataset = res.dataset;
       }
       setDataset(finalDataset);
@@ -211,7 +211,7 @@ export default function App() {
     }
     setIsSyncing(true);
     try {
-      const res = await fetchLiveGoogleSheet(activeSheetUrl);
+      const res = await fetchLiveGoogleSheet(activeSheetUrl, 'ALL');
       setDataset(res.dataset);
       const now = new Date().toISOString();
       setLastSyncedTime(now);
@@ -242,7 +242,7 @@ export default function App() {
     if (!activeSheetUrl || !autoSyncInterval || autoSyncInterval <= 0) return;
     const intervalMs = autoSyncInterval * 60 * 1000;
     const timer = setInterval(() => {
-      fetchLiveGoogleSheet(activeSheetUrl)
+      fetchLiveGoogleSheet(activeSheetUrl, 'ALL')
         .then(res => {
           setDataset(res.dataset);
           const now = new Date().toISOString();
@@ -261,7 +261,7 @@ export default function App() {
   // Initial sync on mount if URL previously saved
   useEffect(() => {
     if (activeSheetUrl) {
-      fetchLiveGoogleSheet(activeSheetUrl)
+      fetchLiveGoogleSheet(activeSheetUrl, 'ALL')
         .then(res => {
           setDataset(res.dataset);
           const now = new Date().toISOString();

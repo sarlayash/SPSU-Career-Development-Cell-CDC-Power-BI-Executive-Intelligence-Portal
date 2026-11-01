@@ -220,7 +220,7 @@ export default function ExecutiveOverviewPage({
 
           <div className="flex items-center gap-2">
             <span className="text-[11px] font-bold text-slate-500 dark:text-zinc-400">
-              Audited Cohort: <strong className="text-slate-900 dark:text-white">392 Students</strong>
+              Audited Cohort: <strong className="text-slate-900 dark:text-white">{currentTotal} Students</strong>
             </span>
           </div>
         </div>
@@ -524,7 +524,7 @@ export default function ExecutiveOverviewPage({
                 Placement Pathway & Conversion Donut
               </h3>
               <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-950/60 px-2 py-0.5 rounded">
-                54 Total Offers
+                {dataset.summary_placement?.reduce((sum, item) => sum + (item.offers_count || 0), 0) || (currentPlaced + 7)} Total Offers
               </span>
             </div>
 
@@ -535,26 +535,26 @@ export default function ExecutiveOverviewPage({
                   {/* Background Circle */}
                   <circle cx="18" cy="18" r="15.915" fill="transparent" stroke="#E2E8F0" strokeWidth="4" />
                   
-                  {/* PPO Segment (28/47 = 59.5%) */}
+                  {/* PPO Segment */}
                   <circle
                     cx="18" cy="18" r="15.915"
                     fill="transparent"
                     stroke="#10B981"
                     strokeWidth="4.2"
-                    strokeDasharray="59.5 40.5"
+                    strokeDasharray={`${currentPlaced > 0 ? ((ppoCount / currentPlaced) * 100).toFixed(1) : 59.5} ${currentPlaced > 0 ? (100 - (ppoCount / currentPlaced) * 100).toFixed(1) : 40.5}`}
                     strokeDashoffset="0"
                     className="hover:stroke-emerald-400 transition cursor-pointer"
                     onClick={() => handleDrillThrough('placements', 'placementStatus', 'Placed-PPO')}
                   />
                   
-                  {/* FTE Segment (19/47 = 40.5%) */}
+                  {/* FTE Segment */}
                   <circle
                     cx="18" cy="18" r="15.915"
                     fill="transparent"
                     stroke="#3B82F6"
                     strokeWidth="4.2"
-                    strokeDasharray="40.5 59.5"
-                    strokeDashoffset="-59.5"
+                    strokeDasharray={`${currentPlaced > 0 ? ((fteCount / currentPlaced) * 100).toFixed(1) : 40.5} ${currentPlaced > 0 ? (100 - (fteCount / currentPlaced) * 100).toFixed(1) : 59.5}`}
+                    strokeDashoffset={`-${currentPlaced > 0 ? ((ppoCount / currentPlaced) * 100).toFixed(1) : 59.5}`}
                     className="hover:stroke-blue-400 transition cursor-pointer"
                     onClick={() => handleDrillThrough('placements', 'placementStatus', 'Placed-FTE')}
                   />
@@ -562,7 +562,7 @@ export default function ExecutiveOverviewPage({
 
                 {/* Center Donut Label */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-                  <span className="text-xl font-black text-slate-900 dark:text-white leading-none">47</span>
+                  <span className="text-xl font-black text-slate-900 dark:text-white leading-none">{currentPlaced}</span>
                   <span className="text-[9px] font-bold text-slate-400 uppercase mt-0.5">Placed</span>
                 </div>
               </div>
@@ -578,7 +578,9 @@ export default function ExecutiveOverviewPage({
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
                     <span className="font-bold text-emerald-950 dark:text-emerald-200">PPO Pathway</span>
                   </div>
-                  <span className="font-black text-emerald-600 dark:text-emerald-400">28 (59.6%)</span>
+                  <span className="font-black text-emerald-600 dark:text-emerald-400">
+                    {ppoCount} ({currentPlaced > 0 ? ((ppoCount / currentPlaced) * 100).toFixed(1) : '59.6'}%)
+                  </span>
                 </div>
 
                 <div 
@@ -590,7 +592,9 @@ export default function ExecutiveOverviewPage({
                     <span className="w-2.5 h-2.5 rounded-full bg-blue-500"></span>
                     <span className="font-bold text-blue-950 dark:text-blue-200">FTE Direct</span>
                   </div>
-                  <span className="font-black text-blue-600 dark:text-blue-400">19 (40.4%)</span>
+                  <span className="font-black text-blue-600 dark:text-blue-400">
+                    {fteCount} ({currentPlaced > 0 ? ((fteCount / currentPlaced) * 100).toFixed(1) : '40.4'}%)
+                  </span>
                 </div>
 
                 <div 
@@ -602,7 +606,9 @@ export default function ExecutiveOverviewPage({
                     <span className="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
                     <span className="font-bold text-amber-950 dark:text-amber-200">In Pipeline</span>
                   </div>
-                  <span className="font-black text-amber-600 dark:text-amber-400">242 Candidates</span>
+                  <span className="font-black text-amber-600 dark:text-amber-400">
+                    {Math.max(0, currentTotal - currentPlaced - currentOptOut)} Candidates
+                  </span>
                 </div>
               </div>
             </div>
